@@ -6,118 +6,102 @@
 @import "_navigation.scss";
 @import "_footer.scss";
 
-.card__Pays {
-    display: flex;
-    flex-direction: column;
-    max-width: 375px;
-    align-items: center;
-    
-    
-
-    &__image
-    {
-        height: 320px;
-        max-width: 375px;
-        img {
-            height: 100%;
-            object-fit: cover;
-            top: 0;
-            left: 0;
-        }
-        &--768{
-            display: none;
-        }
+main
+{
+    @media screen and (min-width: 768px) {
+        padding: 0 40px;
     }
-    &__text
-    {
-        text-align: center;
-        padding: 80px 20px;
-        background-color: #FDF3F0;
-        background-image: url(../img/card-Pays-tablette.png);
-        background-repeat: repeat;
-        width: calc(375px - 36px);
-        
-
-        h1{
-            color: $peach;
-            font-size: 32px;
-            line-height: 36px;
-        }
-
-       div {
-            margin: 24px 0;
-        }
-        .text--titre 
-        {
-            font-weight: 700;
-            color: $darkGrey;
-        }
-        a, a:visited
-        {
-            color: $darkGrey;
-            text-decoration: none;
-        }
+    @media screen and (min-width: 1440px) {
+        max-width: 1440px;
+        padding: 0 165px;
     }
 }
 
-@media (min-width: 768px) and (max-width: 1440px)
-{  
-    
-    .card__Pays {
-        display: flex;
-        flex-direction: column;
-        max-width: 1440px;
+.card__Pays
+{
+
+    .image__container{
+        height: 320px;
+        width: 375px;
+        .card__Pays__image--768, .card__Pays__image--1440{
+            display: none;
+        }
         
-        margin-top: 120px;
-    
-        &__image
-        {
+        @media screen and (min-width: 768px) {
+            width: 689px;
             height: 326px;
-            max-width: 689px;
-            &--375{
+            border-radius: 15px;
+
+            .card__Pays__image--375, .card__Pays__image--1440{
                 display: none;
             }
-            &--768{
+            .card__Pays__image--768{
                 display: flex;
                 border-radius: 15px;
             }
         }
-        &__text
-        {
-            text-align: center;
-            margin-top: 31px;
-            width: 600px;
-            border-radius: 15px;
-            text-align: left;
-            padding-left: 75px;
-    
-            h1{
-                color: $peach;
-                font-size: 32px;
-                line-height: 36px;
-            }
-    
-           div {
-                width: 255px;
-                
-            }
-
-            .text--titre 
-            {
-                font-weight: 700;
-                color: $darkGrey;
-            }
-            a, a:visited
-            {
-                color: $darkGrey;
-                text-decoration: none;
-            }
-            address {
+        @media screen and (min-width: 1440px) {
+            width: 350px;
+            height: 326px;
+            .card__Pays__image--1440{
                 display: flex;
-                gap: 30px;
+                height: 100%;
+            }
+            .card__Pays__image--768, .card__Pays__image--375{
+                display: none;
             }
         }
     }
-    
+
+    &__text {
+        width: calc(375px - 24px*2 );
+        height: calc(394px - 80px*2);
+        padding: 80px 24px;
+        text-align: center;
+        background-image: url(../img/card-Pays-tablette.png);
+        h1 {
+            color: $peach;
+            margin-bottom: 24px;
+        }
+        .text--titre{
+            font-weight: 700;
+        }
+        div {
+            margin-bottom: 24px;
+        }
+        @media screen and (min-width: 768px) {
+            //code
+            width: calc(689px - 75px*2);
+            text-align: left;
+            padding: 88px 75px;
+            address {
+                display: flex;
+                flex-direction: row;
+                div {
+                    width: 255px;
+                }
+            }
+        }
+        @media screen and (min-width: 1440px) {
+            //code
+            width: 1110px;
+            text-align: left;
+            padding: 88px 75px;
+            height: calc(326px - 88px*2);
+            address {
+                display: flex;
+                flex-direction: row;
+                div {
+                    width: 255px;
+                }
+            }
+        }
+        }
+    @media screen and (min-width: 1440px) {
+        display: flex;
+        flex-direction: row-reverse;
+        gap: 30px;
+    }
+
 
 }

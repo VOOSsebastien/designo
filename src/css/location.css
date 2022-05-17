@@ -87,111 +87,121 @@ body {
   line-height: 26px;
 }
 
-.card__Pays {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  max-width: 375px;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+@media screen and (min-width: 768px) {
+  main {
+    padding: 0 40px;
+  }
 }
-.card__Pays__image {
+@media screen and (min-width: 1440px) {
+  main {
+    max-width: 1440px;
+    padding: 0 165px;
+  }
+}
+
+.card__Pays .image__container {
   height: 320px;
-  max-width: 375px;
+  width: 375px;
 }
-.card__Pays__image img {
-  height: 100%;
-  -o-object-fit: cover;
-     object-fit: cover;
-  top: 0;
-  left: 0;
-}
-.card__Pays__image--768 {
+.card__Pays .image__container .card__Pays__image--768, .card__Pays .image__container .card__Pays__image--1440 {
   display: none;
 }
+@media screen and (min-width: 768px) {
+  .card__Pays .image__container {
+    width: 689px;
+    height: 326px;
+    border-radius: 15px;
+  }
+  .card__Pays .image__container .card__Pays__image--375, .card__Pays .image__container .card__Pays__image--1440 {
+    display: none;
+  }
+  .card__Pays .image__container .card__Pays__image--768 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    border-radius: 15px;
+  }
+}
+@media screen and (min-width: 1440px) {
+  .card__Pays .image__container {
+    width: 350px;
+    height: 326px;
+  }
+  .card__Pays .image__container .card__Pays__image--1440 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    height: 100%;
+  }
+  .card__Pays .image__container .card__Pays__image--768, .card__Pays .image__container .card__Pays__image--375 {
+    display: none;
+  }
+}
 .card__Pays__text {
+  width: 327px;
+  height: 234px;
+  padding: 80px 24px;
   text-align: center;
-  padding: 80px 20px;
-  background-color: #FDF3F0;
   background-image: url(../img/card-Pays-tablette.png);
-  background-repeat: repeat;
-  width: 339px;
 }
 .card__Pays__text h1 {
   color: #e7816b;
-  font-size: 32px;
-  line-height: 36px;
-}
-.card__Pays__text div {
-  margin: 24px 0;
+  margin-bottom: 24px;
 }
 .card__Pays__text .text--titre {
   font-weight: 700;
-  color: #333136;
 }
-.card__Pays__text a, .card__Pays__text a:visited {
-  color: #333136;
-  text-decoration: none;
+.card__Pays__text div {
+  margin-bottom: 24px;
 }
-
-@media (min-width: 768px) and (max-width: 1440px) {
-  .card__Pays {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    max-width: 1440px;
-    margin-top: 120px;
-  }
-  .card__Pays__image {
-    height: 326px;
-    max-width: 689px;
-  }
-  .card__Pays__image--375 {
-    display: none;
-  }
-  .card__Pays__image--768 {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    border-radius: 15px;
-  }
+@media screen and (min-width: 768px) {
   .card__Pays__text {
-    text-align: center;
-    margin-top: 31px;
-    width: 600px;
-    border-radius: 15px;
+    width: 539px;
     text-align: left;
-    padding-left: 75px;
-  }
-  .card__Pays__text h1 {
-    color: #e7816b;
-    font-size: 32px;
-    line-height: 36px;
-  }
-  .card__Pays__text div {
-    width: 255px;
-  }
-  .card__Pays__text .text--titre {
-    font-weight: 700;
-    color: #333136;
-  }
-  .card__Pays__text a, .card__Pays__text a:visited {
-    color: #333136;
-    text-decoration: none;
+    padding: 88px 75px;
   }
   .card__Pays__text address {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+  }
+  .card__Pays__text address div {
+    width: 255px;
+  }
+}
+@media screen and (min-width: 1440px) {
+  .card__Pays__text {
+    width: 1110px;
+    text-align: left;
+    padding: 88px 75px;
+    height: 150px;
+  }
+  .card__Pays__text address {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+  }
+  .card__Pays__text address div {
+    width: 255px;
+  }
+}
+@media screen and (min-width: 1440px) {
+  .card__Pays {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: row-reverse;
+            flex-direction: row-reverse;
     gap: 30px;
   }
 }/*# sourceMappingURL=location.css.map */
