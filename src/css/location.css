@@ -336,8 +336,17 @@ body {
   line-height: 26px;
 }
 
-.footer {
-  background-color: #fff;
+footer {
+  background-color: #1d1c1e;
+  width: 100vw;
+}
+footer .logo {
+  max-height: 27px;
+}
+footer .footer_nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
 }
 
 @media screen and (min-width: 768px) {
