@@ -428,22 +428,6 @@ footer .black_bg .reseau .menu_reseau {
   gap: 16px;
 }
 
-<<<<<<< HEAD
-main {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  gap: 40px 0;
-}
-@media screen and (min-width: 768px) and (max-width: 1440px) {
-=======
 @media screen and (min-width: 768px) {
   footer {
     width: 100vw;
@@ -611,8 +595,20 @@ main {
     gap: 16px;
   }
 }
-@media screen and (min-width: 768px) {
->>>>>>> dev
+main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 40px 0;
+}
+@media screen and (min-width: 768px) and (max-width: 1440px) {
   main {
     padding: 0 40px;
   }
