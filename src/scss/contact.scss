@@ -5,3 +5,13 @@
 //Navigation
 @import "_navigation.scss";
 @import "_footer.scss";
+
+
+.section__contact
+{
+    height: 764px;
+    img{
+        position: absolute;
+        z-index: -1;
+    }
+}

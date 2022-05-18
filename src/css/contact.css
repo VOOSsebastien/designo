@@ -300,4 +300,12 @@ footer .footer_nav {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+}
+
+.section__contact {
+  height: 764px;
+}
+.section__contact img {
+  position: absolute;
+  z-index: -1;
 }/*# sourceMappingURL=contact.css.map */
