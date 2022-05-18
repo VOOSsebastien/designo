@@ -587,7 +587,9 @@ footer .black_bg .reseau .menu_reseau {
     color: rgba(255, 255, 255, 0.1);
     height: 1px;
     width: 80%;
-    margin: 0 24px 32px;
+    margin: 0 32px;
+    -ms-flex-item-align: center;
+        align-self: center;
   }
   footer .black_bg .adresse_et_reseau {
     display: -webkit-box;
@@ -641,4 +643,34 @@ footer .black_bg .reseau .menu_reseau {
             justify-content: center;
     gap: 16px;
   }
+}
+.main_header {
+  background-color: #E7816B;
+  text-align: center;
+  color: #fff;
+  padding: 25px;
+  bottom: 10;
+}
+.main_header .oval {
+  position: relative;
+  /*  z-index: -1;*/
+}
+.main_header h1 {
+  font-size: 32px;
+  line-height: 36px;
+}
+.main_header p {
+  font-size: 15px;
+  margin-top: 15px;
+  margin-bottom: 49px;
+  line-height: 25px;
+}
+.main_header a {
+  text-decoration: none;
+  font-size: 15px;
+  color: #1d1c1e;
+  padding: 17px 19px;
+  text-transform: uppercase;
+  background-color: #fff;
+  border-radius: 8%;
 }/*# sourceMappingURL=index.css.map */

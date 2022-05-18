@@ -6,3 +6,41 @@
 
 
 
+.main_header{
+    background-color: #E7816B;
+    text-align: center;
+    color: $white;
+    padding: 25px;
+    bottom:10;
+
+    .oval{
+      position: relative;
+      /*  z-index: -1;*/
+    }
+
+    h1{
+        font-size: 32px;
+        line-height:36px ;
+    }
+    p{
+        font-size: 15px;
+        margin-top: 15px;
+        margin-bottom: 49px;
+        line-height: 25px;
+    }
+
+
+ 
+        
+        a {
+            text-decoration: none;
+            font-size: 15px;
+            color:$black;
+            padding: 17px 19px;
+            text-transform:uppercase ;
+            background-color: $white;
+            border-radius: 8%;
+        }
+      
+
+}
