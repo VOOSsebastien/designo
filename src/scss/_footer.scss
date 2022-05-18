@@ -1,5 +1,18 @@
 @import "_typographie.scss";
 
-.footer {
-    background-color: $white ;
+footer {
+    background-color: $black ;
+    width: 100vw;
+
+    .logo {
+        max-height: 27px;
+    }
+
+    .footer_nav{
+        display: flex;
+
+
+    }
+
+
 }

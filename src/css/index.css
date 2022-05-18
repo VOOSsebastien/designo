@@ -301,4 +301,50 @@ body {
 .open {
     display: block;
     z-index: -1;
-}*//*# sourceMappingURL=index.css.map */
+}*/
+h1 {
+  font-family: "Jost";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 48px;
+  line-height: 48px;
+}
+
+h2 {
+  font-family: "Jost";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 48px;
+  letter-spacing: 2px;
+}
+
+h2 {
+  font-family: "Jost";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 26px;
+  letter-spacing: 5px;
+}
+
+body {
+  font-family: "Jost";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+}
+
+footer {
+  background-color: #1d1c1e;
+  width: 100vw;
+}
+footer .logo {
+  max-height: 27px;
+}
+footer .footer_nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}/*# sourceMappingURL=index.css.map */

@@ -124,11 +124,7 @@ body {
 }
 
 .header {
-<<<<<<< HEAD
-  background-color: rgb(250, 250, 250);
-=======
   background-color: #fff;
->>>>>>> dev
   width: calc(100% - 70px);
   height: 96px;
   display: -webkit-box;
@@ -173,11 +169,7 @@ body {
   left: 0;
   width: 100%;
   height: 235px;
-<<<<<<< HEAD
-  background-color: rgb(0, 0, 0);
-=======
   background-color: #1d1c1e;
->>>>>>> dev
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -229,14 +221,10 @@ body {
     height: initial;
     width: initial;
     padding: 0px 165px;
-<<<<<<< HEAD
-    background-color: antiquewhite;
-=======
     background-color: #fff;
   }
   .header img {
     margin-right: 25px;
->>>>>>> dev
   }
   .header ._nav_header {
     display: -webkit-box;
@@ -251,11 +239,7 @@ body {
     position: relative;
     width: initial;
     height: 95px;
-<<<<<<< HEAD
-    background-color: rgb(218, 137, 137);
-=======
     background-color: #fff;
->>>>>>> dev
     margin-top: 0px;
     padding-left: 0px;
     -webkit-transform: none;
@@ -290,11 +274,6 @@ body {
     gap: 55px;
   }
   .header ._nav_header ._nav_header_list ._nav_header_link {
-<<<<<<< HEAD
-    color: rgb(0, 0, 0);
-    text-decoration: none;
-    font-size: 24px;
-=======
     color: #1d1c1e;
     text-decoration: none;
     font-weight: 400;
@@ -302,7 +281,6 @@ body {
     padding: 28px 25px 31px;
     line-height: 14px;
     letter-spacing: 2px;
->>>>>>> dev
   }
   .header .header_burger_open {
     display: none;
@@ -324,18 +302,6 @@ body {
     display: block;
     z-index: -1;
 }*/
-<<<<<<< HEAD
-main {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  gap: 40px 0;
-}
-=======
 h1 {
   font-family: "Jost";
   font-style: normal;
@@ -370,11 +336,29 @@ body {
   line-height: 26px;
 }
 
-.footer {
-  background-color: #fff;
+footer {
+  background-color: #1d1c1e;
+  width: 100vw;
+}
+footer .logo {
+  max-height: 27px;
+}
+footer .footer_nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
 }
 
->>>>>>> dev
+main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 40px 0;
+}
 @media screen and (min-width: 768px) {
   main {
     padding: 0 40px;
@@ -383,7 +367,6 @@ body {
 @media screen and (min-width: 1440px) {
   main {
     max-width: 1440px;
-<<<<<<< HEAD
     padding: 32px 165px;
   }
 }
@@ -405,12 +388,6 @@ body {
     margin-bottom: 120px;
   }
 }
-=======
-    padding: 0 165px;
-  }
-}
-
->>>>>>> dev
 .card__Pays .image__container {
   height: 320px;
   width: 375px;
@@ -480,10 +457,7 @@ body {
     -webkit-box-direction: normal;
         -ms-flex-direction: row;
             flex-direction: row;
-<<<<<<< HEAD
     gap: 0;
-=======
->>>>>>> dev
   }
   .card__Pays__text address div {
     width: 255px;
@@ -509,14 +483,9 @@ body {
     width: 255px;
   }
 }
-<<<<<<< HEAD
 
 @media screen and (min-width: 1440px) {
   .Belgique, .uk {
-=======
-@media screen and (min-width: 1440px) {
-  .card__Pays {
->>>>>>> dev
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -526,7 +495,6 @@ body {
             flex-direction: row-reverse;
     gap: 30px;
   }
-<<<<<<< HEAD
 
   .Austria {
     display: -webkit-box;
@@ -538,6 +506,4 @@ body {
             flex-direction: row;
     gap: 30px;
   }
-=======
->>>>>>> dev
 }/*# sourceMappingURL=location.css.map */
