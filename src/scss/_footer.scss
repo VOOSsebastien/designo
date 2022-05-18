@@ -1,18 +1,298 @@
 @import "_typographie.scss";
 
 footer {
-    background-color: $black ;
+ 
     width: 100vw;
+    display: flex;
+    flex-direction: column;
+    gap:40px;
 
-    .logo {
-        max-height: 27px;
+
+    .talk_project{
+        position: relative;
+        background-color: #E7816B;
+        text-align: center;
+        color: $white;
+        padding: 25px;
+        margin: 50px 35px -200px;
+        bottom:10;
+        border-radius: 15%;
+
+        h1{
+            font-size: 32px;
+        }
+        p{
+            font-size: 15px;
+            margin-top: 15px;
+            margin-bottom: 49px;
+        }
+
+    
+     
+            
+            a {
+                text-decoration: none;
+                font-size: 15px;
+                color:$black;
+                padding: 17px 19px;
+                text-transform:uppercase ;
+                background-color: $white;
+                border-radius: 8%;
+            }
+          
     }
 
-    .footer_nav{
+    .black_bg{
+        background-color: $black;
+        padding-top: 150px;
+        width: 100vw;
         display: flex;
+        flex-direction: column;
+        gap:40px;
 
+
+        .footer_nav{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-direction: column;
+        
+
+            .logo {
+                max-height: 27px;
+                margin: 50px auto ;
+            }
+
+            .ligne_mobile{
+                color:rgb(255, 255, 255,0.1);
+                height: 1px;
+                width: 80%;
+                margin:0 24px 32px;
+            }
+
+            .footer_info_list{
+                display: flex;
+                flex-direction: column;
+                gap:32px;
+                text-align: center;
+                text-transform:uppercase ;
+                font-size: 14px;
+                letter-spacing: 2px;
+
+
+                .footer_info_link{
+                    text-decoration: none;
+                    color: $white;
+
+                }
+            }
+        }
+    
+
+        .ligne_pc{
+            display:none
+        }
+
+    .adress_contact{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        align-content: center;
+        font-size: 16px;
+        color: grey;
+        text-align: center;
+        gap:40px;
+        padding: 0 50px;
+
+        h2{
+            letter-spacing: 1px;
+
+        font-weight: 700;
+
+        }
+        p{
+         
+            font-size: 16px;
+        }
 
     }
 
+    .reseau{
+        color:$white;
 
+        .menu_reseau{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap:16px;
+        }
+
+    }
+    }
+
+}
+
+@media screen and (min-width: 768px) {
+
+
+footer {
+
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    gap:40px;
+
+
+        .talk_project{
+        position: relative;
+        background-color: #E7816B;
+        display: grid;
+        justify-content: center;
+        align-items: center;
+        grid-template-columns: 1fr 1fr ;
+        grid-template-rows: 1fr 1fr ;
+        gap: 0px 0px;
+        grid-auto-flow: row;
+        grid-template-areas:
+        "h1 a"
+        "p a";  
+        text-align: left;
+        color: $white;
+        padding: 25px;
+        margin: 50px 165px -175px;
+        bottom:10;
+        border-radius: 15px;
+
+            h1{
+            grid-area: h1;
+            font-size: 40px;
+            width: 468px;
+            margin-left:95px;
+            margin-top: 75px;
+            }
+            p{
+            grid-area: p;
+            font-size: 16px;
+            margin-top: 15px;
+            margin-bottom: 49px;
+            width: 468px;
+            margin-left:95px;
+            }
+
+
+
+
+            a {
+            margin: auto;
+            grid-area: a;
+            text-decoration: none;
+            font-size: 15px;
+            color:$black;
+            text-align: center;
+            padding: 17px 19px;
+            text-transform:uppercase ;
+            background-color: $white;
+            border-radius: 8px;
+            }
+
+        }
+
+        .black_bg{
+        background-color: $black;
+        padding-top: 150px;
+        width: 100vw;
+
+
+            .footer_nav{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-direction: row;
+            padding: 0 165px;
+
+
+                .logo {
+                max-height: 27px;
+                margin: 50px 0;
+                }
+
+                .ligne_mobile{
+                    display:none;
+                }
+
+                .footer_info_list{
+                display: flex;
+                flex-direction: row;
+                gap:32px;
+                text-align: center;
+                text-transform:uppercase ;
+                font-size: 14px;
+                letter-spacing: 2px;
+
+
+                    .footer_info_link{
+                        text-decoration: none;
+                        color: $white;
+
+                    }
+                }
+            }
+
+
+            .ligne_pc {
+                display:block;
+                color:rgb(255, 255, 255,0.1);
+                height: 1px;
+                width: 80%;
+                margin:0 24px 32px;
+
+            }
+        
+
+
+
+            .adresse_et_reseau{ 
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                padding: 0 165px;
+                margin-bottom: 50px;
+
+
+                .adress_contact{
+                display: flex;
+                flex-direction: row;
+                justify-content: left;
+                font-size: 16px;
+                color: grey;
+                text-align: left;
+                gap:155px;
+                padding: 0 0;
+
+                    h2{
+                    letter-spacing: 1px;
+
+                    font-weight: 700;
+
+                    }
+                    p{
+                    font-size: 16px;
+                    }
+
+                }
+
+                .reseau{
+                color:$white;
+
+                    .menu_reseau{
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    gap:16px;
+                    }
+
+                }
+            }  
+        }     
+}    
 }
