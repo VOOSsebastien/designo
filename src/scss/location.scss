@@ -1,0 +1,107 @@
+@import "_reset.scss";
+@import "_setting.scss";
+@import "_typographie.scss";
+
+//Navigation
+@import "_navigation.scss";
+@import "_footer.scss";
+
+main
+{
+    @media screen and (min-width: 768px) {
+        padding: 0 40px;
+    }
+    @media screen and (min-width: 1440px) {
+        max-width: 1440px;
+        padding: 0 165px;
+    }
+}
+
+.card__Pays
+{
+
+    .image__container{
+        height: 320px;
+        width: 375px;
+        .card__Pays__image--768, .card__Pays__image--1440{
+            display: none;
+        }
+        
+        @media screen and (min-width: 768px) {
+            width: 689px;
+            height: 326px;
+            border-radius: 15px;
+
+            .card__Pays__image--375, .card__Pays__image--1440{
+                display: none;
+            }
+            .card__Pays__image--768{
+                display: flex;
+                border-radius: 15px;
+            }
+        }
+        @media screen and (min-width: 1440px) {
+            width: 350px;
+            height: 326px;
+            .card__Pays__image--1440{
+                display: flex;
+                height: 100%;
+            }
+            .card__Pays__image--768, .card__Pays__image--375{
+                display: none;
+            }
+        }
+    }
+
+    &__text {
+        width: calc(375px - 24px*2 );
+        height: calc(394px - 80px*2);
+        padding: 80px 24px;
+        text-align: center;
+        background-image: url(../img/card-Pays-tablette.png);
+        h1 {
+            color: $peach;
+            margin-bottom: 24px;
+        }
+        .text--titre{
+            font-weight: 700;
+        }
+        div {
+            margin-bottom: 24px;
+        }
+        @media screen and (min-width: 768px) {
+            //code
+            width: calc(689px - 75px*2);
+            text-align: left;
+            padding: 88px 75px;
+            address {
+                display: flex;
+                flex-direction: row;
+                div {
+                    width: 255px;
+                }
+            }
+        }
+        @media screen and (min-width: 1440px) {
+            //code
+            width: 1110px;
+            text-align: left;
+            padding: 88px 75px;
+            height: calc(326px - 88px*2);
+            address {
+                display: flex;
+                flex-direction: row;
+                div {
+                    width: 255px;
+                }
+            }
+        }
+        }
+    @media screen and (min-width: 1440px) {
+        display: flex;
+        flex-direction: row-reverse;
+        gap: 30px;
+    }
+
+
+}
