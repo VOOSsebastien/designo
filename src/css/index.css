@@ -222,6 +222,9 @@ body {
     padding: 0px 165px;
     background-color: #fff;
   }
+  .header img {
+    margin-right: 25px;
+  }
   .header ._nav_header {
     display: -webkit-box;
     display: -ms-flexbox;
