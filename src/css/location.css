@@ -99,6 +99,15 @@ body {
   }
 }
 
+.card__Pays {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
 .card__Pays .image__container {
   height: 320px;
   width: 375px;
@@ -193,8 +202,9 @@ body {
     width: 255px;
   }
 }
+
 @media screen and (min-width: 1440px) {
-  .card__Pays {
+  .Belgique, .uk {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -202,6 +212,17 @@ body {
     -webkit-box-direction: reverse;
         -ms-flex-direction: row-reverse;
             flex-direction: row-reverse;
+    gap: 30px;
+  }
+
+  .Austria {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
     gap: 30px;
   }
 }/*# sourceMappingURL=location.css.map */

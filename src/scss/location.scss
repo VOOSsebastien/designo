@@ -19,6 +19,8 @@ main
 
 .card__Pays
 {
+    display: flex;
+    flex-direction: column;
 
     .image__container{
         height: 320px;
@@ -96,12 +98,19 @@ main
                 }
             }
         }
-        }
-    @media screen and (min-width: 1440px) {
+    } 
+    
+        
+}
+@media screen and (min-width: 1440px) {
+    .Belgique, .uk {
         display: flex;
         flex-direction: row-reverse;
         gap: 30px;
     }
-
-
+    .Austria {
+        display: flex;
+        flex-direction: row;
+        gap: 30px;
+    }
 }
