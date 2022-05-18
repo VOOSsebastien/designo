@@ -8,17 +8,32 @@
 
 main
 {
+    display: flex;
+    flex-direction: column;
+    gap: 40px 0;
+
     @media screen and (min-width: 768px) {
         padding: 0 40px;
+        //gap: 140px 0;
     }
     @media screen and (min-width: 1440px) {
         max-width: 1440px;
-        padding: 0 165px;
+        padding: 32px 165px;
     }
 }
 
+
 .card__Pays
 {
+    @media screen and (min-width: 768px) {
+        display: flex;
+        flex-direction: column;
+        gap: 40px 0;
+    }
+    
+    @media screen and (min-width: 1440px) {
+        margin-bottom: 120px;
+    }
 
     .image__container{
         height: 320px;
@@ -43,6 +58,7 @@ main
         @media screen and (min-width: 1440px) {
             width: 350px;
             height: 326px;
+            
             .card__Pays__image--1440{
                 display: flex;
                 height: 100%;
@@ -77,6 +93,7 @@ main
             address {
                 display: flex;
                 flex-direction: row;
+                gap: 0;
                 div {
                     width: 255px;
                 }
@@ -96,12 +113,19 @@ main
                 }
             }
         }
-        }
-    @media screen and (min-width: 1440px) {
+    } 
+    
+        
+}
+@media screen and (min-width: 1440px) {
+    .Belgique, .uk {
         display: flex;
         flex-direction: row-reverse;
         gap: 30px;
     }
-
-
+    .Austria {
+        display: flex;
+        flex-direction: row;
+        gap: 30px;
+    }
 }

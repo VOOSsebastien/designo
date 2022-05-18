@@ -301,6 +301,16 @@ body {
     display: block;
     z-index: -1;
 }*/
+main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 40px 0;
+}
 @media screen and (min-width: 768px) {
   main {
     padding: 0 40px;
@@ -309,10 +319,27 @@ body {
 @media screen and (min-width: 1440px) {
   main {
     max-width: 1440px;
-    padding: 0 165px;
+    padding: 32px 165px;
   }
 }
 
+@media screen and (min-width: 768px) {
+  .card__Pays {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    gap: 40px 0;
+  }
+}
+@media screen and (min-width: 1440px) {
+  .card__Pays {
+    margin-bottom: 120px;
+  }
+}
 .card__Pays .image__container {
   height: 320px;
   width: 375px;
@@ -382,6 +409,7 @@ body {
     -webkit-box-direction: normal;
         -ms-flex-direction: row;
             flex-direction: row;
+    gap: 0;
   }
   .card__Pays__text address div {
     width: 255px;
@@ -407,8 +435,9 @@ body {
     width: 255px;
   }
 }
+
 @media screen and (min-width: 1440px) {
-  .card__Pays {
+  .Belgique, .uk {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -416,6 +445,17 @@ body {
     -webkit-box-direction: reverse;
         -ms-flex-direction: row-reverse;
             flex-direction: row-reverse;
+    gap: 30px;
+  }
+
+  .Austria {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
     gap: 30px;
   }
 }/*# sourceMappingURL=location.css.map */
