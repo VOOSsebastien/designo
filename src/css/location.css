@@ -4,6 +4,10 @@
 */
 @import url("https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+<<<<<<< HEAD
+=======
+@import url("https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+>>>>>>> dev
 html, body, span, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -123,7 +127,11 @@ body {
 }
 
 .header {
+<<<<<<< HEAD
   background-color: rgb(250, 250, 250);
+=======
+  background-color: #fff;
+>>>>>>> dev
   width: calc(100% - 70px);
   height: 96px;
   display: -webkit-box;
@@ -168,7 +176,11 @@ body {
   left: 0;
   width: 100%;
   height: 235px;
+<<<<<<< HEAD
   background-color: rgb(0, 0, 0);
+=======
+  background-color: #1d1c1e;
+>>>>>>> dev
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -220,7 +232,14 @@ body {
     height: initial;
     width: initial;
     padding: 0px 165px;
+<<<<<<< HEAD
     background-color: antiquewhite;
+=======
+    background-color: #fff;
+  }
+  .header img {
+    margin-right: 25px;
+>>>>>>> dev
   }
   .header ._nav_header {
     display: -webkit-box;
@@ -235,7 +254,11 @@ body {
     position: relative;
     width: initial;
     height: 95px;
+<<<<<<< HEAD
     background-color: rgb(218, 137, 137);
+=======
+    background-color: #fff;
+>>>>>>> dev
     margin-top: 0px;
     padding-left: 0px;
     -webkit-transform: none;
@@ -270,9 +293,19 @@ body {
     gap: 55px;
   }
   .header ._nav_header ._nav_header_list ._nav_header_link {
+<<<<<<< HEAD
     color: rgb(0, 0, 0);
     text-decoration: none;
     font-size: 24px;
+=======
+    color: #1d1c1e;
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 18px;
+    padding: 28px 25px 31px;
+    line-height: 14px;
+    letter-spacing: 2px;
+>>>>>>> dev
   }
   .header .header_burger_open {
     display: none;
@@ -294,6 +327,7 @@ body {
     display: block;
     z-index: -1;
 }*/
+<<<<<<< HEAD
 main {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -304,6 +338,46 @@ main {
           flex-direction: column;
   gap: 40px 0;
 }
+=======
+h1 {
+  font-family: "Jost";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 48px;
+  line-height: 48px;
+}
+
+h2 {
+  font-family: "Jost";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 48px;
+  letter-spacing: 2px;
+}
+
+h2 {
+  font-family: "Jost";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 26px;
+  letter-spacing: 5px;
+}
+
+body {
+  font-family: "Jost";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+}
+
+.footer {
+  background-color: #fff;
+}
+
+>>>>>>> dev
 @media screen and (min-width: 768px) {
   main {
     padding: 0 40px;
@@ -312,6 +386,7 @@ main {
 @media screen and (min-width: 1440px) {
   main {
     max-width: 1440px;
+<<<<<<< HEAD
     padding: 32px 165px;
   }
 }
@@ -333,6 +408,12 @@ main {
     margin-bottom: 120px;
   }
 }
+=======
+    padding: 0 165px;
+  }
+}
+
+>>>>>>> dev
 .card__Pays .image__container {
   height: 320px;
   width: 375px;
@@ -402,7 +483,10 @@ main {
     -webkit-box-direction: normal;
         -ms-flex-direction: row;
             flex-direction: row;
+<<<<<<< HEAD
     gap: 0;
+=======
+>>>>>>> dev
   }
   .card__Pays__text address div {
     width: 255px;
@@ -428,9 +512,14 @@ main {
     width: 255px;
   }
 }
+<<<<<<< HEAD
 
 @media screen and (min-width: 1440px) {
   .Belgique, .uk {
+=======
+@media screen and (min-width: 1440px) {
+  .card__Pays {
+>>>>>>> dev
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -440,6 +529,7 @@ main {
             flex-direction: row-reverse;
     gap: 30px;
   }
+<<<<<<< HEAD
 
   .Austria {
     display: -webkit-box;
@@ -451,4 +541,6 @@ main {
             flex-direction: row;
     gap: 30px;
   }
+=======
+>>>>>>> dev
 }/*# sourceMappingURL=location.css.map */
