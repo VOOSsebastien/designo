@@ -2,7 +2,7 @@
 
 
 .header {
-    background-color: rgb(250, 250, 250);
+    background-color: $white;
     width: calc(100% - 70px);
     height: 96px;
     display: flex;
@@ -70,7 +70,7 @@
 
 
             ._nav_header_link {
-                color: #fff;
+                color: $white;
                 text-decoration: none;
                 font-size: 24px;
                 font-size: 24px;
