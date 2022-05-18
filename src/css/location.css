@@ -385,7 +385,7 @@ main {
 }
 @media screen and (min-width: 1440px) {
   .card__Pays {
-    margin-bottom: 120px;
+    margin-bottom: 32px;
   }
 }
 .card__Pays .image__container {
