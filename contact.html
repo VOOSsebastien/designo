@@ -39,7 +39,15 @@
     <main>
         <section class="section__contact">
             <div class="image__container">
-                <img src="src/img/fond-contact.png" alt="fond  contact">
+                <picture>                     
+                    <img 
+                        src="src/img/fond-contact.png" 
+                        alt="" 
+                        srcset="src/img/fond-contact.png 375w,
+                                src/img/fond-contact-1440.png 768w"
+                                sizes="(min-width: 768px) 768px, 100vw"
+                        >
+                  </picture>
                 <h1>
                     Contact Us
                 </h1>
@@ -57,12 +65,12 @@
                     <input type="mail" id="Email" name="user_mail">
                 </div>
                 <div class="form__phone">
-                    <label for="phone">Phone</label>
-                    <input type="text" id="phone" name="user_phone">
+                    <label for="phone"></label>
+                    <input type="text" id="phone" name="user_phone" placeholder="Phone">
                 </div>
                 <div>
                     <label for="Message">Your Message</label>
-                    <input type="text" name="user_message" id="message">
+                    <input type="areatext" name="user_message" id="message">
                 </div>
             </form>
         </section>

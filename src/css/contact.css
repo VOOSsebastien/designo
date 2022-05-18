@@ -308,4 +308,9 @@ footer .footer_nav {
 .section__contact img {
   position: absolute;
   z-index: -1;
+  top: 0;
+  left: 0;
+}
+.section__contact .image__container {
+  padding: 24px;
 }/*# sourceMappingURL=contact.css.map */
