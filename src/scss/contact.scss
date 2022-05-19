@@ -12,136 +12,179 @@ main {
 
     @media screen and (min-width: 768px) and (max-width: 1440px) {
         padding: 0 40px;
-        //gap: 140px 0;
+        width: calc(100% - 40px - 40px);
+        margin: auto;
 
     }
 
     @media screen and (min-width: 1440px) {
-        width: calc(1440px - 165px - 165px);
+        width: calc(100% - 165px - 165px);
         padding: 32px 165px;
         margin: auto;
     }
 }
 
+.talk_project {
+    display: none !important;
+}
+
 .section__contact {
-    height: 764px;
-    color: $white;
+    height: max-content;
     background-color: $peach;
+    padding: 72px 24px;
+    color: $white;
     text-align: center;
-    margin-bottom: 120px;
+
+    @media screen and (min-width: 768px) and (max-width: 1440px) {
+        border-radius: 15px;
+        padding: 72px 58px;
+        text-align: right;
+
+    }
+
+    @media screen and (min-width: 1440px) {
+        display: flex;
+        align-items: center;
+        max-height: calc(480px - 52px*2);
+        padding: 52px 95px;
+        gap: 0 95px;
+        margin-bottom: 160px;
+        border-radius: 15px;
+    }
 
     .text {
-        position: relative;
-        z-index: 2;
-    }
+        margin-bottom: 48px;
 
-    h2 {
-        font-size: 32px;
-        line-height: 36px;
-        margin-bottom: 24px;
-    }
+        h2 {
+            font-size: 32px;
+            line-height: 36px;
+            margin-bottom: 24px;
 
-    p {
-        font-size: 15px;
-        line-height: 25px;
-        margin-bottom: 50px;
-    }
+            @media screen and (min-width: 768px) and (max-width: 1440px) {
+                text-align: left;
+            }
+
+            @media screen and (min-width: 1440px) {
+                font-size: 48px;
+                line-height: 48px;
+            }
+        }
+
+        p {
+            font-size: 15px;
+            line-height: 25px;
+
+            @media screen and (min-width: 768px) and (max-width: 1440px) {
+                text-align: left;
+            }
+
+            @media screen and (min-width: 1440px) {
+                font-size: 16px;
+                line-height: 26px;
+            }
+
+        }
 
 
-    .image__container {
-        padding: 24px;
     }
 
     input,
     textarea {
-        width: 327px;
-        height: 32px;
         background-color: $peach;
-        color: $white;
+        width: calc(100% - 13px*2);
         border: none;
-        border-bottom: 1px solid $white;
-        padding: 11px;
+        box-shadow: inset 0px -1px 0px $white;
+        padding: 13px;
+
+        @media screen and (min-width: 768px) and (max-width: 1440px) {
+            text-align: left;
+            width: calc(100% - 24px*2);
+            padding: 13px 24px;
+        }
+
+        @media screen and (min-width: 1440px) {
+            min-width: calc(380px - 16px*2);
+            height: 38px;
+            padding: 13px 16px;
+        }
 
         &::placeholder {
-            font-family: 'Jost';
-            font-style: normal;
-            font-weight: 500;
+            color: $white;
             font-size: 15px;
             line-height: 26px;
             opacity: 0.5;
         }
+
     }
 
     textarea {
-        margin-bottom: 40px;
-        height: 80px;
+        resize: none;
+        word-wrap: break-word;
+
+        @media screen and (min-width: 1440px) {
+            height: 102px;
+        }
     }
 
     .form__contact {
-        padding: 18px 48px;
-        width: 152px;
+        border-radius: 8px;
         background-color: $white;
-        color: $darkGrey;
+        width: 152px;
+        margin-top: 58px;
+        padding: 16px 48px;
         font-weight: 500;
         font-size: 15px;
         line-height: 22px;
         text-align: center;
         letter-spacing: 1px;
         text-transform: uppercase;
-        border-radius: 8px;
     }
-
-    .image__container {
-        overflow: hidden;
-    }
-
-    .circle-top-left {
-        position: absolute;
-        z-index: 0;
-        top: 96px;
-        left: 0;
-        height: 292px;
-        width: 292;
-
-    }
-
-    .circle-top-right {
-        position: absolute;
-        z-index: 0;
-        top: 96px;
-        right: -3px;
-    }
-
-    .circle-bottom-right {
-        position: absolute;
-        z-index: 0;
-        bottom: 50px;
-        right: 0;
-    }
-    
 }
-.location__Pays {
+
+
+
+// @media screen and (min-width: 768px) and (max-width: 1440px){}
+// @media screen and (min-width: 1440px) {}
+
+
+.section__location {
+    border: 1px solid $black;
     display: flex;
     flex-direction: column;
     align-items: center;
+    align-content: center;
     text-align: center;
+    gap: 48px 0;
     margin-bottom: 120px;
-    .location__Pays {
-        gap: 48px
-    }
-    h3 {
-        
-        text-transform: uppercase;
-        margin-top: 48px;
+    height: max-content;
+
+    h3 
+    {
+        font-size: 20px;
+        line-height: 26px;
+        color: $darkGrey;
         margin-bottom: 32px;
+        text-transform: uppercase;
     }
-    .button {
-        border-radius: 8px;
+
+    .button 
+    {
+        width:  calc(152px - 18.5px - 18.5px );
         background-color: $peach;
         color: $white;
-        padding: 18.5px 15px;
-        width : 152px;
+        padding: 18px 18.5px;
         text-transform: uppercase;
-        text-decoration: none;
+        border-radius: 8px;
+    }
+
+    @media screen and (min-width: 1440px) {
+        display: flex;
+        flex-direction: row;        
+        gap: 0 30px;
+
+        .location__Pays {
+            width: 350px;
+            text-align: center;
+        }
     }
 }
