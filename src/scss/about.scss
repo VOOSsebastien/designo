@@ -1,0 +1,83 @@
+
+@import "_reset.scss";
+@import "_setting.scss";
+@import "_typographie.scss";
+@import "_navigation.scss";
+@import "_footer.scss";
+@import "_mixin.scss";
+
+
+
+
+.about_us{
+    display: flex;
+    flex-direction: column;
+    .about_text {
+    background-color: #E7816B;
+    text-align: center;
+    color: $white;
+    padding: 24px;
+        h1{
+            font-size: 32px;
+            line-height:36px;
+            padding-top: 60px;
+        }
+        p{
+            font-size: 15px;
+            margin-top: 24px;
+            margin-bottom: 80px;
+            line-height: 25px;
+        }
+        
+    }
+}
+
+.talent{
+    display: flex;
+    flex-direction: column;
+    .talent_text{
+        background-color: #FDF3F0;
+        text-align: center;
+        padding: 0 24px;
+
+        h1{
+            color:$peach;
+            font-size: 32px;
+            line-height:36px;
+            padding-top: 60px;
+        }
+        p{
+            color: #333136;
+            font-size: 15px;
+            margin-top: 24px;
+            margin-bottom: 80px;
+            line-height: 25px;
+        }
+
+    }
+}
+
+.real-deal{
+    display: flex;
+    flex-direction: column;
+    .real-deal_text{
+        background-color: #FDF3F0;
+        text-align: center;
+        padding: 0 24px;
+
+        h1{
+            color:$peach;
+            font-size: 32px;
+            line-height:36px;
+            padding-top: 60px;
+        }
+        p{
+            color: #333136;
+            font-size: 15px;
+            margin-top: 24px;
+            margin-bottom: 80px;
+            line-height: 25px;
+        }
+
+    }
+}
