@@ -9,18 +9,18 @@
 
 main {
     .main_header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     background-color: #E7816B;
     text-align: center;
     color: $white;
-    padding: 25px;
-    bottom:10;
+    padding: 25px 25px 0 25px;
     margin-bottom: 120px ;
-    background-image: url("/src/img/index/Oval.png");
+    background-image: url("/src/img/index/oval.svg");
+    background-repeat: no-repeat;
+    background-position: center;
 
-        .oval{
-        position: relative;
-        /*  z-index: -1;*/
-        }
 
         h1{
             font-size: 32px;
@@ -37,6 +37,7 @@ main {
     
             
             a {
+                display: inline;
                 text-decoration: none;
                 font-size: 15px;
                 color:$black;
@@ -44,7 +45,18 @@ main {
                 text-transform:uppercase ;
                 background-color: $white;
                 border-radius: 8%;
+                margin: auto;
             }
+
+            .smartphone_mobile{
+                margin-top: 80px;
+                width: 272px;
+
+            }
+            .smartphone_deskop{
+                display: none;
+            }
+        
         
 
     }
@@ -55,7 +67,6 @@ main {
         align-items: center;
         justify-content: center;
         gap: 24px;
-     /*   background-color: aqua;*/
    
         .bbox_design{
             @include bbox_desing;
@@ -102,8 +113,7 @@ main {
             
             img{
                 border-radius: 50%;
-                background-color: antiquewhite;
-                border: 10px rgb(204, 118, 6);
+                background: linear-gradient(90deg, rgba(93, 2, 2, 0.0001) 0%, rgba(93, 2, 2, 0.497569) 100%);
             }
             h1{
                 font-size: 20px;
@@ -119,4 +129,218 @@ main {
         } 
     }
 
+}
+
+@media screen and (min-width: 376px){
+
+main {
+    padding: 0 40px;
+    
+    .main_header{
+    margin-bottom:120px ;
+    border-radius: 15px ;
+        
+
+
+        h1{
+            font-size: 48px;
+            line-height: 48px;
+            margin:60px 58px 0 68px;
+            padding-bottom: 15px;
+        }
+        p{
+            font-size: 16px;
+            margin: 8px 127px 49px 117px;
+            line-height: 26px;
+
+        }
+             a{
+                padding: 17px 19px;
+                margin-bottom: 80px;
+            }
+        
+
+    }
+
+    .bbox{
+   
+        .bbox_design{
+            width:100%;
+        }
+    }
+
+    .soft_skills{
+        margin: 160px 0 17px 0;
+
+        .soft_skills_design{
+            display: flex;
+            align-items: center;
+            gap:48px;
+            width:100%;
+            margin: auto;
+            text-align: left;
+
+            img{
+                background: linear-gradient(90deg, rgba(93, 2, 2, 0.0001) 0%, rgba(93, 2, 2, 0.497569) 100%);
+               
+                }
+           
+
+        } 
+    }
+
+}
+
+}
+
+@media screen and (min-width: 769px){
+
+    main {
+
+        padding: 0 164px;
+
+        .main_header{
+            display: flex;
+            flex-direction: row;
+            align-items:center;
+            gap: 99px;
+            background-color: #E7816B;
+            color: $white;
+            text-align: center;
+            padding: 25px 25px 0 25px;
+            margin-bottom: 120px ;
+            background-image: url("/src/img/index/oval.svg");
+            background-repeat: no-repeat;
+            background-position: center;
+    
+            .colonne_deskop{
+                display: flex;
+                flex-direction: column;
+                align-items: flex-start;
+                gap:40px;
+                width: 540px;
+                margin-left:95px;
+                text-align: left;
+                
+    
+                
+
+                h1{
+                    font-size: 48px;
+                    line-height: 48px;
+                    margin:0;
+                    padding:0;
+                }
+                p{
+                    font-size: 16px;
+                    line-height: 26px;
+                    margin:0;
+                    padding:0;
+                    width:445px;
+                }
+        
+        
+            
+                    
+                a {
+                    display: inline;
+                    text-decoration: none;
+                    font-size: 15px;
+                    letter-spacing: 1px;
+                    color:$black;
+                    padding: 17px 19px;
+                    text-transform:uppercase ;
+                    background-color: $white;
+                    border-radius: 8%;
+                    margin: 0;
+                }
+            }    
+    
+            .smartphone_mobile{
+             
+                display: none;
+
+            }
+            .smartphone_deskop{
+                align-self:flex-end;
+
+                display: block;
+                margin: 139px 99px 0 0;
+                width: 272px;
+            }
+            
+            
+    
+        }
+    
+        .bbox{
+            display:flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            gap: 24px;
+       
+            .bbox_design{
+                @include bbox_desing;
+                width:100%;
+
+                .bbox_text{
+    
+                    @include bbox_text;
+                 }
+    
+            }
+            .bbox_web-design{
+                background-image:url("/src/img/index/web-design.png") ;
+                background-position:bottom right -50px;
+                background-size: 170%;
+            }
+            
+            .bbox_app-design{
+                background-image:url("/src/img/index/app-design.jpg") ;
+                background-position:bottom right -50px;
+                background-size: 170%;
+            }
+        
+            .bbox_graphic-design{
+                background-image:url("/src/img/index/graphic\ design.jpg") ;
+                background-position:bottom right -50px;
+                background-size: 170%;
+            }
+       
+        }
+    
+        .soft_skills{
+            margin: 160px 0 0 0;
+            display: flex;
+            flex-direction: column;
+            gap:40px;
+    
+            .soft_skills_design{
+                width:91%;
+                margin: auto;
+                text-align: center;
+                color: #333136;
+    
+    
+                
+                img{
+                    border-radius: 50%;
+                    background: linear-gradient(90deg, rgba(93, 2, 2, 0.0001) 0%, rgba(93, 2, 2, 0.497569) 100%);
+                }
+                h1{
+                    font-size: 20px;
+                    text-transform: uppercase;
+                    letter-spacing: 5px;            }
+    
+                p{
+                    font-size: 16px;
+                    line-height: 26px;
+    
+                }
+    
+            } 
+        }
+    
+    }
 }
