@@ -5,42 +5,97 @@
 @import "_footer.scss";
 
 
-
-.main_header{
+main {
+    .main_header{
     background-color: #E7816B;
     text-align: center;
     color: $white;
     padding: 25px;
     bottom:10;
+    margin-bottom: 120px ;
 
-    .oval{
-      position: relative;
-      /*  z-index: -1;*/
-    }
-
-    h1{
-        font-size: 32px;
-        line-height:36px ;
-    }
-    p{
-        font-size: 15px;
-        margin-top: 15px;
-        margin-bottom: 49px;
-        line-height: 25px;
-    }
-
-
- 
-        
-        a {
-            text-decoration: none;
-            font-size: 15px;
-            color:$black;
-            padding: 17px 19px;
-            text-transform:uppercase ;
-            background-color: $white;
-            border-radius: 8%;
+        .oval{
+        position: relative;
+        /*  z-index: -1;*/
         }
-      
+
+        h1{
+            font-size: 32px;
+            line-height:36px ;
+        }
+        p{
+            font-size: 15px;
+            margin-top: 15px;
+            margin-bottom: 49px;
+            line-height: 25px;
+        }
+
+
+    
+            
+            a {
+                text-decoration: none;
+                font-size: 15px;
+                color:$black;
+                padding: 17px 19px;
+                text-transform:uppercase ;
+                background-color: $white;
+                border-radius: 8%;
+            }
+        
+
+    }
+
+    .bbox{
+        display:flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 24px;
+     /*   background-color: aqua;*/
+   
+        .bbox_design{
+            display:flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            width: 91%;
+            height: 250px;
+            color:$white;
+            text-align: center;
+            text-transform: uppercase;
+            background-color: black;
+            border-radius: 15px;
+            
+            .bbox_text{
+          
+                h1{
+                    font-size: 28px;
+                }
+                p{
+                    font-size: 15px;
+                }
+             }
+
+        }
+        .bbox_web-design{
+            background-image:url("/src/img/index/web-design.png") ;
+            background-position:bottom right -50px;
+            background-size: 170%;
+        }
+        
+        .bbox_app-design{
+            background-image:url("/src/img/index/app-design.jpg") ;
+            background-position:bottom right -50px;
+            background-size: 170%;
+        }
+    
+        .bbox_graphic-design{
+            background-image:url("/src/img/index/graphic\ design.jpg") ;
+            background-position:bottom right -50px;
+            background-size: 170%;
+        }
+   
+    }
 
 }

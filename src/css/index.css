@@ -644,28 +644,29 @@ footer .black_bg .reseau .menu_reseau {
     gap: 16px;
   }
 }
-.main_header {
+main .main_header {
   background-color: #E7816B;
   text-align: center;
   color: #fff;
   padding: 25px;
   bottom: 10;
+  margin-bottom: 120px;
 }
-.main_header .oval {
+main .main_header .oval {
   position: relative;
   /*  z-index: -1;*/
 }
-.main_header h1 {
+main .main_header h1 {
   font-size: 32px;
   line-height: 36px;
 }
-.main_header p {
+main .main_header p {
   font-size: 15px;
   margin-top: 15px;
   margin-bottom: 49px;
   line-height: 25px;
 }
-.main_header a {
+main .main_header a {
   text-decoration: none;
   font-size: 15px;
   color: #1d1c1e;
@@ -673,4 +674,64 @@ footer .black_bg .reseau .menu_reseau {
   text-transform: uppercase;
   background-color: #fff;
   border-radius: 8%;
+}
+main .bbox {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  gap: 24px;
+  /*   background-color: aqua;*/
+}
+main .bbox .bbox_design {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 91%;
+  height: 250px;
+  color: #fff;
+  text-align: center;
+  text-transform: uppercase;
+  background-color: black;
+  border-radius: 15px;
+}
+main .bbox .bbox_design .bbox_text h1 {
+  font-size: 28px;
+}
+main .bbox .bbox_design .bbox_text p {
+  font-size: 15px;
+}
+main .bbox .bbox_web-design {
+  background-image: url("/src/img/index/web-design.png");
+  background-position: bottom right -50px;
+  background-size: 170%;
+}
+main .bbox .bbox_app-design {
+  background-image: url("/src/img/index/app-design.jpg");
+  background-position: bottom right -50px;
+  background-size: 170%;
+}
+main .bbox .bbox_graphic-design {
+  background-image: url("/src/img/index/graphic design.jpg");
+  background-position: bottom right -50px;
+  background-size: 170%;
 }/*# sourceMappingURL=index.css.map */
