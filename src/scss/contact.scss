@@ -1,11 +1,27 @@
 @import "_reset.scss";
 @import "_setting.scss";
 @import "_typographie.scss";
-
-//Navigation
 @import "_navigation.scss";
 @import "_footer.scss";
 
+main
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px 0;
+
+    @media screen and (min-width: 768px)  and (max-width: 1440px)  {
+        padding: 0 40px;
+        //gap: 140px 0;
+        
+    }
+    @media screen and (min-width: 1440px) {
+        width: calc(1440px - 165px - 165px);
+        padding: 32px 165px;
+        margin: auto;
+    }
+}
 
 .section__contact
 {
@@ -19,4 +35,15 @@
     .image__container {
         padding: 24px;
     }
+
+    input {
+        width: 327px;
+        margin: 0 24px;
+        background-color: $peach;
+        color: $white;
+        border: none;
+        border-bottom: 1px solid $white;
+    }
+
+
 }
