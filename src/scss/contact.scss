@@ -36,6 +36,42 @@ main {
     text-align: center;
     overflow: hidden;
 
+    .cercle {
+        display: none;
+        
+
+        @media screen and (min-width: 768px) and (max-width: 1440px) {
+            display: block;
+            position: absolute;
+            width: 640px;
+            height: 640px;
+            top: 0;
+            left: -50px;
+            background: linear-gradient(90deg, rgba(93, 2, 2, 0.0001) 0%, rgba(93, 2, 2, 0.497569) 100%);
+            transform: matrix(0, 1, 1, 0, 0, 0);
+            border-radius: 50%;
+            opacity: 0.31;
+        }
+    }
+
+
+    .main__oval {
+        content: "";
+        display: none;
+
+        @media screen and (min-width: 1440px) {
+            display: flex;
+            background: $lightGrey;
+            border-radius: 297px 297px 297px 0px;
+            height: 594px;
+            width: 1006px;
+            position: absolute;
+            left: 434px;
+            top: 885px;
+            z-index: -1;
+        }
+    }
+
     @media screen and (min-width: 768px) and (max-width: 1440px) {
         border-radius: 15px;
         padding: 72px 58px;
@@ -139,8 +175,6 @@ main {
     }
 }
 
-
-
 // @media screen and (min-width: 768px) and (max-width: 1440px){}
 // @media screen and (min-width: 1440px) {}
 
@@ -185,42 +219,5 @@ main {
             width: 350px;
             text-align: center;
         }
-    }
-}
-
-.cercle {
-    display: none;
-
-    @media screen and (min-width: 768px) and (max-width: 1440px) {
-        display: flex;
-        position: absolute;
-        width: 640px;
-        height: 640px;
-        top: 0;
-        left: -50px;
-        background: linear-gradient(90deg, rgba(93, 2, 2, 0.0001) 0%, rgba(93, 2, 2, 0.497569) 100%);
-        opacity: 0.31;
-        transform: matrix(0, 1, 1, 0, 0, 0);
-        border-radius: 50%;
-
-    }
-}
-
-
-
-.main__oval {
-    content: "";
-    display: none;
-
-    @media screen and (min-width: 1440px) {
-        display: flex;
-        background: $lightGrey;
-        border-radius: 297px 297px 297px 0px;
-        height: 594px;
-        width: 1006px;
-        position: absolute;
-        left: 434px;
-        top: 885px;
-        z-index: -1;
     }
 }

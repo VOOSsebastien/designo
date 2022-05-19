@@ -684,6 +684,44 @@ main {
   text-align: center;
   overflow: hidden;
 }
+.section__contact .cercle {
+  display: none;
+}
+@media screen and (min-width: 768px) and (max-width: 1440px) {
+  .section__contact .cercle {
+    display: block;
+    position: absolute;
+    width: 640px;
+    height: 640px;
+    top: 0;
+    left: -50px;
+    background: -webkit-gradient(linear, left top, right top, from(rgba(93, 2, 2, 0.0001)), to(rgba(93, 2, 2, 0.497569)));
+    background: linear-gradient(90deg, rgba(93, 2, 2, 0.0001) 0%, rgba(93, 2, 2, 0.497569) 100%);
+    -webkit-transform: matrix(0, 1, 1, 0, 0, 0);
+            transform: matrix(0, 1, 1, 0, 0, 0);
+    border-radius: 50%;
+    opacity: 0.31;
+  }
+}
+.section__contact .main__oval {
+  content: "";
+  display: none;
+}
+@media screen and (min-width: 1440px) {
+  .section__contact .main__oval {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    background: #f1f3f5;
+    border-radius: 297px 297px 297px 0px;
+    height: 594px;
+    width: 1006px;
+    position: absolute;
+    left: 434px;
+    top: 885px;
+    z-index: -1;
+  }
+}
 @media screen and (min-width: 768px) and (max-width: 1440px) {
   .section__contact {
     border-radius: 15px;
@@ -873,47 +911,5 @@ main {
   .section__location .location__Pays {
     width: 350px;
     text-align: center;
-  }
-}
-
-.cercle {
-  display: none;
-}
-@media screen and (min-width: 768px) and (max-width: 1440px) {
-  .cercle {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    position: absolute;
-    width: 640px;
-    height: 640px;
-    top: 0;
-    left: -50px;
-    background: -webkit-gradient(linear, left top, right top, from(rgba(93, 2, 2, 0.0001)), to(rgba(93, 2, 2, 0.497569)));
-    background: linear-gradient(90deg, rgba(93, 2, 2, 0.0001) 0%, rgba(93, 2, 2, 0.497569) 100%);
-    opacity: 0.31;
-    -webkit-transform: matrix(0, 1, 1, 0, 0, 0);
-            transform: matrix(0, 1, 1, 0, 0, 0);
-    border-radius: 50%;
-  }
-}
-
-.main__oval {
-  content: "";
-  display: none;
-}
-@media screen and (min-width: 1440px) {
-  .main__oval {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    background: #f1f3f5;
-    border-radius: 297px 297px 297px 0px;
-    height: 594px;
-    width: 1006px;
-    position: absolute;
-    left: 434px;
-    top: 885px;
-    z-index: -1;
   }
 }/*# sourceMappingURL=contact.css.map */
