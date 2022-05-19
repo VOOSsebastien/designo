@@ -59,7 +59,7 @@ main
     &__text {
         min-width: calc(375px - 24px*2 );
         
-        height: calc(394px - 80px*2);
+        height: max-content;
         padding: 80px 24px;
         text-align: center;
         background-image: url(../img/card-Pays-tablette.png);
@@ -76,14 +76,15 @@ main
         @media screen and (min-width: 768px)  and (max-width: 1440px)  {
             //code
             min-width: calc(689px - 75px*2);
+            height: max-content;
             text-align: left;
             padding: 88px 75px;
             address {
                 display: flex;
                 flex-direction: row;
-                gap: 0;
+                gap: 40px;
                 div {
-                    width: 255px;
+                    width: max-content;
                 }
             }
         }
@@ -96,8 +97,9 @@ main
             address {
                 display: flex;
                 flex-direction: row;
+                gap: 40px;
                 div {
-                    width: 255px;
+                    width: max-content;
                 }
             }
         }

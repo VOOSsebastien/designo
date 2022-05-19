@@ -72,7 +72,7 @@ h2 {
   letter-spacing: 2px;
 }
 
-h2 {
+h3 {
   font-family: "Jost";
   font-style: normal;
   font-weight: 500;
@@ -106,7 +106,7 @@ h2 {
   letter-spacing: 2px;
 }
 
-h2 {
+h3 {
   font-family: "Jost";
   font-style: normal;
   font-weight: 500;
@@ -319,7 +319,7 @@ h2 {
   letter-spacing: 2px;
 }
 
-h2 {
+h3 {
   font-family: "Jost";
   font-style: normal;
   font-weight: 500;
@@ -706,7 +706,9 @@ main {
 }
 .card__Pays__text {
   min-width: 327px;
-  height: 234px;
+  height: -webkit-max-content;
+  height: -moz-max-content;
+  height: max-content;
   padding: 80px 24px;
   text-align: center;
   background-image: url(../img/card-Pays-tablette.png);
@@ -724,6 +726,9 @@ main {
 @media screen and (min-width: 768px) and (max-width: 1440px) {
   .card__Pays__text {
     min-width: 539px;
+    height: -webkit-max-content;
+    height: -moz-max-content;
+    height: max-content;
     text-align: left;
     padding: 88px 75px;
   }
@@ -735,10 +740,12 @@ main {
     -webkit-box-direction: normal;
         -ms-flex-direction: row;
             flex-direction: row;
-    gap: 0;
+    gap: 40px;
   }
   .card__Pays__text address div {
-    width: 255px;
+    width: -webkit-max-content;
+    width: -moz-max-content;
+    width: max-content;
   }
 }
 @media screen and (min-width: 1440px) {
@@ -756,9 +763,12 @@ main {
     -webkit-box-direction: normal;
         -ms-flex-direction: row;
             flex-direction: row;
+    gap: 40px;
   }
   .card__Pays__text address div {
-    width: 255px;
+    width: -webkit-max-content;
+    width: -moz-max-content;
+    width: max-content;
   }
 }
 
