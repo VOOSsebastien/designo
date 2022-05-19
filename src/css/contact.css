@@ -819,7 +819,6 @@ main {
 }
 
 .section__location {
-  border: 1px solid #1d1c1e;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
