@@ -651,6 +651,7 @@ main .main_header {
   padding: 25px;
   bottom: 10;
   margin-bottom: 120px;
+  background-image: url("/src/img/index/Oval.png");
 }
 main .main_header .oval {
   position: relative;
@@ -734,4 +735,35 @@ main .bbox .bbox_graphic-design {
   background-image: url("/src/img/index/graphic design.jpg");
   background-position: bottom right -50px;
   background-size: 170%;
+}
+main .soft_skills {
+  margin: 160px 0 0 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 80px;
+}
+main .soft_skills .soft_skills_design {
+  width: 91%;
+  margin: auto;
+  text-align: center;
+  color: #333136;
+}
+main .soft_skills .soft_skills_design img {
+  border-radius: 50%;
+  background-color: antiquewhite;
+  border: 10px rgb(204, 118, 6);
+}
+main .soft_skills .soft_skills_design h1 {
+  font-size: 20px;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+}
+main .soft_skills .soft_skills_design p {
+  font-size: 16px;
+  line-height: 26px;
 }/*# sourceMappingURL=index.css.map */

@@ -13,6 +13,7 @@ main {
     padding: 25px;
     bottom:10;
     margin-bottom: 120px ;
+    background-image: url("/src/img/index/Oval.png");
 
         .oval{
         position: relative;
@@ -96,6 +97,39 @@ main {
             background-size: 170%;
         }
    
+    }
+
+    .soft_skills{
+        margin: 160px 0 0 0;
+        display: flex;
+        flex-direction: column;
+        gap:80px;
+
+        .soft_skills_design{
+            width:91%;
+            margin: auto;
+            text-align: center;
+            color: #333136;
+
+
+            
+            img{
+                border-radius: 50%;
+                background-color: antiquewhite;
+                border: 10px rgb(204, 118, 6);
+            }
+            h1{
+                font-size: 20px;
+                text-transform: uppercase;
+                letter-spacing: 5px;            }
+
+            p{
+                font-size: 16px;
+                line-height: 26px;
+
+            }
+
+        } 
     }
 
 }
