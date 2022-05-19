@@ -3,6 +3,7 @@
 @import "_typographie.scss";
 @import "_navigation.scss";
 @import "_footer.scss";
+@import "_mixin.scss";
 
 
 main {
@@ -56,26 +57,11 @@ main {
      /*   background-color: aqua;*/
    
         .bbox_design{
-            display:flex;
-            flex-direction: column;
-            align-items: center;
-            justify-content: center;
-            width: 91%;
-            height: 250px;
-            color:$white;
-            text-align: center;
-            text-transform: uppercase;
-            background-color: black;
-            border-radius: 15px;
+            @include bbox_desing;
             
             .bbox_text{
-          
-                h1{
-                    font-size: 28px;
-                }
-                p{
-                    font-size: 15px;
-                }
+
+                @include bbox_text;
              }
 
         }
@@ -103,7 +89,7 @@ main {
         margin: 160px 0 0 0;
         display: flex;
         flex-direction: column;
-        gap:80px;
+        gap:40px;
 
         .soft_skills_design{
             width:91%;

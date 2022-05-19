@@ -745,7 +745,7 @@ main .soft_skills {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  gap: 80px;
+  gap: 40px;
 }
 main .soft_skills .soft_skills_design {
   width: 91%;
