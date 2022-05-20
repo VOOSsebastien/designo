@@ -46,7 +46,7 @@ blockquote, q {
 
 blockquote:before, blockquote:after,
 q:before, q:after {
-  content: '';
+  content: "";
   content: none;
 }
 
@@ -56,7 +56,7 @@ table {
 }
 
 h1 {
-  font-family: 'Jost';
+  font-family: "Jost";
   font-style: normal;
   font-weight: 500;
   font-size: 48px;
@@ -64,7 +64,7 @@ h1 {
 }
 
 h2 {
-  font-family: 'Jost';
+  font-family: "Jost";
   font-style: normal;
   font-weight: 500;
   font-size: 40px;
@@ -72,18 +72,8 @@ h2 {
   letter-spacing: 2px;
 }
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-h2 {
-  font-family: 'Jost';
-=======
 h3 {
   font-family: "Jost";
->>>>>>> 4f6c12b874ed7df8ae0285e8d7c0ad4048a411b9
-=======
-h2 {
-  font-family: 'Jost';
->>>>>>> seb
   font-style: normal;
   font-weight: 500;
   font-size: 20px;
@@ -92,7 +82,7 @@ h2 {
 }
 
 body {
-  font-family: 'Jost';
+  font-family: "Jost";
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -100,7 +90,7 @@ body {
 }
 
 h1 {
-  font-family: 'Jost';
+  font-family: "Jost";
   font-style: normal;
   font-weight: 500;
   font-size: 48px;
@@ -108,7 +98,7 @@ h1 {
 }
 
 h2 {
-  font-family: 'Jost';
+  font-family: "Jost";
   font-style: normal;
   font-weight: 500;
   font-size: 40px;
@@ -116,18 +106,8 @@ h2 {
   letter-spacing: 2px;
 }
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-h2 {
-  font-family: 'Jost';
-=======
 h3 {
   font-family: "Jost";
->>>>>>> 4f6c12b874ed7df8ae0285e8d7c0ad4048a411b9
-=======
-h2 {
-  font-family: 'Jost';
->>>>>>> seb
   font-style: normal;
   font-weight: 500;
   font-size: 20px;
@@ -136,7 +116,7 @@ h2 {
 }
 
 body {
-  font-family: 'Jost';
+  font-family: "Jost";
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -158,39 +138,31 @@ body {
           align-items: center;
   padding: 0px 35px;
 }
-
 .header .logo {
   max-height: 27px;
 }
-
 .header .header_burger_close {
   display: none;
   cursor: pointer;
 }
-
 .header .header_burger_close svg {
   width: 35px;
   height: 32px;
 }
-
 .header .on {
   display: block;
 }
-
 .header .header_burger_open {
   display: block;
   cursor: pointer;
 }
-
 .header .header_burger_open svg {
   width: 35px;
   height: 32px;
 }
-
 .header .off {
   display: none;
 }
-
 .header ._nav_header {
   position: fixed;
   top: 0;
@@ -211,7 +183,6 @@ body {
   -webkit-transition: all 1s;
   transition: all 1s;
 }
-
 .header ._nav_header ._nav_header_list {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -228,14 +199,12 @@ body {
           justify-content: center;
   gap: 35px;
 }
-
 .header ._nav_header ._nav_header_list ._nav_header_link {
   color: #fff;
   text-decoration: none;
   font-size: 24px;
   font-size: 24px;
 }
-
 .header .open {
   -webkit-transform: initial;
           transform: initial;
@@ -323,7 +292,6 @@ body {
     display: none;
   }
 }
-
 /*
 
 .overlay_menu_burger {
@@ -338,7 +306,7 @@ body {
     z-index: -1;
 }*/
 h1 {
-  font-family: 'Jost';
+  font-family: "Jost";
   font-style: normal;
   font-weight: 500;
   font-size: 48px;
@@ -346,7 +314,7 @@ h1 {
 }
 
 h2 {
-  font-family: 'Jost';
+  font-family: "Jost";
   font-style: normal;
   font-weight: 500;
   font-size: 40px;
@@ -354,18 +322,8 @@ h2 {
   letter-spacing: 2px;
 }
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-h2 {
-  font-family: 'Jost';
-=======
 h3 {
   font-family: "Jost";
->>>>>>> 4f6c12b874ed7df8ae0285e8d7c0ad4048a411b9
-=======
-h2 {
-  font-family: 'Jost';
->>>>>>> seb
   font-style: normal;
   font-weight: 500;
   font-size: 20px;
@@ -374,7 +332,7 @@ h2 {
 }
 
 body {
-  font-family: 'Jost';
+  font-family: "Jost";
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -392,7 +350,6 @@ footer {
           flex-direction: column;
   gap: 40px;
 }
-
 footer .talk_project {
   position: relative;
   background-color: #E7816B;
@@ -403,17 +360,14 @@ footer .talk_project {
   bottom: 10;
   border-radius: 15%;
 }
-
 footer .talk_project h1 {
   font-size: 32px;
 }
-
 footer .talk_project p {
   font-size: 15px;
   margin-top: 15px;
   margin-bottom: 49px;
 }
-
 footer .talk_project a {
   text-decoration: none;
   font-size: 15px;
@@ -423,7 +377,6 @@ footer .talk_project a {
   background-color: #fff;
   border-radius: 8%;
 }
-
 footer .black_bg {
   background-color: #1d1c1e;
   padding-top: 150px;
@@ -437,7 +390,6 @@ footer .black_bg {
           flex-direction: column;
   gap: 40px;
 }
-
 footer .black_bg .footer_nav {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -453,19 +405,16 @@ footer .black_bg .footer_nav {
       -ms-flex-direction: column;
           flex-direction: column;
 }
-
 footer .black_bg .footer_nav .logo {
   max-height: 27px;
   margin: 50px auto;
 }
-
 footer .black_bg .footer_nav .ligne_mobile {
-  color: black;
+  color: rgb(0, 0, 0);
   height: 1px;
   width: 80%;
   margin: 0 24px 32px;
 }
-
 footer .black_bg .footer_nav .footer_info_list {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -480,16 +429,13 @@ footer .black_bg .footer_nav .footer_info_list {
   font-size: 14px;
   letter-spacing: 2px;
 }
-
 footer .black_bg .footer_nav .footer_info_list .footer_info_link {
   text-decoration: none;
   color: #fff;
 }
-
 footer .black_bg .ligne_pc {
   display: none;
 }
-
 footer .black_bg .adress_contact {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -509,20 +455,16 @@ footer .black_bg .adress_contact {
   gap: 40px;
   padding: 0 50px;
 }
-
 footer .black_bg .adress_contact h2 {
   letter-spacing: 1px;
   font-weight: 700;
 }
-
 footer .black_bg .adress_contact p {
   font-size: 16px;
 }
-
 footer .black_bg .reseau {
   color: #fff;
 }
-
 footer .black_bg .reseau .menu_reseau {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -551,7 +493,6 @@ footer .black_bg .reseau .menu_reseau {
   footer .talk_project {
     position: relative;
     background-color: #E7816B;
-    display: -ms-grid;
     display: grid;
     -webkit-box-pack: center;
         -ms-flex-pack: center;
@@ -559,13 +500,11 @@ footer .black_bg .reseau .menu_reseau {
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
-    -ms-grid-columns: 1fr 1fr;
-        grid-template-columns: 1fr 1fr;
-    -ms-grid-rows: 1fr 1fr;
-        grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
     gap: 0px 0px;
     grid-auto-flow: row;
-        grid-template-areas: "h1 h1" "p p" "a a";
+    grid-template-areas: "h1 h1" "p p" "a a";
     text-align: center;
     color: #fff;
     padding: 25px;
@@ -574,9 +513,6 @@ footer .black_bg .reseau .menu_reseau {
     border-radius: 15px;
   }
   footer .talk_project h1 {
-    -ms-grid-row: 1;
-    -ms-grid-column: 1;
-    -ms-grid-column-span: 2;
     grid-area: h1;
     font-size: 40px;
     width: 468px;
@@ -584,9 +520,6 @@ footer .black_bg .reseau .menu_reseau {
     margin-top: 75px;
   }
   footer .talk_project p {
-    -ms-grid-row: 2;
-    -ms-grid-column: 1;
-    -ms-grid-column-span: 2;
     grid-area: p;
     font-size: 16px;
     margin-top: 15px;
@@ -596,9 +529,6 @@ footer .black_bg .reseau .menu_reseau {
   }
   footer .talk_project a {
     margin: auto;
-    -ms-grid-row: 3;
-    -ms-grid-column: 1;
-    -ms-grid-column-span: 2;
     grid-area: a;
     text-decoration: none;
     font-size: 15px;
@@ -657,7 +587,7 @@ footer .black_bg .reseau .menu_reseau {
   }
   footer .black_bg .ligne_pc {
     display: block;
-    color: black;
+    color: rgb(0, 0, 0);
     height: 1px;
     width: 80%;
     margin: 0 24px 32px;
@@ -715,11 +645,6 @@ footer .black_bg .reseau .menu_reseau {
     gap: 16px;
   }
 }
-<<<<<<< HEAD
-<<<<<<< HEAD
-
-@media screen and (min-width: 768px) {
-=======
 main {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -734,57 +659,20 @@ main {
   gap: 40px 0;
 }
 @media screen and (min-width: 768px) and (max-width: 1440px) {
->>>>>>> 4f6c12b874ed7df8ae0285e8d7c0ad4048a411b9
-=======
-
-@media screen and (min-width: 768px) {
->>>>>>> seb
   main {
     padding: 0 40px;
   }
 }
-
 @media screen and (min-width: 1440px) {
   main {
-<<<<<<< HEAD
     width: 1110px;
     padding: 32px 165px;
     margin: auto;
   }
 }
 
-<<<<<<< HEAD
-=======
-    max-width: 1440px;
-    padding: 0 165px;
-  }
-}
-
->>>>>>> seb
-.card__Pays .image__container {
-  height: 320px;
-  width: 375px;
-}
-
-.card__Pays .image__container .card__Pays__image--768, .card__Pays .image__container .card__Pays__image--1440 {
-  display: none;
-}
-
-@media screen and (min-width: 768px) {
-  .card__Pays .image__container {
-    width: 689px;
-    height: 326px;
-    border-radius: 15px;
-  }
-  .card__Pays .image__container .card__Pays__image--375, .card__Pays .image__container .card__Pays__image--1440 {
-    display: none;
-  }
-  .card__Pays .image__container .card__Pays__image--768 {
-<<<<<<< HEAD
-=======
 @media screen and (min-width: 768px) and (max-width: 1440px) {
   .card__Pays {
->>>>>>> 4f6c12b874ed7df8ae0285e8d7c0ad4048a411b9
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -811,85 +699,39 @@ main {
   .card__Pays .image__container {
     width: 689px;
     height: 326px;
-=======
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    border-radius: 15px;
->>>>>>> seb
   }
 }
-
 @media screen and (min-width: 1440px) {
   .card__Pays .image__container {
     width: 350px;
     height: 326px;
   }
-<<<<<<< HEAD
 }
-
 .card__Pays__text {
-<<<<<<< HEAD
-  width: calc(375px - 24px*2);
-  height: calc(394px - 80px*2);
-=======
   min-width: 327px;
   height: -webkit-max-content;
   height: -moz-max-content;
   height: max-content;
->>>>>>> 4f6c12b874ed7df8ae0285e8d7c0ad4048a411b9
-=======
-  .card__Pays .image__container .card__Pays__image--1440 {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    height: 100%;
-  }
-  .card__Pays .image__container .card__Pays__image--768, .card__Pays .image__container .card__Pays__image--375 {
-    display: none;
-  }
-}
-
-.card__Pays__text {
-  width: calc(375px - 24px*2);
-  height: calc(394px - 80px*2);
->>>>>>> seb
   padding: 80px 24px;
   text-align: center;
   background-image: url(../img/card-Pays-tablette.png);
 }
-
 .card__Pays__text h1 {
   color: #e7816b;
   margin-bottom: 24px;
 }
-
 .card__Pays__text .text--titre {
   font-weight: 700;
 }
-
 .card__Pays__text div {
   margin-bottom: 24px;
 }
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> seb
-
-@media screen and (min-width: 768px) {
-  .card__Pays__text {
-    width: calc(689px - 75px*2);
-<<<<<<< HEAD
-=======
 @media screen and (min-width: 768px) and (max-width: 1440px) {
   .card__Pays__text {
     min-width: 539px;
     height: -webkit-max-content;
     height: -moz-max-content;
     height: max-content;
->>>>>>> 4f6c12b874ed7df8ae0285e8d7c0ad4048a411b9
-=======
->>>>>>> seb
     text-align: left;
     padding: 88px 75px;
   }
@@ -901,31 +743,20 @@ main {
     -webkit-box-direction: normal;
         -ms-flex-direction: row;
             flex-direction: row;
-<<<<<<< HEAD
     gap: 40px;
   }
   .card__Pays__text address div {
     width: -webkit-max-content;
     width: -moz-max-content;
     width: max-content;
-=======
-  }
-  .card__Pays__text address div {
-    width: 255px;
->>>>>>> seb
   }
 }
-
 @media screen and (min-width: 1440px) {
   .card__Pays__text {
-<<<<<<< HEAD
     min-width: 730px;
-=======
-    width: 1110px;
->>>>>>> seb
     text-align: left;
     padding: 88px 75px;
-    height: calc(326px - 88px*2);
+    height: 150px;
   }
   .card__Pays__text address {
     display: -webkit-box;
@@ -935,27 +766,17 @@ main {
     -webkit-box-direction: normal;
         -ms-flex-direction: row;
             flex-direction: row;
-<<<<<<< HEAD
     gap: 40px;
   }
   .card__Pays__text address div {
     width: -webkit-max-content;
     width: -moz-max-content;
     width: max-content;
-=======
-  }
-  .card__Pays__text address div {
-    width: 255px;
->>>>>>> seb
   }
 }
 
 @media screen and (min-width: 1440px) {
-<<<<<<< HEAD
   .Belgique, .uk {
-=======
-  .card__Pays {
->>>>>>> seb
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -963,7 +784,6 @@ main {
     -webkit-box-direction: reverse;
         -ms-flex-direction: row-reverse;
             flex-direction: row-reverse;
-<<<<<<< HEAD
     justify-items: center;
     -webkit-box-pack: center;
         -ms-flex-pack: center;
@@ -986,8 +806,5 @@ main {
             justify-content: center;
     gap: 30px;
     width: 720px;
-=======
-    gap: 30px;
->>>>>>> seb
   }
-}
+}/*# sourceMappingURL=location.css.map */
