@@ -5,120 +5,121 @@
 @import "_navigation.scss";
 @import "_footer.scss";
 
-main
-{
+main {
     display: flex;
     flex-direction: column;
     align-items: center;
     gap: 40px 0;
 
-    @media screen and (min-width: 768px)  and (max-width: 1440px)  {
+    @media screen and (min-width: 768px) and (max-width: 1440px) {
         padding: 0 40px;
-        //gap: 140px 0;
-        
+        gap: 0 0;
+
     }
+
     @media screen and (min-width: 1440px) {
-        width: calc(1440px - 165px - 165px);
         padding: 32px 165px;
         margin: auto;
+        gap: 0 0;
     }
 }
 
 
-.card__Pays
-{
-    @media screen and (min-width: 768px)  and (max-width: 1440px)  {
+.card__Pays {
+    @media screen and (min-width: 768px) and (max-width: 1440px) {
         @include flex(column);
-        gap: 40px 0;
+        margin-bottom: 40px;
     }
-    
+
     @media screen and (min-width: 1440px) {
         margin-bottom: 32px;
-       
     }
-    
-    .image__container{
+
+    .image__container {
         height: 320px;
         min-width: 375px;
+
         img {
             height: 100%;
+            width: 100%;
         }
-        
-        
-        @media screen and (min-width: 375) and (max-width: 768px) {
-            width: 689px;
-            height: 326px;            
-            
+
+
+        @media screen and (min-width: 768px) and (max-width: 1440px) {
+            min-width: 689px;
+            height: 326px;
+
         }
+
         @media screen and (min-width: 1440px) {
-            width: 350px;
+            min-width: 350px;
             height: 326px;
         }
     }
 
     &__text {
-        min-width: calc(375px - 24px*2 );
-        
+        min-width: calc(375px - 24px*2);
         height: max-content;
         padding: 80px 24px;
         text-align: center;
         background-image: url(../img/card-Pays-tablette.png);
+
         h1 {
             color: $peach;
             margin-bottom: 24px;
+            text-align: left;
         }
-        .text--titre{
+
+        .text--titre {
             font-weight: 700;
         }
+
         div {
             margin-bottom: 24px;
         }
-        @media screen and (min-width: 768px)  and (max-width: 1440px)  {
-            //code
+
+        @media screen and (min-width: 768px) and (max-width: 1440px) {
             min-width: calc(689px - 75px*2);
-            height: max-content;
-            text-align: left;
+            height: calc(300px - 88px*2);
             padding: 88px 75px;
+
             address {
-               @include flex(row);
-                gap: 40px;
-                div {
-                    width: max-content;
-                }
+                @include flex(row);
+                gap: 0px 40px;
+                align-content: flex-start;
             }
         }
+
         @media screen and (min-width: 1440px) {
-            //code
-            min-width: 730px;
-            text-align: left;
+            min-width: calc(689px - 75px*2);
             padding: 88px 75px;
             height: calc(326px - 88px*2);
+
             address {
                 @include flex(row);
                 gap: 0 40px;
-                div {
-                    width: max-content;
-                }
             }
         }
-    } 
-    
-        
+    }
+
+
 }
+
 @media screen and (min-width: 1440px) {
-    .Belgique, .uk {
+
+    .Belgique,
+    .uk {
         @include flex(row-reverse);
         justify-items: center;
         justify-content: center;
-        gap: 30px;
-        width: 720px;
+        gap: 0 30px;
     }
+
     .Austria {
         @include flex(row);
 
         justify-items: center;
         justify-content: center;
         gap: 30px;
-        width: 720px;
     }
 }

@@ -661,13 +661,14 @@ main {
 @media screen and (min-width: 768px) and (max-width: 1440px) {
   main {
     padding: 0 40px;
+    gap: 0 0;
   }
 }
 @media screen and (min-width: 1440px) {
   main {
-    width: 1110px;
     padding: 32px 165px;
     margin: auto;
+    gap: 0 0;
   }
 }
 
@@ -680,7 +681,7 @@ main {
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
-    gap: 40px 0;
+    margin-bottom: 40px;
   }
 }
 @media screen and (min-width: 1440px) {
@@ -694,16 +695,17 @@ main {
 }
 .card__Pays .image__container img {
   height: 100%;
+  width: 100%;
 }
-@media screen and (min-width: 375) and (max-width: 768px) {
+@media screen and (min-width: 768px) and (max-width: 1440px) {
   .card__Pays .image__container {
-    width: 689px;
+    min-width: 689px;
     height: 326px;
   }
 }
 @media screen and (min-width: 1440px) {
   .card__Pays .image__container {
-    width: 350px;
+    min-width: 350px;
     height: 326px;
   }
 }
@@ -719,6 +721,7 @@ main {
 .card__Pays__text h1 {
   color: #e7816b;
   margin-bottom: 24px;
+  text-align: left;
 }
 .card__Pays__text .text--titre {
   font-weight: 700;
@@ -729,10 +732,7 @@ main {
 @media screen and (min-width: 768px) and (max-width: 1440px) {
   .card__Pays__text {
     min-width: 539px;
-    height: -webkit-max-content;
-    height: -moz-max-content;
-    height: max-content;
-    text-align: left;
+    height: 124px;
     padding: 88px 75px;
   }
   .card__Pays__text address {
@@ -743,18 +743,14 @@ main {
     -webkit-box-direction: normal;
         -ms-flex-direction: row;
             flex-direction: row;
-    gap: 40px;
-  }
-  .card__Pays__text address div {
-    width: -webkit-max-content;
-    width: -moz-max-content;
-    width: max-content;
+    gap: 0px 40px;
+    -ms-flex-line-pack: start;
+        align-content: flex-start;
   }
 }
 @media screen and (min-width: 1440px) {
   .card__Pays__text {
-    min-width: 730px;
-    text-align: left;
+    min-width: 539px;
     padding: 88px 75px;
     height: 150px;
   }
@@ -768,15 +764,11 @@ main {
             flex-direction: row;
     gap: 0 40px;
   }
-  .card__Pays__text address div {
-    width: -webkit-max-content;
-    width: -moz-max-content;
-    width: max-content;
-  }
 }
 
 @media screen and (min-width: 1440px) {
-  .Belgique, .uk {
+  .Belgique,
+.uk {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -788,8 +780,7 @@ main {
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
-    gap: 30px;
-    width: 720px;
+    gap: 0 30px;
   }
 
   .Austria {
@@ -805,6 +796,5 @@ main {
         -ms-flex-pack: center;
             justify-content: center;
     gap: 30px;
-    width: 720px;
   }
 }/*# sourceMappingURL=location.css.map */
