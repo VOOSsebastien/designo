@@ -682,13 +682,13 @@ main {
   padding: 72px 24px;
   color: #fff;
   text-align: center;
-  overflow: hidden;
 }
-.section__contact .cercle {
+.section__contact div.cercle {
   display: none;
+  content: "";
 }
 @media screen and (min-width: 768px) and (max-width: 1440px) {
-  .section__contact .cercle {
+  .section__contact div.cercle {
     display: block;
     position: absolute;
     width: 640px;
@@ -701,6 +701,11 @@ main {
             transform: matrix(0, 1, 1, 0, 0, 0);
     border-radius: 50%;
     opacity: 0.31;
+  }
+}
+@media screen and (min-width: 1440px) {
+  .section__contact div.cercle {
+    display: none;
   }
 }
 .section__contact .main__oval {
@@ -717,7 +722,7 @@ main {
     height: 594px;
     width: 1006px;
     position: absolute;
-    left: 434px;
+    right: 165px;
     top: 885px;
     z-index: -1;
   }

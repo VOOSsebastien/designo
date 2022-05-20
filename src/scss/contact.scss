@@ -34,11 +34,11 @@ main {
     padding: 72px 24px;
     color: $white;
     text-align: center;
-    overflow: hidden;
 
-    .cercle {
+
+    div.cercle {
         display: none;
-        
+        content: "";
 
         @media screen and (min-width: 768px) and (max-width: 1440px) {
             display: block;
@@ -51,6 +51,10 @@ main {
             transform: matrix(0, 1, 1, 0, 0, 0);
             border-radius: 50%;
             opacity: 0.31;
+        }
+
+        @media screen and (min-width: 1440px) {
+            display: none;
         }
     }
 
@@ -66,7 +70,7 @@ main {
             height: 594px;
             width: 1006px;
             position: absolute;
-            left: 434px;
+            right: calc(0px + 165px);
             top: 885px;
             z-index: -1;
         }
@@ -91,6 +95,7 @@ main {
 
     .text {
         margin-bottom: 48px;
+
 
         h2 {
             font-size: 32px;
