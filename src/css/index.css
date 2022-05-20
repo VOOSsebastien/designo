@@ -473,6 +473,7 @@ footer .black_bg .reseau .menu_reseau {
       -ms-flex-pack: center;
           justify-content: center;
   gap: 16px;
+  margin: 40px 95px 64px;
 }
 
 @media screen and (min-width: 369px) {
