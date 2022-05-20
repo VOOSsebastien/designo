@@ -92,7 +92,7 @@
         display: flex;
         height: initial;
         width: initial;
-        padding: 0px 165px;
+        padding: 0px 50px;
         background-color:$white;
         
         img{
@@ -105,6 +105,7 @@
             align-items: center;
             justify-content: center;
             position: relative;
+            justify-content: space-between;
             width: initial;
             height: 95px;
             background-color: $white;
@@ -126,7 +127,7 @@
                 padding: 0;
                 margin: 0;
                 list-style: none;
-                gap: 55px;
+                gap: 0px;
 
                 ._nav_header_link {
                     color: $black;

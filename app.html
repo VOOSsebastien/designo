@@ -4,9 +4,209 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Design - App</title>
+    <title>Designo - App Design</title>
 </head>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="src/css/index.min.css">
+    <link rel="stylesheet" href="src/css/app.min.css">
+    <title>Designo</title>
+</head>
+
 <body>
+
+    <!--      HEADER       -->
+
+
+    <header class="header">
+       
+        <img src="src/img/logo_header.png" class="logo" alt="logo" >
+
+        <div class="header_burger_close" onclick="HeaderClose()"> 
+             <svg 
+                 class="w-6 h-6" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z" clip-rule="evenodd"></path>
+             </svg>
+        </div>
+
+        <div class="header_burger_open" onclick="HeaderOpen()">
+            <svg 
+                class="svg_menu"  fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>
+            </svg>
+        </div>
+
+        <nav class="_nav_header">  
+            <ul class="_nav_header_list">
+                <li><a href="#" class="_nav_header_link">Our Copany</a></li>
+                <li><a href="#" class="_nav_header_link">Locations</a></li>
+                <li><a href="#" class="_nav_header_link">Contact</a></li>
+            </ul>
+        </nav>
+
+     
+    </header>
+
+    <div class="overlay_menu_burger"></div>
+
+
+    <main>
+        <div class="entete_page">
+            <h1>
+                Web Design
+            </h1>
+            <p>
+                We build websites that serve as powerful marketing tools and bring memorable brand experiences.
+            </p>
+        </div>
+
+
+
     
+        <section class="cartes">
+
+        <div class="carte_express">
+            <img class="img_express"src="src/img/app/airfilter.jpg" class="logo" alt="logo" >
+            <div class="text_express">
+            <h1>
+                AIRFILTER
+            </h1>
+            <p>
+                Solving the problem of poor indoor air quality by filtering the air            
+            </p>
+            </div>
+        </div>
+
+        <div class="carte_express">
+            <img class="img_express"src="src/img/app/eyecam.jpg" class="logo" alt="logo" >
+            <div class="text_express">
+            <h1>
+                EYECAM
+            </h1>
+            <p>
+                Product that lets you edit your favorite photos and videos at any time            
+            </p>
+            </div>
+        </div>
+
+        <div class="carte_express">
+            <img class="img_express"src="src/img/app/faceit.jpg" class="logo" alt="logo" >
+            <div class="text_express">
+            <h1>
+                FACEIT
+            </h1>
+            <p>
+                Get to meet your favorite internet superstar with the faceit app
+            </p>
+            </div>
+        </div>
+
+        <div class="carte_express">
+            <img class="img_express"src="src/img/app/todo.jpg" class="logo" alt="logo" >
+            <div class="text_express">
+            <h1>
+                TODO
+            </h1>
+            <p>
+                A todo app that features cloud sync with light and dark mode
+            </p>            </div>
+        </div>
+
+        <div class="carte_express">
+            <img class="img_express"src="src/img/app/loopstudios.jpg" class="logo" alt="logo" >
+            <div class="text_express">
+            <h1>
+                LOOPSTUDIOS
+            </h1>
+            <p>
+                A VR experience app made for Loopstudios
+            </p>            </div>
+        </div>
+
+        </section>
+
+
+
+
+        <section class="bbox">
+            <section class="bbox_design bbox_web-design">
+                <div class="bbox_text">
+                    <h1>app design</h1>
+                    <p>view project</p>
+                </div>
+            </section>
+            <secion class="bbox_design bbox_graphic-design">
+                <div class="bbox_text">
+                    <h1>graphic design</h1>
+                    <p>view project</p>
+                </div>
+            </secion>
+        </section>
+        
+</main>
+
+
+    <footer>
+
+        <section class ="talk_project">
+            <h1>Let's talks about <br>your project</h1>
+            <p>REady to take it to the next level? Contac t us today and find out how our expertise can help your business grox.</p>
+         
+                <a href="#">get in touch</a>
+          
+        </section>
+
+        <section class="black_bg">
+            <section class="footer_nav">
+                <img src="src/img/logo_footer.png" class="logo" alt="logo" >
+            
+
+            <hr class="ligne_mobile">
+
+                    <ul class="footer_info_list">
+                        <li><a href="#" class="footer_info_link">Our Copany</a></li>
+                        <li><a href="#" class="footer_info_link">Locations</a></li>
+                        <li><a href="#" class="footer_info_link">Contact</a></li>
+                    </ul>
+            
+            </section>
+
+            <hr class="ligne_pc">
+
+            <section class="adresse_et_reseau">
+
+                <section class="adress_contact">
+
+                    <div>
+                        <h2>Designo Central Office</h2>
+                        <p> 386 Wellington Street </p>
+                        <p> 1000 Brussels - Belgium</p>
+                    </div>
+
+                    <div>
+                    <h2> Contact Us (Central Office)</h2>
+                    <p> P : +1 253-863-8967</p>
+                    <p> M : contact@designo.co</p>
+                    </div>
+            
+                </section>
+
+                <section class="reseau">
+                    <ul class="menu_reseau">
+                        <li class="logo_reseau"><img src="src/img/icon/facebook.svg" alt="logo facebook"></li>
+                        <li class="logo_reseau"><img src="src/img/icon/youtube.svg" alt="logo youtube"></li>
+                        <li class="logo_reseau"><img src="src/img/icon/twitter.svg" alt="logo twitter"></li>
+                        <li class="logo_reseau"><img src="src/img/icon/printerest.svg" alt="logo pinterest"></li>
+                        <li class="logo_reseau"><img src="src/img/icon/instagram.svg" alt="logo instagram"></li>
+                    </ul>
+                </section>
+            </section>        
+        </section>    
+    </footer>
+
+<script src="src/js/script.js"></script>
 </body>
+
 </html>
