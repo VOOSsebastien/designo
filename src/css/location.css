@@ -766,7 +766,7 @@ main {
     -webkit-box-direction: normal;
         -ms-flex-direction: row;
             flex-direction: row;
-    gap: 40px;
+    gap: 0 40px;
   }
   .card__Pays__text address div {
     width: -webkit-max-content;
