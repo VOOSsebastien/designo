@@ -355,7 +355,7 @@ footer .talk_project {
   padding: 25px;
   margin: 50px 35px -200px;
   bottom: 10;
-  border-radius: 15%;
+  border-radius: 15px;
 }
 footer .talk_project h1 {
   font-size: 32px;
@@ -372,7 +372,7 @@ footer .talk_project a {
   padding: 17px 19px;
   text-transform: uppercase;
   background-color: #fff;
-  border-radius: 8%;
+  border-radius: 8px;
 }
 footer .black_bg {
   background-color: #1d1c1e;
@@ -475,7 +475,93 @@ footer .black_bg .reseau .menu_reseau {
   gap: 16px;
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 369px) {
+  footer .talk_project {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    gap: 0px 0px;
+    text-align: center;
+    margin: 50px 39px -175px;
+  }
+  footer .talk_project h1 {
+    font-size: 40px;
+    width: 468px;
+  }
+  footer .talk_project p {
+    font-size: 16px;
+    width: 468px;
+  }
+  footer .talk_project a {
+    margin: auto;
+    font-size: 15px;
+    text-align: center;
+  }
+  footer .black_bg .footer_nav {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    padding: 0 40px;
+  }
+  footer .black_bg .footer_nav .logo {
+    margin: 50px 0;
+  }
+  footer .black_bg .footer_nav .ligne_mobile {
+    display: none;
+  }
+  footer .black_bg .footer_nav .footer_info_list {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+  }
+  footer .black_bg .ligne_pc {
+    display: block;
+    color: rgba(255, 255, 255, 0.1);
+    height: 1px;
+    width: 80%;
+    margin: 0 32px;
+    -ms-flex-item-align: center;
+        align-self: center;
+  }
+  footer .black_bg .adresse_et_reseau {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    padding: 0 39px;
+    margin-bottom: 80px;
+  }
+  footer .black_bg .adresse_et_reseau .adress_contact {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: left;
+        -ms-flex-pack: left;
+            justify-content: left;
+    text-align: left;
+    gap: 15px;
+    padding: 0 0;
+  }
+}
+@media screen and (min-width: 769px) {
   footer {
     width: 100vw;
     display: -webkit-box;
