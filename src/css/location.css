@@ -73,12 +73,17 @@ h2 {
 }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 h2 {
   font-family: 'Jost';
 =======
 h3 {
   font-family: "Jost";
 >>>>>>> 4f6c12b874ed7df8ae0285e8d7c0ad4048a411b9
+=======
+h2 {
+  font-family: 'Jost';
+>>>>>>> seb
   font-style: normal;
   font-weight: 500;
   font-size: 20px;
@@ -112,12 +117,17 @@ h2 {
 }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 h2 {
   font-family: 'Jost';
 =======
 h3 {
   font-family: "Jost";
 >>>>>>> 4f6c12b874ed7df8ae0285e8d7c0ad4048a411b9
+=======
+h2 {
+  font-family: 'Jost';
+>>>>>>> seb
   font-style: normal;
   font-weight: 500;
   font-size: 20px;
@@ -345,12 +355,17 @@ h2 {
 }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 h2 {
   font-family: 'Jost';
 =======
 h3 {
   font-family: "Jost";
 >>>>>>> 4f6c12b874ed7df8ae0285e8d7c0ad4048a411b9
+=======
+h2 {
+  font-family: 'Jost';
+>>>>>>> seb
   font-style: normal;
   font-weight: 500;
   font-size: 20px;
@@ -701,6 +716,7 @@ footer .black_bg .reseau .menu_reseau {
   }
 }
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 @media screen and (min-width: 768px) {
 =======
@@ -719,6 +735,10 @@ main {
 }
 @media screen and (min-width: 768px) and (max-width: 1440px) {
 >>>>>>> 4f6c12b874ed7df8ae0285e8d7c0ad4048a411b9
+=======
+
+@media screen and (min-width: 768px) {
+>>>>>>> seb
   main {
     padding: 0 40px;
   }
@@ -726,6 +746,7 @@ main {
 
 @media screen and (min-width: 1440px) {
   main {
+<<<<<<< HEAD
     width: 1110px;
     padding: 32px 165px;
     margin: auto;
@@ -733,6 +754,13 @@ main {
 }
 
 <<<<<<< HEAD
+=======
+    max-width: 1440px;
+    padding: 0 165px;
+  }
+}
+
+>>>>>>> seb
 .card__Pays .image__container {
   height: 320px;
   width: 375px;
@@ -752,6 +780,7 @@ main {
     display: none;
   }
   .card__Pays .image__container .card__Pays__image--768 {
+<<<<<<< HEAD
 =======
 @media screen and (min-width: 768px) and (max-width: 1440px) {
   .card__Pays {
@@ -782,6 +811,12 @@ main {
   .card__Pays .image__container {
     width: 689px;
     height: 326px;
+=======
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    border-radius: 15px;
+>>>>>>> seb
   }
 }
 
@@ -790,6 +825,7 @@ main {
     width: 350px;
     height: 326px;
   }
+<<<<<<< HEAD
 }
 
 .card__Pays__text {
@@ -802,6 +838,22 @@ main {
   height: -moz-max-content;
   height: max-content;
 >>>>>>> 4f6c12b874ed7df8ae0285e8d7c0ad4048a411b9
+=======
+  .card__Pays .image__container .card__Pays__image--1440 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    height: 100%;
+  }
+  .card__Pays .image__container .card__Pays__image--768, .card__Pays .image__container .card__Pays__image--375 {
+    display: none;
+  }
+}
+
+.card__Pays__text {
+  width: calc(375px - 24px*2);
+  height: calc(394px - 80px*2);
+>>>>>>> seb
   padding: 80px 24px;
   text-align: center;
   background-image: url(../img/card-Pays-tablette.png);
@@ -820,10 +872,14 @@ main {
   margin-bottom: 24px;
 }
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> seb
 
 @media screen and (min-width: 768px) {
   .card__Pays__text {
     width: calc(689px - 75px*2);
+<<<<<<< HEAD
 =======
 @media screen and (min-width: 768px) and (max-width: 1440px) {
   .card__Pays__text {
@@ -832,6 +888,8 @@ main {
     height: -moz-max-content;
     height: max-content;
 >>>>>>> 4f6c12b874ed7df8ae0285e8d7c0ad4048a411b9
+=======
+>>>>>>> seb
     text-align: left;
     padding: 88px 75px;
   }
@@ -843,18 +901,28 @@ main {
     -webkit-box-direction: normal;
         -ms-flex-direction: row;
             flex-direction: row;
+<<<<<<< HEAD
     gap: 40px;
   }
   .card__Pays__text address div {
     width: -webkit-max-content;
     width: -moz-max-content;
     width: max-content;
+=======
+  }
+  .card__Pays__text address div {
+    width: 255px;
+>>>>>>> seb
   }
 }
 
 @media screen and (min-width: 1440px) {
   .card__Pays__text {
+<<<<<<< HEAD
     min-width: 730px;
+=======
+    width: 1110px;
+>>>>>>> seb
     text-align: left;
     padding: 88px 75px;
     height: calc(326px - 88px*2);
@@ -867,17 +935,27 @@ main {
     -webkit-box-direction: normal;
         -ms-flex-direction: row;
             flex-direction: row;
+<<<<<<< HEAD
     gap: 40px;
   }
   .card__Pays__text address div {
     width: -webkit-max-content;
     width: -moz-max-content;
     width: max-content;
+=======
+  }
+  .card__Pays__text address div {
+    width: 255px;
+>>>>>>> seb
   }
 }
 
 @media screen and (min-width: 1440px) {
+<<<<<<< HEAD
   .Belgique, .uk {
+=======
+  .card__Pays {
+>>>>>>> seb
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -885,6 +963,7 @@ main {
     -webkit-box-direction: reverse;
         -ms-flex-direction: row-reverse;
             flex-direction: row-reverse;
+<<<<<<< HEAD
     justify-items: center;
     -webkit-box-pack: center;
         -ms-flex-pack: center;
@@ -907,5 +986,8 @@ main {
             justify-content: center;
     gap: 30px;
     width: 720px;
+=======
+    gap: 30px;
+>>>>>>> seb
   }
 }

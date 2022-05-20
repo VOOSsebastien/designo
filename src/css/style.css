@@ -3,7 +3,10 @@
    License: none (public domain)
 */
 @import url("https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+<<<<<<< HEAD
 @import url("https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+=======
+>>>>>>> seb
 html, body, span, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -71,6 +74,7 @@ h2 {
   letter-spacing: 2px;
 }
 
+<<<<<<< HEAD
 h3 {
   font-family: "Jost";
   font-style: normal;
@@ -96,10 +100,13 @@ h1 {
   line-height: 48px;
 }
 
+=======
+>>>>>>> seb
 h2 {
   font-family: "Jost";
   font-style: normal;
   font-weight: 500;
+<<<<<<< HEAD
   font-size: 40px;
   line-height: 48px;
   letter-spacing: 2px;
@@ -109,6 +116,8 @@ h3 {
   font-family: "Jost";
   font-style: normal;
   font-weight: 500;
+=======
+>>>>>>> seb
   font-size: 20px;
   line-height: 26px;
   letter-spacing: 5px;
@@ -120,6 +129,7 @@ body {
   font-weight: 400;
   font-size: 16px;
   line-height: 26px;
+<<<<<<< HEAD
 }
 
 .header {
@@ -301,3 +311,6 @@ body {
     display: block;
     z-index: -1;
 }*//*# sourceMappingURL=style.css.map */
+=======
+}/*# sourceMappingURL=style.css.map */
+>>>>>>> seb
