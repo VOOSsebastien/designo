@@ -9,23 +9,53 @@
 </head>
 <body>
     <!-- Navigation -->
+    <header class="header">
+       
+        <img src="src/img/logo_header.png" class="logo" alt="logo" >
 
+        <div class="header_burger_close" onclick="HeaderClose()"> 
+             <svg 
+                 class="w-6 h-6" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z" clip-rule="evenodd"></path>
+             </svg>
+        </div>
+
+        <div class="header_burger_open" onclick="HeaderOpen()">
+            <svg 
+                class="svg_menu"  fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>
+            </svg>
+        </div>
+
+        <nav class="_nav_header">  
+            <ul class="_nav_header_list">
+                <li><a href="#" class="_nav_header_link">Our Copany</a></li>
+                <li><a href="#" class="_nav_header_link">Locations</a></li>
+                <li><a href="#" class="_nav_header_link">Contact</a></li>
+            </ul>
+        </nav>
+     
+    </header>
+
+    <div class="overlay_menu_burger"></div>
     <!-- main -->
     <main>
-        <section class="card__Pays Belgique">
-            
-            <header class="image__container">
-                <picture>                    
-                    <img src="src/img/map/Belgique-375.png" alt="Carte emplacement bureau Belgium" class="card__Pays__image--375">
-                    <img src="src/img/map/Belgique-768.png" alt="Carte emplacement bureau Belgium" class="card__Pays__image--768">
-                    <img src="src/img/map/Belgique-1440.png" alt="Carte emplacement bureau Belgium" class="card__Pays__image--1440">
+        <section class="card__Pays Belgique" id="belgium">
+                <header class="image__container">
+                <picture>                     
+                    <img 
+                        src="src/img/map/Belgique-375.png" 
+                        alt="" 
+                        srcset="src/img/map/Belgique-375.png 375w, 
+                                src/img/map/Belgique-768.png 768w, 
+                                src/img/map/Belgique-1440.png 1440w"
+                                sizes="(min-width: 1440px) 1440px,  (min-width: 768px) 768px, 100vw "
+                        >
                   </picture>
             </header>
             <main class="card__Pays__text">
                 <h1>Belgium</h1>
                 <address>
                     <div>
-                        <p class="">Designo Central Office</p>
+                        <p class="text--titre">Designo Central Office</p>
                         <p>386 Wellington Street</p>
                         <p>1000 Brussels - Belgium</p>
                     </div>
@@ -36,8 +66,76 @@
                                 <li>P:<a href="+1253-863-8967">+1 253-863-8967</a></li>
                                 <li>M : <a href="mailto:contact@designo.com">contact@designo.com</a></li>
                             </ul>
-                              
+                        </nav>
+                    </div>
+                </address>
 
+            </main>
+        </section>
+        <section class="card__Pays Austria" id="Australia">
+
+                <header class="image__container">
+                    <picture>                     
+                        <img 
+                            src="src/img/map/Austria-375.png" 
+                            alt="" 
+                            srcset="src/img/map/Austria-375.png 375w, src/img/map/Austria768.png 768w, src/img/map/Austria1440.png 1440w"
+                            sizes="(min-width: 1440px) 1440px,  (min-width: 768px) 768px, 100vw "
+                            >
+                      </picture>
+            </header>
+            <main class="card__Pays__text">
+                <h1>Australia</h1>
+                <address>
+                    <div>
+                        <p class="text--titre">Designo AU Office</p>
+                        <p>19 Balonne Street</p>
+                        <p>New South Wales 2443</p>
+                    </div>
+                    <div>
+                        <p class="text--titre">Contact</p>
+                        <nav>
+                            <ul>
+                                <li>P:<a href="0267209092">02) 6720 9092</a></li>
+                                <li>M : <a href="mailto:contact@designo.au">contact@designo.au</a></li>
+                            </ul>
+                        </nav>
+                    </div>
+                </address>
+
+            </main>
+        </section>
+        <section class="card__Pays uk" id="uk">
+
+            <header class="image__container">
+                <picture>                     
+                    <img 
+                        src="src/img/map/Uk-Uk-375.png" 
+                        alt="" 
+                        srcset="src/img/map/Uk-375.png 375w, src/img/map/Uk-768.png 768w, src/img/map/Uk-1440.png 1440w"
+                        sizes="(min-width: 1440px) 1440px,  (min-width: 768px) 768px, 100vw "
+                        >
+                  </picture>
+            </header>
+            <main class="card__Pays__text">
+                <h1>United Kingdom</h1>
+                <address>
+                    <div>
+                        <p class="text--titre">Designo UK Office</p>
+                        <p>13  Colorado Way</p>
+                        <p>Rhyd-y-fro SA8 9GA</p>
+                    </div>
+                    <div>
+                        <p class="text--titre">Contact</p>
+                        <nav>
+                            <ul>
+                                <li>
+                                    P:078 3115 1400                            
+                                </li>
+                                <li>
+                                    M : <a href="mailto:contact@designo.uk">contact@designo.uk</a>
+                                </li>
+                            </ul>
                         </nav>
                     </div>
                 </address>
@@ -46,8 +144,67 @@
         </section>
 
     </main>
-    
-    <!-- Footer -->
-    
+
+
+    <footer>
+
+        <section class ="talk_project">
+            <h1>Let's talks about your project</h1>
+            <p>REady to take it to the next level? Contac t us today and find out how our expertise can help your business grox.</p>
+         
+                <a href="#">get in touch</a>
+          
+        </section>
+
+        <section class="black_bg">
+            <section class="footer_nav">
+                <img src="src/img/logo_footer.png" class="logo" alt="logo" >
+            
+
+            <hr class="ligne_mobile">
+
+                    <ul class="footer_info_list">
+                        <li><a href="#" class="footer_info_link">Our Copany</a></li>
+                        <li><a href="#" class="footer_info_link">Locations</a></li>
+                        <li><a href="#" class="footer_info_link">Contact</a></li>
+                    </ul>
+            
+            </section>
+
+            <hr class="ligne_pc">
+
+            <section class="adresse_et_reseau">
+
+                <section class="adress_contact">
+
+                    <div>
+                        <h2>Designo Central Office</h2>
+                        <p> 386 Wellington Street </p>
+                        <p> 1000 Brussels - Belgium</p>
+                    </div>
+
+                    <div>
+                    <h2> Contact Us (Central Office)</h2>
+                    <p> P : +1 253-863-8967</p>
+                    <p> M : contact@designo.co</p>
+                    </div>
+            
+                </section>
+
+                <section class="reseau">
+                    <ul class="menu_reseau">
+                        <li class="logo_reseau"><img src="src/img/icon/facebook.svg" alt="logo facebook"></li>
+                        <li class="logo_reseau"><img src="src/img/icon/youtube.svg" alt="logo youtube"></li>
+                        <li class="logo_reseau"><img src="src/img/icon/twitter.svg" alt="logo twitter"></li>
+                        <li class="logo_reseau"><img src="src/img/icon/printerest.svg" alt="logo pinterest"></li>
+                        <li class="logo_reseau"><img src="src/img/icon/instagram.svg" alt="logo instagram"></li>
+                    </ul>
+                </section>
+            </section>        
+        </section>    
+    </footer>
+
+<script src="src/js/script.js"></script>
 </body>
+
 </html>

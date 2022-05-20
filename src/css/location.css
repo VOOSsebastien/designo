@@ -72,8 +72,13 @@ h2 {
   letter-spacing: 2px;
 }
 
+<<<<<<< HEAD
 h2 {
   font-family: 'Jost';
+=======
+h3 {
+  font-family: "Jost";
+>>>>>>> 4f6c12b874ed7df8ae0285e8d7c0ad4048a411b9
   font-style: normal;
   font-weight: 500;
   font-size: 20px;
@@ -106,8 +111,13 @@ h2 {
   letter-spacing: 2px;
 }
 
+<<<<<<< HEAD
 h2 {
   font-family: 'Jost';
+=======
+h3 {
+  font-family: "Jost";
+>>>>>>> 4f6c12b874ed7df8ae0285e8d7c0ad4048a411b9
   font-style: normal;
   font-weight: 500;
   font-size: 20px;
@@ -334,8 +344,13 @@ h2 {
   letter-spacing: 2px;
 }
 
+<<<<<<< HEAD
 h2 {
   font-family: 'Jost';
+=======
+h3 {
+  font-family: "Jost";
+>>>>>>> 4f6c12b874ed7df8ae0285e8d7c0ad4048a411b9
   font-style: normal;
   font-weight: 500;
   font-size: 20px;
@@ -685,8 +700,25 @@ footer .black_bg .reseau .menu_reseau {
     gap: 16px;
   }
 }
+<<<<<<< HEAD
 
 @media screen and (min-width: 768px) {
+=======
+main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 40px 0;
+}
+@media screen and (min-width: 768px) and (max-width: 1440px) {
+>>>>>>> 4f6c12b874ed7df8ae0285e8d7c0ad4048a411b9
   main {
     padding: 0 40px;
   }
@@ -694,11 +726,13 @@ footer .black_bg .reseau .menu_reseau {
 
 @media screen and (min-width: 1440px) {
   main {
-    max-width: 1440px;
-    padding: 0 165px;
+    width: 1110px;
+    padding: 32px 165px;
+    margin: auto;
   }
 }
 
+<<<<<<< HEAD
 .card__Pays .image__container {
   height: 320px;
   width: 375px;
@@ -718,10 +752,36 @@ footer .black_bg .reseau .menu_reseau {
     display: none;
   }
   .card__Pays .image__container .card__Pays__image--768 {
+=======
+@media screen and (min-width: 768px) and (max-width: 1440px) {
+  .card__Pays {
+>>>>>>> 4f6c12b874ed7df8ae0285e8d7c0ad4048a411b9
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    border-radius: 15px;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    gap: 40px 0;
+  }
+}
+@media screen and (min-width: 1440px) {
+  .card__Pays {
+    margin-bottom: 32px;
+  }
+}
+.card__Pays .image__container {
+  height: 320px;
+  min-width: 375px;
+}
+.card__Pays .image__container img {
+  height: 100%;
+}
+@media screen and (min-width: 375) and (max-width: 768px) {
+  .card__Pays .image__container {
+    width: 689px;
+    height: 326px;
   }
 }
 
@@ -730,20 +790,18 @@ footer .black_bg .reseau .menu_reseau {
     width: 350px;
     height: 326px;
   }
-  .card__Pays .image__container .card__Pays__image--1440 {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    height: 100%;
-  }
-  .card__Pays .image__container .card__Pays__image--768, .card__Pays .image__container .card__Pays__image--375 {
-    display: none;
-  }
 }
 
 .card__Pays__text {
+<<<<<<< HEAD
   width: calc(375px - 24px*2);
   height: calc(394px - 80px*2);
+=======
+  min-width: 327px;
+  height: -webkit-max-content;
+  height: -moz-max-content;
+  height: max-content;
+>>>>>>> 4f6c12b874ed7df8ae0285e8d7c0ad4048a411b9
   padding: 80px 24px;
   text-align: center;
   background-image: url(../img/card-Pays-tablette.png);
@@ -761,10 +819,19 @@ footer .black_bg .reseau .menu_reseau {
 .card__Pays__text div {
   margin-bottom: 24px;
 }
+<<<<<<< HEAD
 
 @media screen and (min-width: 768px) {
   .card__Pays__text {
     width: calc(689px - 75px*2);
+=======
+@media screen and (min-width: 768px) and (max-width: 1440px) {
+  .card__Pays__text {
+    min-width: 539px;
+    height: -webkit-max-content;
+    height: -moz-max-content;
+    height: max-content;
+>>>>>>> 4f6c12b874ed7df8ae0285e8d7c0ad4048a411b9
     text-align: left;
     padding: 88px 75px;
   }
@@ -776,15 +843,18 @@ footer .black_bg .reseau .menu_reseau {
     -webkit-box-direction: normal;
         -ms-flex-direction: row;
             flex-direction: row;
+    gap: 40px;
   }
   .card__Pays__text address div {
-    width: 255px;
+    width: -webkit-max-content;
+    width: -moz-max-content;
+    width: max-content;
   }
 }
 
 @media screen and (min-width: 1440px) {
   .card__Pays__text {
-    width: 1110px;
+    min-width: 730px;
     text-align: left;
     padding: 88px 75px;
     height: calc(326px - 88px*2);
@@ -797,14 +867,17 @@ footer .black_bg .reseau .menu_reseau {
     -webkit-box-direction: normal;
         -ms-flex-direction: row;
             flex-direction: row;
+    gap: 40px;
   }
   .card__Pays__text address div {
-    width: 255px;
+    width: -webkit-max-content;
+    width: -moz-max-content;
+    width: max-content;
   }
 }
 
 @media screen and (min-width: 1440px) {
-  .card__Pays {
+  .Belgique, .uk {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -812,6 +885,27 @@ footer .black_bg .reseau .menu_reseau {
     -webkit-box-direction: reverse;
         -ms-flex-direction: row-reverse;
             flex-direction: row-reverse;
+    justify-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
     gap: 30px;
+    width: 720px;
+  }
+
+  .Austria {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    justify-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    gap: 30px;
+    width: 720px;
   }
 }

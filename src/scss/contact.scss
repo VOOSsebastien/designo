@@ -1,0 +1,228 @@
+@import "_reset.scss";
+@import "_setting.scss";
+@import "_typographie.scss";
+@import "_navigation.scss";
+@import "_footer.scss";
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px 0;
+
+    @media screen and (min-width: 768px) and (max-width: 1440px) {
+        padding: 0 40px;
+        width: calc(100% - 40px - 40px);
+        margin: auto;
+
+    }
+
+    @media screen and (min-width: 1440px) {
+        width: calc(100% - 165px - 165px);
+        padding: 32px 165px;
+        margin: auto;
+    }
+}
+
+.talk_project {
+    display: none !important;
+}
+
+.section__contact {
+    height: max-content;
+    background-color: $peach;
+    padding: 72px 24px;
+    color: $white;
+    text-align: center;
+
+
+    div.cercle {
+        display: none;
+        content: "";
+
+        @media screen and (min-width: 768px) and (max-width: 1440px) {
+            display: block;
+            position: absolute;
+            width: 640px;
+            height: 640px;
+            top: 0;
+            left: -50px;
+            background: linear-gradient(90deg, rgba(93, 2, 2, 0.0001) 0%, rgba(93, 2, 2, 0.497569) 100%);
+            transform: matrix(0, 1, 1, 0, 0, 0);
+            border-radius: 50%;
+            opacity: 0.31;
+        }
+
+        @media screen and (min-width: 1440px) {
+            display: none;
+        }
+    }
+
+
+    .main__oval {
+        content: "";
+        display: none;
+
+        @media screen and (min-width: 1440px) {
+            display: flex;
+            background: $lightGrey;
+            border-radius: 297px 297px 297px 0px;
+            height: 594px;
+            width: 1006px;
+            position: absolute;
+            right: calc(0px + 165px);
+            top: 885px;
+            z-index: -1;
+        }
+    }
+
+    @media screen and (min-width: 768px) and (max-width: 1440px) {
+        border-radius: 15px;
+        padding: 72px 58px;
+        text-align: right;
+
+    }
+
+    @media screen and (min-width: 1440px) {
+        display: flex;
+        align-items: center;
+        max-height: calc(480px - 52px*2);
+        padding: 52px 95px;
+        gap: 0 95px;
+        margin-bottom: 160px;
+        border-radius: 15px;
+    }
+
+    .text {
+        margin-bottom: 48px;
+
+
+        h2 {
+            font-size: 32px;
+            line-height: 36px;
+            margin-bottom: 24px;
+
+            @media screen and (min-width: 768px) and (max-width: 1440px) {
+                text-align: left;
+            }
+
+            @media screen and (min-width: 1440px) {
+                font-size: 48px;
+                line-height: 48px;
+            }
+        }
+
+        p {
+            font-size: 15px;
+            line-height: 25px;
+
+            @media screen and (min-width: 768px) and (max-width: 1440px) {
+                text-align: left;
+            }
+
+            @media screen and (min-width: 1440px) {
+                font-size: 16px;
+                line-height: 26px;
+            }
+        }
+    }
+
+    input,
+    textarea {
+        background-color: $peach;
+        width: calc(100% - 13px*2);
+        border: none;
+        box-shadow: inset 0px -1px 0px $white;
+        padding: 13px;
+
+        @media screen and (min-width: 768px) and (max-width: 1440px) {
+            text-align: left;
+            width: calc(100% - 24px*2);
+            padding: 13px 24px;
+        }
+
+        @media screen and (min-width: 1440px) {
+            min-width: calc(380px - 16px*2);
+            height: 38px;
+            padding: 13px 16px;
+        }
+
+        &::placeholder {
+            color: $white;
+            font-size: 15px;
+            line-height: 26px;
+            opacity: 0.5;
+        }
+
+    }
+
+    textarea {
+        resize: none;
+        word-wrap: break-word;
+
+        @media screen and (min-width: 1440px) {
+            height: 102px;
+        }
+    }
+
+    .form__contact {
+        border-radius: 8px;
+        background-color: $white;
+        width: 152px;
+        margin-top: 58px;
+        padding: 16px 48px;
+        font-weight: 500;
+        font-size: 15px;
+        line-height: 22px;
+        text-align: center;
+        letter-spacing: 1px;
+        text-transform: uppercase;
+    }
+}
+
+// @media screen and (min-width: 768px) and (max-width: 1440px){}
+// @media screen and (min-width: 1440px) {}
+
+
+.section__location {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+    gap: 48px 0;
+    margin-bottom: 120px;
+    height: max-content;
+
+    @media screen and (min-width: 768px) and (max-width: 1440px) {
+        gap: 80px 0;
+    }
+
+    h3 {
+        font-size: 20px;
+        line-height: 26px;
+        color: $darkGrey;
+        margin-bottom: 32px;
+        text-transform: uppercase;
+    }
+
+    .button {
+        width: calc(152px - 18.5px - 18.5px);
+        background-color: $peach;
+        color: $white;
+        padding: 18px 18.5px;
+        text-transform: uppercase;
+        border-radius: 8px;
+    }
+
+    @media screen and (min-width: 1440px) {
+        display: flex;
+        flex-direction: row;
+        gap: 0 30px;
+
+        .location__Pays {
+            width: 350px;
+            text-align: center;
+        }
+    }
+}
