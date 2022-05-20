@@ -1,12 +1,12 @@
 @import "_reset.scss";
 @import "_setting.scss";
 @import "_typographie.scss";
+@import "_mixin";
 @import "_navigation.scss";
 @import "_footer.scss";
 
 main {
-    display: flex;
-    flex-direction: column;
+    @include flex(column);
     align-items: center;
     gap: 40px 0;
 
@@ -185,8 +185,7 @@ main {
 
 
 .section__location {
-    display: flex;
-    flex-direction: column;
+    @include flex(column);
     align-items: center;
     align-content: center;
     text-align: center;
@@ -216,8 +215,7 @@ main {
     }
 
     @media screen and (min-width: 1440px) {
-        display: flex;
-        flex-direction: row;
+        @include flex(row);
         gap: 0 30px;
 
         .location__Pays {
