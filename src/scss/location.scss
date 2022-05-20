@@ -1,6 +1,7 @@
 @import "_reset.scss";
 @import "_setting.scss";
 @import "_typographie.scss";
+@import "_mixin";
 @import "_navigation.scss";
 @import "_footer.scss";
 
@@ -27,8 +28,7 @@ main
 .card__Pays
 {
     @media screen and (min-width: 768px)  and (max-width: 1440px)  {
-        display: flex;
-        flex-direction: column;
+        @include flex(column);
         gap: 40px 0;
     }
     
@@ -80,8 +80,7 @@ main
             text-align: left;
             padding: 88px 75px;
             address {
-                display: flex;
-                flex-direction: row;
+               @include flex(row);
                 gap: 40px;
                 div {
                     width: max-content;
@@ -95,9 +94,8 @@ main
             padding: 88px 75px;
             height: calc(326px - 88px*2);
             address {
-                display: flex;
-                flex-direction: row;
-                gap: 40px;
+                @include flex(row);
+                gap: 0 40px;
                 div {
                     width: max-content;
                 }
@@ -109,16 +107,14 @@ main
 }
 @media screen and (min-width: 1440px) {
     .Belgique, .uk {
-        display: flex;
-        flex-direction: row-reverse;
+        @include flex(row-reverse);
         justify-items: center;
         justify-content: center;
         gap: 30px;
         width: 720px;
     }
     .Austria {
-        display: flex;
-        flex-direction: row;
+        @include flex(row);
 
         justify-items: center;
         justify-content: center;
