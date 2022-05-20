@@ -666,9 +666,9 @@ footer .black_bg .reseau .menu_reseau {
 }
 .about_us .about_text p {
   font-size: 15px;
+  line-height: 25px;
   margin-top: 24px;
   margin-bottom: 80px;
-  line-height: 25px;
 }
 
 .talent {
@@ -725,4 +725,194 @@ footer .black_bg .reseau .menu_reseau {
   margin-top: 24px;
   margin-bottom: 80px;
   line-height: 25px;
+}
+
+@media screen and (min-width: 376px) {
+  main {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    gap: 120px;
+    padding: 0 40px;
+  }
+  main .about_us {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  main .about_us img {
+    border-radius: 15px 15px 0 0;
+    height: 320px;
+  }
+  main .about_us .about_text {
+    padding: 0;
+    border-radius: 0 0 15px 15px;
+  }
+  main .about_us .about_text h1 {
+    font-size: 48px;
+    line-height: 48px;
+    padding-top: 60px;
+  }
+  main .about_us .about_text p {
+    font-size: 15px;
+    line-height: 25px;
+    margin: 32px 58px 64px 58px;
+  }
+  main .talent img {
+    height: 320px;
+    border-radius: 15px 15px 0 0;
+  }
+  main .talent .talent_text {
+    border-radius: 0 0 15px 15px;
+  }
+  main .talent .talent_text h1 {
+    font-size: 40px;
+    line-height: 48px;
+  }
+  main .talent .talent_text p {
+    font-size: 16px;
+    line-height: 26px;
+  }
+  main .real-deal img {
+    height: 320px;
+    border-radius: 15px 15px 0 0;
+  }
+  main .real-deal .real-deal_text {
+    padding: 0 24px;
+    border-radius: 0 0 15px 15px;
+  }
+  main .real-deal .real-deal_text h1 {
+    font-size: 40px;
+    line-height: 48px;
+  }
+  main .real-deal .real-deal_text p {
+    font-size: 16px;
+    line-height: 26px;
+  }
+}
+@media screen and (min-width: 769px) {
+  main {
+    gap: 120px;
+    padding: 0 164.5px;
+  }
+  main .about_us {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: row-reverse;
+            flex-direction: row-reverse;
+  }
+  main .about_us img {
+    border-radius: 0 15px 15px 0;
+    height: 450px;
+    width: 476px;
+  }
+  main .about_us .about_text {
+    border-radius: 15px 0 0 15px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    text-align: left;
+    padding: 0px;
+  }
+  main .about_us .about_text h1 {
+    font-size: 48px;
+    line-height: 48px;
+    padding-top: 0;
+    margin-left: 95px;
+  }
+  main .about_us .about_text p {
+    font-size: 16px;
+    line-height: 26px;
+    margin: 32px 75px 0px 95px;
+  }
+  main .talent {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+  }
+  main .talent img {
+    border-radius: 15px 0 0 15px;
+    height: 640px;
+    width: 476px;
+  }
+  main .talent .talent_text {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    gap: 44px;
+    border-radius: 0 15px 15px 0;
+    background-color: #FDF3F0;
+    text-align: left;
+    padding: 154px 95px 0px 95px;
+  }
+  main .talent .talent_text h1 {
+    color: #e7816b;
+    font-size: 32px;
+    line-height: 36px;
+    padding-top: 0px;
+  }
+  main .talent .talent_text p {
+    color: #333136;
+    font-size: 15px;
+    margin: 0px;
+    line-height: 25px;
+  }
+  main .real-deal {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: row-reverse;
+            flex-direction: row-reverse;
+  }
+  main .real-deal img {
+    border-radius: 0 15px 15px 0;
+    height: initial;
+  }
+  main .real-deal .real-deal_text {
+    border-radius: 15px 0 0 15px;
+    background-color: #FDF3F0;
+    text-align: center;
+    padding: 0 24px;
+  }
+  main .real-deal .real-deal_text h1 {
+    color: #e7816b;
+    font-size: 32px;
+    line-height: 36px;
+    padding-top: 60px;
+  }
+  main .real-deal .real-deal_text p {
+    color: #333136;
+    font-size: 15px;
+    margin-top: 24px;
+    margin-bottom: 80px;
+    line-height: 25px;
+  }
 }/*# sourceMappingURL=about.css.map */

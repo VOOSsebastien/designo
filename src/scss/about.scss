@@ -12,11 +12,13 @@
 .about_us{
     display: flex;
     flex-direction: column;
+
     .about_text {
     background-color: #E7816B;
     text-align: center;
     color: $white;
     padding: 24px;
+
         h1{
             font-size: 32px;
             line-height:36px;
@@ -24,9 +26,9 @@
         }
         p{
             font-size: 15px;
+            line-height: 25px;
             margin-top: 24px;
             margin-bottom: 80px;
-            line-height: 25px;
         }
         
     }
@@ -35,6 +37,7 @@
 .talent{
     display: flex;
     flex-direction: column;
+
     .talent_text{
         background-color: #FDF3F0;
         text-align: center;
@@ -46,6 +49,7 @@
             line-height:36px;
             padding-top: 60px;
         }
+
         p{
             color: #333136;
             font-size: 15px;
@@ -60,6 +64,8 @@
 .real-deal{
     display: flex;
     flex-direction: column;
+
+
     .real-deal_text{
         background-color: #FDF3F0;
         text-align: center;
@@ -81,3 +87,213 @@
 
     }
 }
+
+@media screen and (min-width: 376px) {
+    main{
+
+        display: flex;
+        flex-direction: column;
+        gap:120px;
+        padding:0 40px;
+
+        .about_us{
+            display: flex;
+            flex-direction: column;
+
+            img{
+                border-radius: 15px 15px 0 0 ;
+                height: 320px;
+            }
+
+            .about_text {
+            padding: 0;
+            border-radius: 0 0 15px 15px ;
+
+                h1{
+                    font-size: 48px;
+                    line-height: 48px;
+                    padding-top: 60px;
+                }
+
+                p{
+                    font-size: 15px;
+                    line-height: 25px;
+                    margin:32px 58px 64px 58px;
+          
+                }
+                
+            }
+        }
+        
+        .talent{
+            
+            img{
+                height:320px; 
+                border-radius: 15px 15px 0 0 ;
+            }
+
+            .talent_text{
+
+                border-radius: 0 0 15px 15px ;
+
+        
+                h1{
+        
+                    font-size: 40px;
+                    line-height: 48px;
+                }
+
+                p{
+                    font-size: 16px;
+                    line-height: 26px;
+                }
+        
+            }
+        }
+        
+        .real-deal{
+
+            img{
+                height:320px; 
+                border-radius: 15px 15px 0 0 ;
+            }
+
+            .real-deal_text{
+       
+                padding: 0 24px;
+                border-radius: 0 0 15px 15px ;
+
+        
+                h1{
+                    font-size: 40px;
+                    line-height: 48px;
+                }
+
+                p{
+                    font-size: 16px;
+                    line-height: 26px;
+                }
+        
+            }
+        }
+    }   
+}
+
+
+
+
+@media screen and (min-width: 769px) {
+
+    main{
+         
+        gap:120px;
+        padding:0 164.5px;
+
+        .about_us{
+            display: flex;
+            flex-direction: row-reverse;
+
+
+            img{
+                border-radius: 0 15px 15px  0 ;
+                height: 450px;
+                width: 476px;
+            }
+        
+            .about_text {
+                border-radius: 15px  0 0 15px;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                text-align: left;
+                padding:0px;
+        
+                h1{
+                    font-size: 48px;
+                    line-height: 48px;
+                    padding-top: 0;
+                    margin-left:95px
+                }
+                p{
+                    font-size: 16px;
+                    line-height: 26px;
+                    margin:32px 75px 0px 95px;
+                }
+                
+            }
+        }
+        
+        .talent{
+            display: flex;
+            flex-direction: row;
+
+
+            img{                
+                
+                border-radius: 15px  0 0 15px;
+                height: 640px;
+                width:476px;
+            }
+        
+            .talent_text{
+                display: flex;
+                flex-direction: column;
+                gap: 44px;
+                border-radius: 0 15px 15px  0 ;
+                background-color: #FDF3F0;
+                text-align: left;
+                padding: 154px 95px 0px 95px;
+        
+                h1{
+                    color:$peach;
+                    font-size: 32px;
+                    line-height:36px;
+                    padding-top: 0px;
+                }
+        
+                p{
+                    color: #333136;
+                    font-size: 15px;
+                    margin:0px;
+                    line-height: 25px;
+                }
+        
+            }
+        }
+        
+        .real-deal{
+            display: flex;
+            flex-direction: row-reverse;
+
+
+            img{
+                border-radius: 0 15px 15px  0 ;
+                height:initial
+            }
+        
+        
+            .real-deal_text{
+                border-radius: 15px  0 0 15px;
+                background-color: #FDF3F0;
+                text-align: center;
+                padding: 0 24px;
+        
+                h1{
+                    color:$peach;
+                    font-size: 32px;
+                    line-height:36px;
+                    padding-top: 60px;
+                }
+                p{
+                    color: #333136;
+                    font-size: 15px;
+                    margin-top: 24px;
+                    margin-bottom: 80px;
+                    line-height: 25px;
+                }
+        
+            }
+        }
+    }    
+}
+
