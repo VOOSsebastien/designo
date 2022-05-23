@@ -46,7 +46,7 @@ blockquote, q {
 
 blockquote:before, blockquote:after,
 q:before, q:after {
-  content: "";
+  content: '';
   content: none;
 }
 
@@ -56,7 +56,7 @@ table {
 }
 
 h1 {
-  font-family: "Jost";
+  font-family: 'Jost';
   font-style: normal;
   font-weight: 500;
   font-size: 48px;
@@ -64,7 +64,7 @@ h1 {
 }
 
 h2 {
-  font-family: "Jost";
+  font-family: 'Jost';
   font-style: normal;
   font-weight: 500;
   font-size: 40px;
@@ -73,7 +73,7 @@ h2 {
 }
 
 h3 {
-  font-family: "Jost";
+  font-family: 'Jost';
   font-style: normal;
   font-weight: 500;
   font-size: 20px;
@@ -82,7 +82,7 @@ h3 {
 }
 
 body {
-  font-family: "Jost";
+  font-family: 'Jost';
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -90,7 +90,7 @@ body {
 }
 
 h1 {
-  font-family: "Jost";
+  font-family: 'Jost';
   font-style: normal;
   font-weight: 500;
   font-size: 48px;
@@ -98,7 +98,7 @@ h1 {
 }
 
 h2 {
-  font-family: "Jost";
+  font-family: 'Jost';
   font-style: normal;
   font-weight: 500;
   font-size: 40px;
@@ -107,7 +107,7 @@ h2 {
 }
 
 h3 {
-  font-family: "Jost";
+  font-family: 'Jost';
   font-style: normal;
   font-weight: 500;
   font-size: 20px;
@@ -116,7 +116,7 @@ h3 {
 }
 
 body {
-  font-family: "Jost";
+  font-family: 'Jost';
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -138,31 +138,39 @@ body {
           align-items: center;
   padding: 0px 35px;
 }
+
 .header .logo {
   max-height: 27px;
 }
+
 .header .header_burger_close {
   display: none;
   cursor: pointer;
 }
+
 .header .header_burger_close svg {
   width: 35px;
   height: 32px;
 }
+
 .header .on {
   display: block;
 }
+
 .header .header_burger_open {
   display: block;
   cursor: pointer;
 }
+
 .header .header_burger_open svg {
   width: 35px;
   height: 32px;
 }
+
 .header .off {
   display: none;
 }
+
 .header ._nav_header {
   position: fixed;
   top: 0;
@@ -183,6 +191,7 @@ body {
   -webkit-transition: all 1s;
   transition: all 1s;
 }
+
 .header ._nav_header ._nav_header_list {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -199,15 +208,18 @@ body {
           justify-content: center;
   gap: 35px;
 }
+
 .header ._nav_header ._nav_header_list ._nav_header_link {
   color: #fff;
   text-decoration: none;
   font-size: 24px;
   font-size: 24px;
 }
+
 .header ._nav_header ._nav_header_list ._nav_header_link:hover {
   text-decoration: underline;
 }
+
 .header .open {
   -webkit-transform: initial;
           transform: initial;
@@ -292,6 +304,7 @@ body {
     display: none;
   }
 }
+
 /*
 
 .overlay_menu_burger {
@@ -306,7 +319,7 @@ body {
     z-index: -1;
 }*/
 h1 {
-  font-family: "Jost";
+  font-family: 'Jost';
   font-style: normal;
   font-weight: 500;
   font-size: 48px;
@@ -314,7 +327,7 @@ h1 {
 }
 
 h2 {
-  font-family: "Jost";
+  font-family: 'Jost';
   font-style: normal;
   font-weight: 500;
   font-size: 40px;
@@ -323,7 +336,7 @@ h2 {
 }
 
 h3 {
-  font-family: "Jost";
+  font-family: 'Jost';
   font-style: normal;
   font-weight: 500;
   font-size: 20px;
@@ -332,7 +345,7 @@ h3 {
 }
 
 body {
-  font-family: "Jost";
+  font-family: 'Jost';
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -350,6 +363,7 @@ footer {
           flex-direction: column;
   gap: 40px;
 }
+
 footer .talk_project {
   position: relative;
   background-color: #E7816B;
@@ -360,14 +374,17 @@ footer .talk_project {
   bottom: 10;
   border-radius: 15px;
 }
+
 footer .talk_project h1 {
   font-size: 32px;
 }
+
 footer .talk_project p {
   font-size: 15px;
   margin-top: 15px;
   margin-bottom: 49px;
 }
+
 footer .talk_project a {
   text-decoration: none;
   font-size: 15px;
@@ -377,10 +394,12 @@ footer .talk_project a {
   background-color: #fff;
   border-radius: 8px;
 }
+
 footer .talk_project a:hover {
   background-color: #ffad9b;
   color: white;
 }
+
 footer .black_bg {
   background-color: #1d1c1e;
   padding-top: 150px;
@@ -394,6 +413,7 @@ footer .black_bg {
           flex-direction: column;
   gap: 40px;
 }
+
 footer .black_bg .footer_nav {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -409,16 +429,19 @@ footer .black_bg .footer_nav {
       -ms-flex-direction: column;
           flex-direction: column;
 }
+
 footer .black_bg .footer_nav .logo {
   max-height: 27px;
   margin: 50px auto;
 }
+
 footer .black_bg .footer_nav .ligne_mobile {
-  color: rgba(255, 255, 255, 0.1);
+  /* color:rgb(255, 255, 255,0.1);*/
   height: 1px;
   width: 80%;
   margin: 0 24px 32px;
 }
+
 footer .black_bg .footer_nav .footer_info_list {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -433,13 +456,16 @@ footer .black_bg .footer_nav .footer_info_list {
   font-size: 14px;
   letter-spacing: 2px;
 }
+
 footer .black_bg .footer_nav .footer_info_list .footer_info_link {
   text-decoration: none;
   color: #fff;
 }
+
 footer .black_bg .ligne_pc {
   display: none;
 }
+
 footer .black_bg .adress_contact {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -459,16 +485,20 @@ footer .black_bg .adress_contact {
   gap: 40px;
   padding: 0 50px;
 }
+
 footer .black_bg .adress_contact h2 {
   letter-spacing: 1px;
   font-weight: 700;
 }
+
 footer .black_bg .adress_contact p {
   font-size: 16px;
 }
+
 footer .black_bg .reseau {
   color: #fff;
 }
+
 footer .black_bg .reseau .menu_reseau {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -536,11 +566,12 @@ footer .black_bg .reseau .menu_reseau {
   }
   footer .black_bg .ligne_pc {
     display: block;
-    color: rgba(255, 255, 255, 0.1);
+    /*color:rgb(255, 255, 255,0.1);*/
     height: 1px;
     width: 80%;
     margin: 0 32px;
     -ms-flex-item-align: center;
+        -ms-grid-row-align: center;
         align-self: center;
   }
   footer .black_bg .adresse_et_reseau {
@@ -569,6 +600,7 @@ footer .black_bg .reseau .menu_reseau {
     padding: 0 0;
   }
 }
+
 @media screen and (min-width: 1440px) {
   footer {
     width: 100vw;
@@ -584,6 +616,7 @@ footer .black_bg .reseau .menu_reseau {
   footer .talk_project {
     position: relative;
     background-color: #E7816B;
+    display: -ms-grid;
     display: grid;
     -webkit-box-pack: center;
         -ms-flex-pack: center;
@@ -591,11 +624,13 @@ footer .black_bg .reseau .menu_reseau {
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 1fr;
+    -ms-grid-columns: 1fr 1fr;
+        grid-template-columns: 1fr 1fr;
+    -ms-grid-rows: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
     gap: 0px 0px;
     grid-auto-flow: row;
-    grid-template-areas: "h1 a" "p a";
+        grid-template-areas: "h1 a" "p a";
     text-align: left;
     color: #fff;
     padding: 25px;
@@ -604,6 +639,8 @@ footer .black_bg .reseau .menu_reseau {
     border-radius: 15px;
   }
   footer .talk_project h1 {
+    -ms-grid-row: 1;
+    -ms-grid-column: 1;
     grid-area: h1;
     font-size: 40px;
     width: 468px;
@@ -611,6 +648,8 @@ footer .black_bg .reseau .menu_reseau {
     margin-top: 75px;
   }
   footer .talk_project p {
+    -ms-grid-row: 2;
+    -ms-grid-column: 1;
     grid-area: p;
     font-size: 16px;
     margin-top: 15px;
@@ -620,6 +659,9 @@ footer .black_bg .reseau .menu_reseau {
   }
   footer .talk_project a {
     margin: auto;
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 2;
+    -ms-grid-column: 2;
     grid-area: a;
     text-decoration: none;
     font-size: 15px;
@@ -678,11 +720,12 @@ footer .black_bg .reseau .menu_reseau {
   }
   footer .black_bg .ligne_pc {
     display: block;
-    color: rgba(255, 255, 255, 0.1);
+    /*color:rgb(255, 255, 255,0.1);*/
     height: 1px;
     width: 80%;
     margin: 0 32px;
     -ms-flex-item-align: center;
+        -ms-grid-row-align: center;
         align-self: center;
   }
   footer .black_bg .adresse_et_reseau {
@@ -738,6 +781,7 @@ footer .black_bg .reseau .menu_reseau {
     gap: 16px;
   }
 }
+
 .entete_page {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -760,10 +804,12 @@ footer .black_bg .reseau .menu_reseau {
   padding-bottom: 50px;
   margin-bottom: 16px;
 }
+
 .entete_page h1 {
   margin-top: 24px;
   margin-bottom: 24px;
 }
+
 .entete_page p {
   padding: 24px;
 }
@@ -791,6 +837,7 @@ footer .black_bg .reseau .menu_reseau {
   text-align: center;
   padding-top: 60px;
 }
+
 .carte_express img {
   -o-object-fit: cover;
      object-fit: cover;
@@ -800,6 +847,7 @@ footer .black_bg .reseau .menu_reseau {
   border-top-left-radius: 5%;
   border-top-right-radius: 5%;
 }
+
 .carte_express .text_express {
   padding: 10xp;
   background-color: #FDF3F0;
@@ -813,6 +861,7 @@ footer .black_bg .reseau .menu_reseau {
       -ms-flex-pack: center;
           justify-content: center;
 }
+
 .carte_express h1 {
   margin: 35px;
   color: #e7816b;
@@ -822,11 +871,12 @@ footer .black_bg .reseau .menu_reseau {
   font-size: 20px;
   letter-spacing: 5px;
 }
+
 .carte_express p {
   padding: 32px;
 }
 
-.bbox {
+.bbox2 {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -844,7 +894,8 @@ footer .black_bg .reseau .menu_reseau {
   gap: 24px;
   /*   background-color: aqua;*/
 }
-.bbox .bbox_design {
+
+.bbox2 .bbox2_design {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -866,19 +917,23 @@ footer .black_bg .reseau .menu_reseau {
   background-color: black;
   border-radius: 15px;
 }
-.bbox .bbox_design .bbox_text h1 {
+
+.bbox2 .bbox2_design .bbox2_text h1 {
   font-size: 28px;
 }
-.bbox .bbox_design .bbox_text p {
+
+.bbox2 .bbox2_design .bbox2_text p {
   font-size: 15px;
 }
-.bbox .bbox_app-design {
+
+.bbox2 .bbox2_app-design {
   background-image: url("/src/img/index/app-design.jpg");
   -o-object-fit: cover;
      object-fit: cover;
   background-size: 100%;
 }
-.bbox .bbox_graphic-design {
+
+.bbox2 .bbox2_graphic-design {
   background-image: url("/src/img/index/graphic design.jpg");
   -o-object-fit: cover;
      object-fit: cover;
@@ -887,13 +942,12 @@ footer .black_bg .reseau .menu_reseau {
 
 @media screen and (min-width: 768px) {
   .entete_page {
-    border-radius: 4%;
+    border-radius: 15px;
     margin: 40px;
     width: auto;
     padding: 60px;
     height: auto;
   }
-
   .cartes {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -904,7 +958,6 @@ footer .black_bg .reseau .menu_reseau {
         flex-basis: auto;
     width: auto;
   }
-
   .carte_express {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -916,7 +969,6 @@ footer .black_bg .reseau .menu_reseau {
     -ms-flex-wrap: nowrap;
         flex-wrap: nowrap;
   }
-
   .img_express {
     height: 100%;
     -o-object-fit: cover;
@@ -927,23 +979,21 @@ footer .black_bg .reseau .menu_reseau {
     border-top-left-radius: 5%;
     border-bottom-left-radius: 5%;
   }
-
   .carte_express img {
     width: auto;
     border-top-right-radius: 0%;
   }
-
   .text_express {
     border-top-right-radius: 5%;
     height: 100%;
     width: 50%;
   }
-
   .carte_express .text_express {
     padding: 0px;
     border-bottom-left-radius: 0%;
   }
 }
+
 @media screen and (min-width: 1440px) {
   .cartes {
     display: -webkit-box;
@@ -956,7 +1006,6 @@ footer .black_bg .reseau .menu_reseau {
             justify-content: center;
     padding: 0px;
   }
-
   .carte_express {
     width: 25%;
     display: -webkit-box;
@@ -970,7 +1019,6 @@ footer .black_bg .reseau .menu_reseau {
        object-fit: cover;
     padding: 30px;
   }
-
   .img_express {
     height: 100%;
     width: 30%;
@@ -979,26 +1027,22 @@ footer .black_bg .reseau .menu_reseau {
     border-top-left-radius: 5%;
     border-bottom-left-radius: 5%;
   }
-
   .carte_express img {
     width: 100%;
     border-top-right-radius: 5%;
     border-bottom-left-radius: 0px;
   }
-
   .text_express {
     height: 100%;
     width: 100%;
   }
-
   .carte_express .text_express {
     padding: 0px;
     border-bottom-left-radius: 5%;
     border-top-right-radius: 0px;
     width: 100%;
   }
-
-  .bbox {
+  .bbox2 {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -1008,13 +1052,11 @@ footer .black_bg .reseau .menu_reseau {
             flex-direction: row;
     padding: 40px 40px 40px 40px;
   }
-
   /*--------------HOVER----------*/
   .talk_project a:hover {
     background-color: #ffad9b;
     color: white;
   }
-
   .carte_express .text_express:hover {
     background-color: #e7816b;
   }
@@ -1024,4 +1066,4 @@ footer .black_bg .reseau .menu_reseau {
   .carte_express .text_express:hover p {
     color: white;
   }
-}/*# sourceMappingURL=webdesign.css.map */
+}
