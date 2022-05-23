@@ -34,32 +34,16 @@ main {
     padding: 72px 24px;
     color: $white;
     text-align: center;
-
-
-    div.cercle {
-        display: none;
-        content: "";
-
-        @media screen and (min-width: 768px) and (max-width: 1440px) {
-            display: block;
-            position: absolute;
-            width: 640px;
-            height: 640px;
-            top: 0;
-            left: -50px;
-            background: linear-gradient(90deg, rgba(93, 2, 2, 0.0001) 0%, rgba(93, 2, 2, 0.497569) 100%);
-            transform: matrix(0, 1, 1, 0, 0, 0);
-            border-radius: 50%;
-            opacity: 0.31;
-        }
-
-        @media screen and (min-width: 1440px) {
-            display: none;
-        }
+    background-image: url(../img/fond-contact.svg);
+    background-repeat: no-repeat;
+    @media screen and (min-width: 768px) {
+        text-align: right;
     }
 
 
-    .main__oval {
+
+
+        .main__oval {
         content: "";
         display: none;
 
@@ -77,16 +61,17 @@ main {
     }
 
     @media screen and (min-width: 768px) and (max-width: 1440px) {
+        background-image: url(../img/fond-contact-768.png);
         border-radius: 15px;
         padding: 72px 58px;
-        text-align: right;
 
     }
 
     @media screen and (min-width: 1440px) {
+        background-image: url(../img/fond-contact-1440.svg);
         display: flex;
         align-items: center;
-        max-height: calc(480px - 52px*2);
+        max-height: max-content;
         padding: 52px 95px;
         gap: 0 95px;
         margin-bottom: 160px;
@@ -212,6 +197,7 @@ main {
         padding: 18px 18.5px;
         text-transform: uppercase;
         border-radius: 8px;
+
     }
 
     @media screen and (min-width: 1440px) {
@@ -223,4 +209,8 @@ main {
             text-align: center;
         }
     }
+}
+
+a, a:visited{
+    text-decoration: none;
 }

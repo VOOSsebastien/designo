@@ -818,4 +818,8 @@ main {
             justify-content: center;
     gap: 30px;
   }
+}
+a, a:visited {
+  color: #1d1c1e;
+  text-decoration: none;
 }/*# sourceMappingURL=location.css.map */
