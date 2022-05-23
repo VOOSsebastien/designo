@@ -1,6 +1,6 @@
 # designo
 
-Lien déployé : 
+Lien déployé : https://voossebastien.github.io/designo/
 
 
 Reproduction d'un design "designo" disponible sur Figma : https://www.figma.com/file/l95gv4piXhWCegSRZIXe3y/designo-becode?node-id=0%3A1
