@@ -305,42 +305,7 @@ body {
     display: block;
     z-index: -1;
 }*/
-h1 {
-  font-family: "Jost";
-  font-style: normal;
-  font-weight: 500;
-  font-size: 48px;
-  line-height: 48px;
-}
-
-h2 {
-  font-family: "Jost";
-  font-style: normal;
-  font-weight: 500;
-  font-size: 40px;
-  line-height: 48px;
-  letter-spacing: 2px;
-}
-
-h3 {
-  font-family: "Jost";
-  font-style: normal;
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 26px;
-  letter-spacing: 5px;
-}
-
-body {
-  font-family: "Jost";
-  font-style: normal;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 26px;
-}
-
-footer {
-  width: 100vw;
+main {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -348,76 +313,40 @@ footer {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  gap: 40px;
+  gap: 40px 0;
 }
-footer .talk_project {
-  position: relative;
-  background-color: #E7816B;
-  text-align: center;
-  color: #fff;
-  padding: 25px;
-  margin: 50px 35px -200px;
-  bottom: 10;
-  border-radius: 15px;
+@media screen and (min-width: 768px) {
+  main {
+    padding: 0 40px;
+  }
 }
-footer .talk_project h1 {
-  font-size: 32px;
+@media screen and (min-width: 1440px) {
+  main {
+    max-width: 1440px;
+    padding: 32px 165px;
+  }
 }
-footer .talk_project p {
-  font-size: 15px;
-  margin-top: 15px;
-  margin-bottom: 49px;
+
+@media screen and (min-width: 768px) {
+  .card__Pays {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    gap: 40px 0;
+  }
 }
-footer .talk_project a {
-  text-decoration: none;
-  font-size: 15px;
-  color: #1d1c1e;
-  padding: 17px 19px;
-  text-transform: uppercase;
-  background-color: #fff;
-  border-radius: 8px;
+@media screen and (min-width: 1440px) {
+  .card__Pays {
+    margin-bottom: 120px;
+  }
 }
-footer .talk_project a:hover {
-  background-color: #ffad9b;
-  color: white;
-}
-footer .black_bg {
-  background-color: #1d1c1e;
-  padding-top: 150px;
-  width: 100vw;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  gap: 40px;
-}
-footer .black_bg .footer_nav {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-}
-footer .black_bg .footer_nav .logo {
-  max-height: 27px;
-  margin: 50px auto;
-}
-footer .black_bg .footer_nav .ligne_mobile {
-  color: rgba(255, 255, 255, 0.1);
-  height: 1px;
-  width: 80%;
-  margin: 0 24px 32px;
+.card__Pays .image__container {
+  height: 320px;
+  width: 375px;
 }
 footer .black_bg .footer_nav .footer_info_list {
   display: -webkit-box;
@@ -859,9 +788,16 @@ main {
     -webkit-box-direction: normal;
         -ms-flex-direction: row;
             flex-direction: row;
+<<<<<<< HEAD
     gap: 0px 40px;
     -ms-flex-line-pack: start;
         align-content: flex-start;
+=======
+    gap: 0;
+  }
+  .card__Pays__text address div {
+    width: 255px;
+>>>>>>> 01b5a06369483620cf81733c3bb31f03333e338b
   }
 }
 @media screen and (min-width: 1440px) {
@@ -886,8 +822,12 @@ main {
 }
 
 @media screen and (min-width: 1440px) {
+<<<<<<< HEAD
   .Belgique,
 .uk {
+=======
+  .Belgique, .uk {
+>>>>>>> 01b5a06369483620cf81733c3bb31f03333e338b
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -914,6 +854,17 @@ main {
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
+    gap: 30px;
+  }
+
+  .Austria {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
     gap: 30px;
   }
 }/*# sourceMappingURL=location.css.map */

@@ -5,33 +5,35 @@
 @import "_navigation.scss";
 @import "_footer.scss";
 
-
-a, a:visited{
-    color: $black;
-    text-decoration: none;
-}
-
-main {
-    @include flex(column);
-    align-items: center;
+main
+{
+    display: flex;
+    flex-direction: column;
     gap: 40px 0;
 
-    @media screen and (min-width: 768px) and (max-width: 1440px) {
-        @include flex(column);
-        align-items: flex-start;
+    @media screen and (min-width: 768px) {
         padding: 0 40px;
-        gap: 0 0;
-
+        //gap: 140px 0;
     }
 
     @media screen and (min-width: 1440px) {
-        @include flex(column);
-        align-items: flex-start;
+        max-width: 1440px;
         padding: 32px 165px;
-        gap: 0 0;
     }
 }
 
+
+.card__Pays
+{
+    @media screen and (min-width: 768px) {
+        display: flex;
+        flex-direction: column;
+        gap: 40px 0;
+    }
+    
+    @media screen and (min-width: 1440px) {
+        margin-bottom: 120px;
+    }
 
 .card__Pays {
     width: 100%;
@@ -59,7 +61,14 @@ main {
         @media screen and (min-width: 1440px) {
             width: 320px;
             height: 326px;
-            border-radius: 15px;
+            
+            .card__Pays__image--1440{
+                display: flex;
+                height: 100%;
+            }
+            .card__Pays__image--768, .card__Pays__image--375{
+                display: none;
+            }
         }
     }
 
@@ -90,10 +99,12 @@ main {
             margin-top: 20px;
 
             address {
-                @include flex(row);
-                gap: 0px 40px;
-                align-content: flex-start;
-                
+                display: flex;
+                flex-direction: row;
+                gap: 0;
+                div {
+                    width: 255px;
+                }
             }
         }
 
@@ -109,26 +120,19 @@ main {
                 gap: 0 40px;
             }
         }
-    }
-
-
+    } 
+    
+        
 }
-
 @media screen and (min-width: 1440px) {
-
-    .Belgique,
-    .uk {
-        @include flex(row-reverse);
-        justify-items: center;
-        justify-content: center;
-        gap: 0 30px;
+    .Belgique, .uk {
+        display: flex;
+        flex-direction: row-reverse;
+        gap: 30px;
     }
-
     .Austria {
-        @include flex(row);
-
-        justify-items: center;
-        justify-content: center;
+        display: flex;
+        flex-direction: row;
         gap: 30px;
     }
 }
