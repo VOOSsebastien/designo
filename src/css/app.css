@@ -893,7 +893,7 @@ footer .black_bg .reseau .menu_reseau {
 
 @media screen and (min-width: 768px) {
   .entete_page {
-    border-radius: 4%;
+    border-radius: 15px;
     margin: 40px;
     width: auto;
     padding: 60px;
