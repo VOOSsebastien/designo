@@ -72,7 +72,7 @@ h2 {
   letter-spacing: 2px;
 }
 
-h2 {
+h3 {
   font-family: "Jost";
   font-style: normal;
   font-weight: 500;
@@ -106,7 +106,7 @@ h2 {
   letter-spacing: 2px;
 }
 
-h2 {
+h3 {
   font-family: "Jost";
   font-style: normal;
   font-weight: 500;
@@ -220,7 +220,7 @@ body {
     display: flex;
     height: initial;
     width: initial;
-    padding: 0px 165px;
+    padding: 0px 50px;
     background-color: #fff;
   }
   .header img {
@@ -237,6 +237,9 @@ body {
         -ms-flex-pack: center;
             justify-content: center;
     position: relative;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
     width: initial;
     height: 95px;
     background-color: #fff;
@@ -271,7 +274,7 @@ body {
     padding: 0;
     margin: 0;
     list-style: none;
-    gap: 55px;
+    gap: 0px;
   }
   .header ._nav_header ._nav_header_list ._nav_header_link {
     color: #1d1c1e;
@@ -319,7 +322,7 @@ h2 {
   letter-spacing: 2px;
 }
 
-h2 {
+h3 {
   font-family: "Jost";
   font-style: normal;
   font-weight: 500;
@@ -355,7 +358,7 @@ footer .talk_project {
   padding: 25px;
   margin: 50px 35px -200px;
   bottom: 10;
-  border-radius: 15px;
+  border-radius: 15%;
 }
 footer .talk_project h1 {
   font-size: 32px;
@@ -408,6 +411,7 @@ footer .black_bg .footer_nav .logo {
 }
 footer .black_bg .footer_nav .ligne_mobile {
   color: rgba(255, 255, 255, 0.1);
+  color: rgb(0, 0, 0);
   height: 1px;
   width: 80%;
   margin: 0 24px 32px;
@@ -588,8 +592,8 @@ footer .black_bg .reseau .menu_reseau {
     grid-template-rows: 1fr 1fr;
     gap: 0px 0px;
     grid-auto-flow: row;
-    grid-template-areas: "h1 a" "p a";
-    text-align: left;
+    grid-template-areas: "h1 h1" "p p" "a a";
+    text-align: center;
     color: #fff;
     padding: 25px;
     margin: 50px 165px -175px;
@@ -671,7 +675,7 @@ footer .black_bg .reseau .menu_reseau {
   }
   footer .black_bg .ligne_pc {
     display: block;
-    color: rgba(255, 255, 255, 0.1);
+    color: rgb(0, 0, 0);
     height: 1px;
     width: 80%;
     margin: 0 32px;
@@ -731,59 +735,75 @@ footer .black_bg .reseau .menu_reseau {
     gap: 16px;
   }
 }
-@media screen and (min-width: 768px) {
+main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 40px 0;
+}
+@media screen and (min-width: 768px) and (max-width: 1440px) {
   main {
     padding: 0 40px;
+    gap: 0 0;
   }
 }
 @media screen and (min-width: 1440px) {
   main {
-    max-width: 1440px;
-    padding: 0 165px;
+    padding: 32px 165px;
+    margin: auto;
+    gap: 0 0;
   }
 }
 
-.card__Pays .image__container {
-  height: 320px;
-  width: 375px;
-}
-.card__Pays .image__container .card__Pays__image--768, .card__Pays .image__container .card__Pays__image--1440 {
-  display: none;
-}
-@media screen and (min-width: 768px) {
-  .card__Pays .image__container {
-    width: 689px;
-    height: 326px;
-    border-radius: 15px;
-  }
-  .card__Pays .image__container .card__Pays__image--375, .card__Pays .image__container .card__Pays__image--1440 {
-    display: none;
-  }
-  .card__Pays .image__container .card__Pays__image--768 {
+@media screen and (min-width: 768px) and (max-width: 1440px) {
+  .card__Pays {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    border-radius: 15px;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    margin-bottom: 40px;
+  }
+}
+@media screen and (min-width: 1440px) {
+  .card__Pays {
+    margin-bottom: 32px;
+  }
+}
+.card__Pays .image__container {
+  height: 320px;
+  min-width: 375px;
+}
+.card__Pays .image__container img {
+  height: 100%;
+  width: 100%;
+}
+@media screen and (min-width: 768px) and (max-width: 1440px) {
+  .card__Pays .image__container {
+    min-width: 689px;
+    height: 326px;
   }
 }
 @media screen and (min-width: 1440px) {
   .card__Pays .image__container {
-    width: 350px;
+    min-width: 350px;
     height: 326px;
-  }
-  .card__Pays .image__container .card__Pays__image--1440 {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    height: 100%;
-  }
-  .card__Pays .image__container .card__Pays__image--768, .card__Pays .image__container .card__Pays__image--375 {
-    display: none;
   }
 }
 .card__Pays__text {
-  width: 327px;
-  height: 234px;
+  min-width: 327px;
+  height: -webkit-max-content;
+  height: -moz-max-content;
+  height: max-content;
   padding: 80px 24px;
   text-align: center;
   background-image: url(../img/card-Pays-tablette.png);
@@ -791,6 +811,7 @@ footer .black_bg .reseau .menu_reseau {
 .card__Pays__text h1 {
   color: #e7816b;
   margin-bottom: 24px;
+  text-align: left;
 }
 .card__Pays__text .text--titre {
   font-weight: 700;
@@ -798,11 +819,12 @@ footer .black_bg .reseau .menu_reseau {
 .card__Pays__text div {
   margin-bottom: 24px;
 }
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 768px) and (max-width: 1440px) {
   .card__Pays__text {
-    width: 539px;
-    text-align: left;
+    min-width: 539px;
+    height: 124px;
     padding: 88px 75px;
+    margin-top: 20px;
   }
   .card__Pays__text address {
     display: -webkit-box;
@@ -812,15 +834,14 @@ footer .black_bg .reseau .menu_reseau {
     -webkit-box-direction: normal;
         -ms-flex-direction: row;
             flex-direction: row;
-  }
-  .card__Pays__text address div {
-    width: 255px;
+    gap: 0px 40px;
+    -ms-flex-line-pack: start;
+        align-content: flex-start;
   }
 }
 @media screen and (min-width: 1440px) {
   .card__Pays__text {
-    width: 1110px;
-    text-align: left;
+    min-width: 539px;
     padding: 88px 75px;
     height: 150px;
   }
@@ -832,13 +853,12 @@ footer .black_bg .reseau .menu_reseau {
     -webkit-box-direction: normal;
         -ms-flex-direction: row;
             flex-direction: row;
-  }
-  .card__Pays__text address div {
-    width: 255px;
+    gap: 0 40px;
   }
 }
 @media screen and (min-width: 1440px) {
-  .card__Pays {
+  .Belgique,
+.uk {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -846,6 +866,25 @@ footer .black_bg .reseau .menu_reseau {
     -webkit-box-direction: reverse;
         -ms-flex-direction: row-reverse;
             flex-direction: row-reverse;
+    justify-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    gap: 0 30px;
+  }
+
+  .Austria {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    justify-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
     gap: 30px;
   }
 }/*# sourceMappingURL=location.css.map */

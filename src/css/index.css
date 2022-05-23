@@ -72,7 +72,8 @@ h2 {
   letter-spacing: 2px;
 }
 
-h2 {
+
+h3 {
   font-family: "Jost";
   font-style: normal;
   font-weight: 500;
@@ -107,6 +108,7 @@ h2 {
 }
 
 h2 {
+h3 {
   font-family: "Jost";
   font-style: normal;
   font-weight: 500;
@@ -221,6 +223,7 @@ body {
     height: initial;
     width: initial;
     padding: 0px 165px;
+    padding: 0px 50px;
     background-color: #fff;
   }
   .header img {
@@ -237,6 +240,9 @@ body {
         -ms-flex-pack: center;
             justify-content: center;
     position: relative;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
     width: initial;
     height: 95px;
     background-color: #fff;
@@ -272,6 +278,7 @@ body {
     margin: 0;
     list-style: none;
     gap: 55px;
+    gap: 0px;
   }
   .header ._nav_header ._nav_header_list ._nav_header_link {
     color: #1d1c1e;
@@ -320,6 +327,7 @@ h2 {
 }
 
 h2 {
+h3 {
   font-family: "Jost";
   font-style: normal;
   font-weight: 500;
@@ -408,6 +416,7 @@ footer .black_bg .footer_nav .logo {
 }
 footer .black_bg .footer_nav .ligne_mobile {
   color: rgba(255, 255, 255, 0.1);
+  color: rgb(0, 0, 0);
   height: 1px;
   width: 80%;
   margin: 0 24px 32px;
@@ -590,6 +599,8 @@ footer .black_bg .reseau .menu_reseau {
     grid-auto-flow: row;
     grid-template-areas: "h1 a" "p a";
     text-align: left;
+    grid-template-areas: "h1 h1" "p p" "a a";
+    text-align: center;
     color: #fff;
     padding: 25px;
     margin: 50px 165px -175px;
@@ -672,6 +683,7 @@ footer .black_bg .reseau .menu_reseau {
   footer .black_bg .ligne_pc {
     display: block;
     color: rgba(255, 255, 255, 0.1);
+    color: rgb(0, 0, 0);
     height: 1px;
     width: 80%;
     margin: 0 32px;
@@ -1083,4 +1095,5 @@ main .soft_skills .soft_skills_design p {
     font-size: 16px;
     line-height: 26px;
   }
+}/*# sourceMappingURL=index.css.map */
 }/*# sourceMappingURL=index.css.map */
