@@ -89,6 +89,7 @@ body {
   font-weight: 400;
   font-size: 16px;
   line-height: 26px;
+<<<<<<< HEAD
 }
 
 h1 {
@@ -1033,3 +1034,6 @@ footer .black_bg .reseau .menu_reseau {
 
 //Page WebDesign
 @import "_webdesign.scss";*//*# sourceMappingURL=style.css.map */
+=======
+}/*# sourceMappingURL=style.css.map */
+>>>>>>> origin/seb
