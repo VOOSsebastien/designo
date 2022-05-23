@@ -795,7 +795,7 @@ footer .black_bg .reseau .menu_reseau {
           justify-content: center;
   padding-top: 96px;
   gap: 24px;
-  /*   background-color: aqua;*/
+  background-repeat: no-repeat;
 }
 
 .bbox .bbox_design {
@@ -898,6 +898,9 @@ footer .black_bg .reseau .menu_reseau {
 }
 
 @media screen and (min-width: 1440px) {
+  .entete_page {
+    border-radius: 15px;
+  }
   .cartes {
     display: -webkit-box;
     display: -ms-flexbox;

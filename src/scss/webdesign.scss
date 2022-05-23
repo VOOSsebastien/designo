@@ -79,7 +79,7 @@
         justify-content: center;
         padding-top: 96px;
         gap: 24px;
-     /*   background-color: aqua;*/
+        background-repeat: no-repeat;
 
         .bbox_design{
             display:flex;
@@ -171,6 +171,10 @@
 
  }
  @media screen and (min-width: 1440px) {
+     .entete_page{
+        border-radius: 15px;
+
+     }
 
     .cartes{
         display: flex;

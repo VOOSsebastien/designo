@@ -701,12 +701,26 @@ footer .black_bg .reseau .menu_reseau {
       -ms-flex-pack: center;
           justify-content: center;
   width: 100%;
-  height: 320px;
+  height: 400px;
   text-align: center;
   color: #fff;
   background-color: #e7816b;
   padding-bottom: 50px;
   margin-bottom: 16px;
+}
+
+.entete_page .ovale {
+  position: absolute;
+  width: 292px;
+  height: 292px;
+  left: calc(50% - 292px/2 +584px);
+  top: calc(50% - 292 px/2 - 146px);
+  background: -webkit-gradient(linear, left top, right top, from(rgba(93, 2, 2, 0.0001)), to(rgba(93, 2, 2, 0.497569)));
+  background: linear-gradient(90deg, rgba(93, 2, 2, 0.0001) 0%, rgba(93, 2, 2, 0.497569) 100%);
+  mix-blend-mode: normal;
+  opacity: 0.31;
+  -webkit-transform: rotate(90deg);
+          transform: rotate(90deg);
 }
 
 .entete_page h1 {
@@ -845,15 +859,17 @@ footer .black_bg .reseau .menu_reseau {
 }
 
 .bbox .bbox_graphic-design {
-  background-image: url("/src/img/index/graphic design.jpg");
+  background-repeat: no-repeat;
   -o-object-fit: cover;
      object-fit: cover;
+  background-image: url("/src/img/index/graphic design.jpg");
+  object-fit: cover;
   background-size: 100%;
 }
 
 @media screen and (min-width: 768px) {
   .entete_page {
-    border-radius: 4%;
+    border-radius: 15px;
     margin: 40px;
     width: auto;
     padding: 60px;
@@ -906,6 +922,9 @@ footer .black_bg .reseau .menu_reseau {
 }
 
 @media screen and (min-width: 1440px) {
+  .entete_page {
+    border-radius: 15px;
+  }
   .cartes {
     display: -webkit-box;
     display: -ms-flexbox;
