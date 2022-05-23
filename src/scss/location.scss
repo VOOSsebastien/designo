@@ -82,6 +82,7 @@ main {
             min-width: calc(689px - 75px*2);
             height: calc(300px - 88px*2);
             padding: 88px 75px;
+            margin-top: 20px;
 
             address {
                 @include flex(row);

@@ -734,6 +734,7 @@ main {
     min-width: 539px;
     height: 124px;
     padding: 88px 75px;
+    margin-top: 20px;
   }
   .card__Pays__text address {
     display: -webkit-box;
