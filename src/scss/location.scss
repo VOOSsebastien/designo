@@ -5,6 +5,12 @@
 @import "_navigation.scss";
 @import "_footer.scss";
 
+
+a, a:visited{
+    color: $black;
+    text-decoration: none;
+}
+
 main {
     @include flex(column);
     align-items: center;

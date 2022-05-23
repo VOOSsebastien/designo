@@ -92,7 +92,7 @@
     }
 }
 
-@media screen and (min-width: 376px) {
+@media screen and (min-width: 768px) {
     main{
 
         display: flex;
@@ -104,7 +104,7 @@
             display: flex;
             flex-direction: column;
 
-            img{
+            picture{
                 border-radius: 15px 15px 0 0 ;
                 height: 320px;
             }
@@ -187,7 +187,7 @@
 
 
 
-@media screen and (min-width: 769px) {
+@media screen and (min-width: 1440px) {
 
     main{
          
@@ -199,10 +199,17 @@
             flex-direction: row-reverse;
 
 
-            img{
+            picture{
                 border-radius: 0 15px 15px  0 ;
+
                 height: 450px;
                 width: 476px;
+                img{
+
+                    height: 450px;
+                }
+
+
             }
         
             .about_text {

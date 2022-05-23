@@ -32,7 +32,7 @@
 
         <nav class="_nav_header">  
             <ul class="_nav_header_list">
-                <li><a href="about.html" class="_nav_header_link">Our Copany</a></li>
+                <li><a href="about.html" class="_nav_header_link">Our Company</a></li>
                 <li><a href="location.html" class="_nav_header_link">Locations</a></li>
                 <li><a href="contact.html" class="_nav_header_link">Contact</a></li>
             </ul>
@@ -43,7 +43,13 @@
 
     <main>
         <section class="about_us">
-            <img src="src/img/about/workship.png" alt="workship_photo"></img>   
+            <picture>
+                <source media="(min-width: 1440px)" srcset="src/img/about/about1-deskop.png">
+                <source media="(min-width: 376px)" srcset="/src/img/about/about1-tablet.png">
+
+                <img src="src/img/about/about1-mobile.png">
+            </picture>
+          <!--  <img src="src/img/about/workship.png" alt="workship_photo"></img> -->  
             <section class="about_text">
                 <h1>About Us</h1>
                 <p>Founded in 2010, we are a creative agency that produces lasting results for our clients. We’ve partnered with many startups, corporations, and nonprofits alike to craft designs that make real impact. We’re always looking forward to creating brands, products, and digital experiences that connect with our clients’ audiences.</p>
@@ -87,7 +93,7 @@
             <hr class="ligne_mobile">
 
                     <ul class="footer_info_list">
-                        <li><a href="#" class="footer_info_link">Our Copany</a></li>
+                        <li><a href="#" class="footer_info_link">Our Company</a></li>
                         <li><a href="#" class="footer_info_link">Locations</a></li>
                         <li><a href="#" class="footer_info_link">Contact</a></li>
                     </ul>
@@ -132,3 +138,4 @@
 
 </html>
 </html>
+

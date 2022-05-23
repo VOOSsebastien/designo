@@ -223,7 +223,7 @@ body {
     display: flex;
     height: initial;
     width: initial;
-    padding: 0px 165px;
+    padding: 22.5px 165px;
     background-color: #fff;
   }
   .header img {
@@ -483,7 +483,7 @@ footer .black_bg .reseau .menu_reseau {
   margin: 40px 95px 64px;
 }
 
-@media screen and (min-width: 369px) {
+@media screen and (min-width: 768px) {
   footer .talk_project {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -569,7 +569,7 @@ footer .black_bg .reseau .menu_reseau {
     padding: 0 0;
   }
 }
-@media screen and (min-width: 769px) {
+@media screen and (min-width: 1440px) {
   footer {
     width: 100vw;
     display: -webkit-box;
@@ -821,7 +821,7 @@ footer .black_bg .reseau .menu_reseau {
   line-height: 25px;
 }
 
-@media screen and (min-width: 376px) {
+@media screen and (min-width: 768px) {
   main {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -842,7 +842,7 @@ footer .black_bg .reseau .menu_reseau {
         -ms-flex-direction: column;
             flex-direction: column;
   }
-  main .about_us img {
+  main .about_us picture {
     border-radius: 15px 15px 0 0;
     height: 320px;
   }
@@ -892,7 +892,7 @@ footer .black_bg .reseau .menu_reseau {
     line-height: 26px;
   }
 }
-@media screen and (min-width: 769px) {
+@media screen and (min-width: 1440px) {
   main {
     gap: 120px;
     padding: 0 164.5px;
@@ -906,10 +906,13 @@ footer .black_bg .reseau .menu_reseau {
         -ms-flex-direction: row-reverse;
             flex-direction: row-reverse;
   }
-  main .about_us img {
+  main .about_us picture {
     border-radius: 0 15px 15px 0;
     height: 450px;
     width: 476px;
+  }
+  main .about_us picture img {
+    height: 450px;
   }
   main .about_us .about_text {
     border-radius: 15px 0 0 15px;

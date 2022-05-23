@@ -240,7 +240,7 @@ body {
     display: flex;
     height: initial;
     width: initial;
-    padding: 0px 165px;
+    padding: 22.5px 165px;
     background-color: #fff;
   }
   .header img {
@@ -544,7 +544,7 @@ body {
     display: flex;
     height: initial;
     width: initial;
-    padding: 0px 165px;
+    padding: 22.5px 165px;
     background-color: #fff;
   }
   .header img {
@@ -804,7 +804,7 @@ footer .black_bg .reseau .menu_reseau {
   margin: 40px 95px 64px;
 }
 
-@media screen and (min-width: 369px) {
+@media screen and (min-width: 768px) {
   footer .talk_project {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -890,7 +890,7 @@ footer .black_bg .reseau .menu_reseau {
     padding: 0 0;
   }
 }
-@media screen and (min-width: 769px) {
+@media screen and (min-width: 1440px) {
   footer {
     width: 100vw;
     display: -webkit-box;
@@ -1173,6 +1173,8 @@ main .bbox .bbox_web-design {
   background-image: url("/src/img/index/web-design.png");
   background-position: bottom right -50px;
   background-size: 170%;
+}
+main .bbox .bbox_web-design:hover {
   background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(211, 129, 112, 0.7)), to(rgba(211, 129, 112, 0.7))), url("/src/img/index/web-design.png");
   background-image: linear-gradient(rgba(211, 129, 112, 0.7), rgba(211, 129, 112, 0.7)), url("/src/img/index/web-design.png");
   cursor: pointer;
@@ -1182,10 +1184,20 @@ main .bbox .bbox_app-design {
   background-position: bottom right -50px;
   background-size: 170%;
 }
+main .bbox .bbox_app-design:hover {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(211, 129, 112, 0.7)), to(rgba(211, 129, 112, 0.7))), url("/src/img/index/web-design.png");
+  background-image: linear-gradient(rgba(211, 129, 112, 0.7), rgba(211, 129, 112, 0.7)), url("/src/img/index/web-design.png");
+  cursor: pointer;
+}
 main .bbox .bbox_graphic-design {
   background-image: url("/src/img/index/graphic design.jpg");
   background-position: bottom right -50px;
   background-size: 170%;
+}
+main .bbox .bbox_graphic-design:hover {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(211, 129, 112, 0.7)), to(rgba(211, 129, 112, 0.7))), url("/src/img/index/web-design.png");
+  background-image: linear-gradient(rgba(211, 129, 112, 0.7), rgba(211, 129, 112, 0.7)), url("/src/img/index/web-design.png");
+  cursor: pointer;
 }
 main .soft_skills {
   margin: 160px 0 0 0;
@@ -1219,7 +1231,7 @@ main .soft_skills .soft_skills_design p {
   line-height: 26px;
 }
 
-@media screen and (min-width: 376px) {
+@media screen and (min-width: 768) {
   main {
     padding: 0 40px;
   }
@@ -1265,7 +1277,7 @@ main .soft_skills .soft_skills_design p {
     background: linear-gradient(90deg, rgba(93, 2, 2, 0.0001) 0%, rgba(93, 2, 2, 0.497569) 100%);
   }
 }
-@media screen and (min-width: 769px) {
+@media screen and (min-width: 1440px) {
   main {
     padding: 0 164px;
   }
@@ -1345,10 +1357,10 @@ main .soft_skills .soft_skills_design p {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    -webkit-box-orient: vertical;
+    -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
+        -ms-flex-direction: row;
+            flex-direction: row;
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
@@ -1658,7 +1670,7 @@ body {
     display: flex;
     height: initial;
     width: initial;
-    padding: 0px 165px;
+    padding: 22.5px 165px;
     background-color: #fff;
   }
   .header img {
@@ -1918,7 +1930,7 @@ footer .black_bg .reseau .menu_reseau {
   margin: 40px 95px 64px;
 }
 
-@media screen and (min-width: 369px) {
+@media screen and (min-width: 768px) {
   footer .talk_project {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -2004,7 +2016,7 @@ footer .black_bg .reseau .menu_reseau {
     padding: 0 0;
   }
 }
-@media screen and (min-width: 769px) {
+@media screen and (min-width: 1440px) {
   footer {
     width: 100vw;
     display: -webkit-box;
@@ -2256,7 +2268,7 @@ footer .black_bg .reseau .menu_reseau {
   line-height: 25px;
 }
 
-@media screen and (min-width: 376px) {
+@media screen and (min-width: 768px) {
   main {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -2277,7 +2289,7 @@ footer .black_bg .reseau .menu_reseau {
         -ms-flex-direction: column;
             flex-direction: column;
   }
-  main .about_us img {
+  main .about_us picture {
     border-radius: 15px 15px 0 0;
     height: 320px;
   }
@@ -2327,7 +2339,7 @@ footer .black_bg .reseau .menu_reseau {
     line-height: 26px;
   }
 }
-@media screen and (min-width: 769px) {
+@media screen and (min-width: 1439px) {
   main {
     gap: 120px;
     padding: 0 164.5px;
@@ -2341,10 +2353,13 @@ footer .black_bg .reseau .menu_reseau {
         -ms-flex-direction: row-reverse;
             flex-direction: row-reverse;
   }
-  main .about_us img {
+  main .about_us picture {
     border-radius: 0 15px 15px 0;
     height: 450px;
     width: 476px;
+  }
+  main .about_us picture img {
+    height: 450px;
   }
   main .about_us .about_text {
     border-radius: 15px 0 0 15px;
@@ -2667,7 +2682,7 @@ body {
     display: flex;
     height: initial;
     width: initial;
-    padding: 0px 165px;
+    padding: 22.5px 165px;
     background-color: #fff;
   }
   .header img {
@@ -2927,7 +2942,7 @@ footer .black_bg .reseau .menu_reseau {
   margin: 40px 95px 64px;
 }
 
-@media screen and (min-width: 369px) {
+@media screen and (min-width: 768px) {
   footer .talk_project {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -3013,7 +3028,7 @@ footer .black_bg .reseau .menu_reseau {
     padding: 0 0;
   }
 }
-@media screen and (min-width: 769px) {
+@media screen and (min-width: 1440px) {
   footer {
     width: 100vw;
     display: -webkit-box;
@@ -3697,7 +3712,7 @@ body {
     display: flex;
     height: initial;
     width: initial;
-    padding: 0px 165px;
+    padding: 22.5px 165px;
     background-color: #fff;
   }
   .header img {
@@ -3957,7 +3972,7 @@ footer .black_bg .reseau .menu_reseau {
   margin: 40px 95px 64px;
 }
 
-@media screen and (min-width: 369px) {
+@media screen and (min-width: 768px) {
   footer .talk_project {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -4043,7 +4058,7 @@ footer .black_bg .reseau .menu_reseau {
     padding: 0 0;
   }
 }
-@media screen and (min-width: 769px) {
+@media screen and (min-width: 1440px) {
   footer {
     width: 100vw;
     display: -webkit-box;
@@ -4715,7 +4730,7 @@ body {
     display: flex;
     height: initial;
     width: initial;
-    padding: 0px 165px;
+    padding: 22.5px 165px;
     background-color: #fff;
   }
   .header img {
@@ -4975,7 +4990,7 @@ footer .black_bg .reseau .menu_reseau {
   margin: 40px 95px 64px;
 }
 
-@media screen and (min-width: 369px) {
+@media screen and (min-width: 768px) {
   footer .talk_project {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -5061,7 +5076,7 @@ footer .black_bg .reseau .menu_reseau {
     padding: 0 0;
   }
 }
-@media screen and (min-width: 769px) {
+@media screen and (min-width: 1440px) {
   footer {
     width: 100vw;
     display: -webkit-box;
@@ -5626,7 +5641,7 @@ body {
     display: flex;
     height: initial;
     width: initial;
-    padding: 0px 165px;
+    padding: 22.5px 165px;
     background-color: #fff;
   }
   .header img {
@@ -5886,7 +5901,7 @@ footer .black_bg .reseau .menu_reseau {
   margin: 40px 95px 64px;
 }
 
-@media screen and (min-width: 369px) {
+@media screen and (min-width: 768px) {
   footer .talk_project {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -5972,7 +5987,7 @@ footer .black_bg .reseau .menu_reseau {
     padding: 0 0;
   }
 }
-@media screen and (min-width: 769px) {
+@media screen and (min-width: 1440px) {
   footer {
     width: 100vw;
     display: -webkit-box;

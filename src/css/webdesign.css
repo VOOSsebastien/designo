@@ -223,7 +223,7 @@ body {
     display: flex;
     height: initial;
     width: initial;
-    padding: 0px 165px;
+    padding: 22.5px 165px;
     background-color: #fff;
   }
   .header img {
@@ -483,7 +483,7 @@ footer .black_bg .reseau .menu_reseau {
   margin: 40px 95px 64px;
 }
 
-@media screen and (min-width: 369px) {
+@media screen and (min-width: 768px) {
   footer .talk_project {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -569,7 +569,7 @@ footer .black_bg .reseau .menu_reseau {
     padding: 0 0;
   }
 }
-@media screen and (min-width: 769px) {
+@media screen and (min-width: 1440px) {
   footer {
     width: 100vw;
     display: -webkit-box;

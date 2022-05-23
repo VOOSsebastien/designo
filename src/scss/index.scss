@@ -126,7 +126,7 @@ main {
             background-image:url("/src/img/index/graphic\ design.jpg") ;
             background-position:bottom right -50px;
             background-size: 170%;
-            
+
             &:hover{
                 @include bbox_hover;
             }
@@ -168,7 +168,7 @@ main {
 
 }
 
-@media screen and (min-width: 376px){
+@media screen and (min-width: 768){
 
 main {
     padding: 0 40px;
@@ -230,7 +230,7 @@ main {
 
 }
 
-@media screen and (min-width: 769px){
+@media screen and (min-width: 1440px){
 
     main {
 
@@ -311,11 +311,16 @@ main {
         }
     
         .bbox{
-            display:flex;
-            flex-direction: column;
+            display:grid;
             align-items: center;
             justify-content: center;
+            grid-template-columns: 1fr 1fr;
+            grid-template-rows: 2fr 1fr;
             gap: 24px;
+            grid-auto-flow: row;
+            grid-template-areas:
+              "web app"
+              "web graph";
        
             .bbox_design{
                 @include bbox_desing;
@@ -333,18 +338,21 @@ main {
     
             }
             .bbox_web-design{
+                grid-area: web;
                 background-image:url("/src/img/index/web-design.png") ;
                 background-position:bottom right -50px;
                 background-size: 170%;
             }
             
             .bbox_app-design{
+                grid-area: app;
                 background-image:url("/src/img/index/app-design.jpg") ;
                 background-position:bottom right -50px;
                 background-size: 170%;
             }
         
             .bbox_graphic-design{
+                grid-area: graph;
                 background-image:url("/src/img/index/graphic\ design.jpg") ;
                 background-position:bottom right -50px;
                 background-size: 170%;
