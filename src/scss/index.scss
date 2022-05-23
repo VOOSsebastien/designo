@@ -69,6 +69,15 @@ main {
    
         .bbox_design{
             @include bbox_desing;
+            &:hover{
+                background-color: $peach;
+                h1{
+                    color: white;
+                }
+                p{
+                    color: white;
+                }
+                 }
             
             .bbox_text{
 
@@ -87,8 +96,7 @@ main {
                     display :none;           
                    }
             }
-            
-                            
+              
            
             }
 
@@ -97,18 +105,31 @@ main {
             background-image:url("/src/img/index/web-design.png") ;
             background-position:bottom right -50px;
             background-size: 170%;
-        }
+
+            &:hover{
+
+             @include bbox_hover;
         
+            }
+        }   
         .bbox_app-design{
             background-image:url("/src/img/index/app-design.jpg") ;
             background-position:bottom right -50px;
             background-size: 170%;
+
+            &:hover{
+                @include bbox_hover;
+            }
         }
     
         .bbox_graphic-design{
             background-image:url("/src/img/index/graphic\ design.jpg") ;
             background-position:bottom right -50px;
             background-size: 170%;
+            
+            &:hover{
+                @include bbox_hover;
+            }
         }
    
     }

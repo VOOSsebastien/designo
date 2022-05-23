@@ -21,6 +21,19 @@
         font-size: 15px;
     }
 }
+
+@mixin bbox_hover {
+
+   
+        background-image: 
+        linear-gradient(
+            rgb(211, 129, 112,0.7),
+            rgb(211, 129, 112,0.7) ),
+             url("/src/img/index/web-design.png");
+        cursor:pointer;     
+
+       
+}
 //Flex column
 
 @mixin flex ($direction) {

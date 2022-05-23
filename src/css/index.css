@@ -205,6 +205,9 @@ body {
   font-size: 24px;
   font-size: 24px;
 }
+.header ._nav_header ._nav_header_list ._nav_header_link:hover {
+  text-decoration: underline;
+}
 .header .open {
   -webkit-transform: initial;
           transform: initial;
@@ -373,6 +376,10 @@ footer .talk_project a {
   text-transform: uppercase;
   background-color: #fff;
   border-radius: 8px;
+}
+footer .talk_project a:hover {
+  background-color: #ffad9b;
+  color: white;
 }
 footer .black_bg {
   background-color: #1d1c1e;
@@ -817,6 +824,15 @@ main .bbox .bbox_design {
   background-color: black;
   border-radius: 15px;
 }
+main .bbox .bbox_design:hover {
+  background-color: #e7816b;
+}
+main .bbox .bbox_design:hover h1 {
+  color: white;
+}
+main .bbox .bbox_design:hover p {
+  color: white;
+}
 main .bbox .bbox_design .bbox_text h1 {
   font-size: 28px;
 }
@@ -837,15 +853,30 @@ main .bbox .bbox_web-design {
   background-position: bottom right -50px;
   background-size: 170%;
 }
+main .bbox .bbox_web-design:hover {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(211, 129, 112, 0.7)), to(rgba(211, 129, 112, 0.7))), url("/src/img/index/web-design.png");
+  background-image: linear-gradient(rgba(211, 129, 112, 0.7), rgba(211, 129, 112, 0.7)), url("/src/img/index/web-design.png");
+  cursor: pointer;
+}
 main .bbox .bbox_app-design {
   background-image: url("/src/img/index/app-design.jpg");
   background-position: bottom right -50px;
   background-size: 170%;
 }
+main .bbox .bbox_app-design:hover {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(211, 129, 112, 0.7)), to(rgba(211, 129, 112, 0.7))), url("/src/img/index/web-design.png");
+  background-image: linear-gradient(rgba(211, 129, 112, 0.7), rgba(211, 129, 112, 0.7)), url("/src/img/index/web-design.png");
+  cursor: pointer;
+}
 main .bbox .bbox_graphic-design {
   background-image: url("/src/img/index/graphic design.jpg");
   background-position: bottom right -50px;
   background-size: 170%;
+}
+main .bbox .bbox_graphic-design:hover {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(211, 129, 112, 0.7)), to(rgba(211, 129, 112, 0.7))), url("/src/img/index/web-design.png");
+  background-image: linear-gradient(rgba(211, 129, 112, 0.7), rgba(211, 129, 112, 0.7)), url("/src/img/index/web-design.png");
+  cursor: pointer;
 }
 main .soft_skills {
   margin: 160px 0 0 0;

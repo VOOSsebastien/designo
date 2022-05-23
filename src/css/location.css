@@ -205,6 +205,9 @@ body {
   font-size: 24px;
   font-size: 24px;
 }
+.header ._nav_header ._nav_header_list ._nav_header_link:hover {
+  text-decoration: underline;
+}
 .header .open {
   -webkit-transform: initial;
           transform: initial;
@@ -373,6 +376,10 @@ footer .talk_project a {
   text-transform: uppercase;
   background-color: #fff;
   border-radius: 8px;
+}
+footer .talk_project a:hover {
+  background-color: #ffad9b;
+  color: white;
 }
 footer .black_bg {
   background-color: #1d1c1e;

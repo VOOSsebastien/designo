@@ -38,6 +38,11 @@ footer {
                 text-transform:uppercase ;
                 background-color: $white;
                 border-radius: 8px;
+
+                &:hover{
+                    background-color: $lightPeach;
+                    color: white;
+                }
             }
           
     }
