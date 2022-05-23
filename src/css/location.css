@@ -687,11 +687,13 @@ main {
         -ms-flex-align: start;
             align-items: flex-start;
     padding: 32px 165px;
-    margin: auto;
     gap: 0 0;
   }
 }
 
+.card__Pays {
+  width: 100%;
+}
 @media screen and (min-width: 768px) and (max-width: 1440px) {
   .card__Pays {
     display: -webkit-box;
@@ -709,28 +711,24 @@ main {
     margin-bottom: 32px;
   }
 }
-.card__Pays .image__container {
-  height: 320px;
-  min-width: 375px;
-}
-.card__Pays .image__container img {
-  height: 100%;
+.card__Pays iframe {
   width: 100%;
+  height: 326px;
 }
 @media screen and (min-width: 768px) and (max-width: 1440px) {
-  .card__Pays .image__container {
-    min-width: 689px;
+  .card__Pays iframe {
     height: 326px;
+    border-radius: 15px;
   }
 }
 @media screen and (min-width: 1440px) {
-  .card__Pays .image__container {
-    min-width: 350px;
+  .card__Pays iframe {
+    width: 320px;
     height: 326px;
+    border-radius: 15px;
   }
 }
 .card__Pays__text {
-  min-width: 327px;
   height: -webkit-max-content;
   height: -moz-max-content;
   height: max-content;
@@ -751,7 +749,6 @@ main {
 }
 @media screen and (min-width: 768px) and (max-width: 1440px) {
   .card__Pays__text {
-    min-width: 539px;
     height: 124px;
     padding: 88px 75px;
     margin-top: 20px;
@@ -771,9 +768,10 @@ main {
 }
 @media screen and (min-width: 1440px) {
   .card__Pays__text {
-    min-width: 539px;
+    width: 100%;
     padding: 88px 75px;
     height: 150px;
+    margin-top: 0px;
   }
   .card__Pays__text address {
     display: -webkit-box;

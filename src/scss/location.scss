@@ -22,13 +22,13 @@ main {
         @include flex(column);
         align-items: flex-start;
         padding: 32px 165px;
-        margin: auto;
         gap: 0 0;
     }
 }
 
 
 .card__Pays {
+    width: 100%;
     @media screen and (min-width: 768px) and (max-width: 1440px) {
         @include flex(column);
         margin-bottom: 40px;
@@ -37,31 +37,28 @@ main {
     @media screen and (min-width: 1440px) {
         margin-bottom: 32px;
     }
-
-    .image__container {
-        height: 320px;
-        min-width: 375px;
-
-        img {
-            height: 100%;
-            width: 100%;
-        }
-
+   
+    iframe{
+        width: 100%;
+        height: 326px;
+        
 
         @media screen and (min-width: 768px) and (max-width: 1440px) {
-            min-width: 689px;
+        
             height: 326px;
+            border-radius: 15px;
 
         }
 
         @media screen and (min-width: 1440px) {
-            min-width: 350px;
+            width: 320px;
             height: 326px;
+            border-radius: 15px;
         }
     }
 
     &__text {
-        min-width: calc(375px - 24px*2);
+        
         height: max-content;
         padding: 80px 24px;
         text-align: left;
@@ -82,7 +79,6 @@ main {
         }
 
         @media screen and (min-width: 768px) and (max-width: 1440px) {
-            min-width: calc(689px - 75px*2);
             height: calc(300px - 88px*2);
             padding: 88px 75px;
             margin-top: 20px;
@@ -96,10 +92,10 @@ main {
         }
 
         @media screen and (min-width: 1440px) {
-            min-width: calc(689px - 75px*2);
+            width: 100%;
             padding: 88px 75px;
             height: calc(326px - 88px*2);
-            
+            margin-top: 0px;
 
             address {
                 @include flex(row);
