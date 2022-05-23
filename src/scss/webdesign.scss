@@ -17,6 +17,7 @@
         background-color: $peach;
         padding-bottom:50px;
         margin-bottom: 16px;
+        border-radius: 15px;
         h1{
             margin-top: 24px;
             margin-bottom: 24px;
@@ -73,7 +74,7 @@
     }
 
 
-    .bbox{
+    .bbox2{
         display:flex;
         flex-direction: column;
         align-items: center;
@@ -82,7 +83,7 @@
         gap: 24px;
      /*   background-color: aqua;*/
 
-        .bbox_design{
+        .bbox2_design{
             display:flex;
             flex-direction: column;
             align-items: center;
@@ -96,7 +97,7 @@
             border-radius: 15px;
 
 
-            .bbox_text{
+            .bbox2_text{
 
                 h1{
                     font-size: 28px;
@@ -107,7 +108,7 @@
              }
 
             }
-        .bbox_app-design{
+        .bbox2_app-design{
             background-image:url("/src/img/index/app-design.jpg") ;
             object-fit:cover;
             background-size: 100%
@@ -115,7 +116,7 @@
 
         }
 
-        .bbox_graphic-design{
+        .bbox2_graphic-design{
             background-image:url("/src/img/index/graphic\ design.jpg") ;
             object-fit: cover;
             background-size: 100%;
@@ -214,7 +215,7 @@
        border-top-right-radius: 0px;
        width: 100%;
    }
-   .bbox{
+   .bbox2{
        display: flex;
        flex-direction: row;
        padding:40px 40px 40px 40px
