@@ -73,7 +73,24 @@ main {
             .bbox_text{
 
                 @include bbox_text;
-             }
+            
+                a{
+
+                    text-decoration: none;
+
+                &:visited {
+                    color:$white;
+                }
+
+
+                img{
+                    display :none;           
+                   }
+            }
+            
+                            
+           
+            }
 
         }
         .bbox_web-design{
@@ -286,7 +303,12 @@ main {
                 .bbox_text{
     
                     @include bbox_text;
-                 }
+                      a{       
+                        img{
+                            display :initial;           
+                        }
+                    }
+                }
     
             }
             .bbox_web-design{

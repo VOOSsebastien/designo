@@ -72,7 +72,7 @@ h2 {
   letter-spacing: 2px;
 }
 
-h2 {
+h3 {
   font-family: "Jost";
   font-style: normal;
   font-weight: 500;
@@ -106,7 +106,7 @@ h2 {
   letter-spacing: 2px;
 }
 
-h2 {
+h3 {
   font-family: "Jost";
   font-style: normal;
   font-weight: 500;
@@ -319,7 +319,7 @@ h2 {
   letter-spacing: 2px;
 }
 
-h2 {
+h3 {
   font-family: "Jost";
   font-style: normal;
   font-weight: 500;
@@ -823,6 +823,15 @@ main .bbox .bbox_design .bbox_text h1 {
 main .bbox .bbox_design .bbox_text p {
   font-size: 15px;
 }
+main .bbox .bbox_design .bbox_text a {
+  text-decoration: none;
+}
+main .bbox .bbox_design .bbox_text a:visited {
+  color: #fff;
+}
+main .bbox .bbox_design .bbox_text a img {
+  display: none;
+}
 main .bbox .bbox_web-design {
   background-image: url("/src/img/index/web-design.png");
   background-position: bottom right -50px;
@@ -1036,6 +1045,9 @@ main .soft_skills .soft_skills_design p {
   }
   main .bbox .bbox_design .bbox_text p {
     font-size: 15px;
+  }
+  main .bbox .bbox_design .bbox_text a img {
+    display: initial;
   }
   main .bbox .bbox_web-design {
     background-image: url("/src/img/index/web-design.png");

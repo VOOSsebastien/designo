@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Designo - Contact</title>
+    <link rel="stylesheet" href="src/css/contact.min.css">
+</head>
+
+<body>
+    <!-- Navigation -->
+    <header class="header">
+       
+        <a href="index.html">
+            <img src="src/img/logo_header.png" class="logo" alt="logo" >
+        </a>
+
+    <div class="header_burger_close" onclick="HeaderClose()"> 
+         <svg 
+             class="w-6 h-6" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z" clip-rule="evenodd"></path>
+         </svg>
+    </div>
+
+    <div class="header_burger_open" onclick="HeaderOpen()">
+        <svg 
+            class="svg_menu"  fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>
+        </svg>
+    </div>
+
+    <nav class="_nav_header">  
+        <ul class="_nav_header_list">
+            <li><a href="about.html" class="_nav_header_link">Our Copany</a></li>
+            <li><a href="location.html" class="_nav_header_link">Locations</a></li>
+            <li><a href="contact.html" class="_nav_header_link">Contact</a></li>
+        </ul>
+    </nav>
+ 
+</header>
+
+    <div class="overlay_menu_burger"></div>
+    <!-- main -->
+    <main>
+
+        <section class="section__contact">
+            <div class="main__oval"></div>
+            <div class="cercle"></div>
+            <div class="image__container">
+                <div class="text">
+                    <h2>
+                        Contact Us
+                    </h2>
+                    <p>
+                        Ready to take it to the next level? Let’s talk about your project or idea and find out how we can help your business grow. If you are looking for unique digital experiences that’s relatable to your users, drop us a line.
+                    </p>
+                </div>
+            </div>
+            <form action="" id="form__contact">
+                <div class="form__nom">
+                    <label for="name"></label>
+                    <input type="text" id="name" name="user_name" placeholder="Name">
+                </div>
+                <div class="form__mail">
+                    <label for="Email"></label>
+                    <input type="mail" id="Email" name="user_mail" placeholder="Email Address">
+                </div>
+                <div class="form__phone">
+                    <label for="phone"></label>
+                    <input type="tel" id="phone" name="user_phone" placeholder="Phone">
+                </div>
+                <div>
+                    <textarea name="Message" id="message" placeholder="Your Message"></textarea>
+                </div>
+
+                <button form="form__contact" class="form__contact">Submit</button>
+            </form>
+        </section>
+        <section class="section__location">
+            <section class="location__Pays">
+                <img src="src/img/Contact/Belgium.svg" alt="" class="circle-Belgium">
+                <h3>
+                    Belgium
+                </h3>
+                <a href="location.html#belgium" class="button">See location</a>
+            </section>
+            <section class="location__Pays">
+                <img src="src/img/Contact/Australia.svg" alt="" class="circle-Australia">
+                <h3>
+                    Australia
+                </h3>
+                <a href="location.html#Australia" class="button">See location</a>
+            </section>
+            <section class="location__Pays">
+                <img src="src/img/Contact/Uk.svg" alt="" class="circle-uk">
+                <h3>
+                    UNITED KINGDOM
+                </h3>
+                <a href="location.html#uk" class="button">See location</a>
+            </section>
+
+        </section>
+    </main>
+
+
+
+    <footer>
+
+        <section class="talk_project">
+            <h1>Let's talks about your project</h1>
+            <p>REady to take it to the next level? Contac t us today and find out how our expertise can help your
+                business grox.</p>
+
+            <a href="#">get in touch</a>
+
+        </section>
+
+        <section class="black_bg">
+            <section class="footer_nav">
+                <img src="src/img/logo_footer.png" class="logo" alt="logo">
+
+
+                <hr class="ligne_mobile">
+
+                <ul class="footer_info_list">
+                    <li><a href="#" class="footer_info_link">Our Copany</a></li>
+                    <li><a href="#" class="footer_info_link">Locations</a></li>
+                    <li><a href="#" class="footer_info_link">Contact</a></li>
+                </ul>
+
+            </section>
+
+            <hr class="ligne_pc">
+
+            <section class="adresse_et_reseau">
+
+                <section class="adress_contact">
+
+                    <div>
+                        <h2>Designo Central Office</h2>
+                        <p> 386 Wellington Street </p>
+                        <p> 1000 Brussels - Belgium</p>
+                    </div>
+
+                    <div>
+                        <h2> Contact Us (Central Office)</h2>
+                        <p> P : +1 253-863-8967</p>
+                        <p> M : contact@designo.co</p>
+                    </div>
+
+                </section>
+
+                <section class="reseau">
+                    <ul class="menu_reseau">
+                        <li class="logo_reseau"><img src="src/img/icon/facebook.svg" alt="logo facebook"></li>
+                        <li class="logo_reseau"><img src="src/img/icon/youtube.svg" alt="logo youtube"></li>
+                        <li class="logo_reseau"><img src="src/img/icon/twitter.svg" alt="logo twitter"></li>
+                        <li class="logo_reseau"><img src="src/img/icon/printerest.svg" alt="logo pinterest"></li>
+                        <li class="logo_reseau"><img src="src/img/icon/instagram.svg" alt="logo instagram"></li>
+                    </ul>
+                </section>
+            </section>
+        </section>
+    </footer>
+
+    <script src="src/js/script.js"></script>
+</body>
+
+</html>

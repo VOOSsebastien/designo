@@ -72,7 +72,7 @@ h2 {
   letter-spacing: 2px;
 }
 
-h2 {
+h3 {
   font-family: "Jost";
   font-style: normal;
   font-weight: 500;
@@ -106,7 +106,7 @@ h2 {
   letter-spacing: 2px;
 }
 
-h2 {
+h3 {
   font-family: "Jost";
   font-style: normal;
   font-weight: 500;
@@ -319,7 +319,7 @@ h2 {
   letter-spacing: 2px;
 }
 
-h2 {
+h3 {
   font-family: "Jost";
   font-style: normal;
   font-weight: 500;
@@ -796,6 +796,7 @@ footer .black_bg .reseau .menu_reseau {
 .carte_express .text_express {
   padding: 10xp;
   background-color: #FDF3F0;
+  width: 100%;
   border-bottom-left-radius: 5%;
   border-bottom-right-radius: 5%;
   -webkit-box-align: center;

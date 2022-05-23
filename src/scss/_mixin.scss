@@ -21,3 +21,11 @@
         font-size: 15px;
     }
 }
+//Flex column
+
+@mixin flex ($direction) {
+    display: flex;
+    flex-direction: $direction;
+}
+
+

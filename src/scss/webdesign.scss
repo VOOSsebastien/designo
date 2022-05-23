@@ -39,6 +39,7 @@
         height: auto;
         text-align: center;
         padding-top: 60px;
+        
         img{
             object-fit: cover;
             width: 100%;
@@ -51,11 +52,11 @@
         .text_express{
             padding:10xp;
             background-color: #FDF3F0;
-            
+            width: 100%;
             border-bottom-left-radius: 5%;
             border-bottom-right-radius: 5%;
             align-items: center;
-        justify-content: center;
+            justify-content: center;
         }
         h1{
             margin: 35px;
