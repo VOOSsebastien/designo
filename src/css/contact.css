@@ -785,10 +785,10 @@ footer .black_bg {
   background-color: #e7816b;
   padding: 72px 24px;
   color: #fff;
-  text-align: center;
+  text-align: left;
 }
 @media screen and (min-width: 768px) {
-  .section__contact {
+  .section__contact .text_form_contact {
     text-align: right;
   }
 }
